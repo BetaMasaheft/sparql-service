@@ -1,7 +1,25 @@
 use decompress::ExtractOptsBuilder;
+use oxrdfxml::RdfXmlParser;
+use oxttl::TurtleSerializer;
 use std::path::PathBuf;
 
-fn main() {}
+const QUIRE_FRAGMENT_TO_REPLACE_1: &str =
+    r#"<crm:E54_Dimension><crm:P91_has_unit>quire</crm:P91_has_unit><crm:P90_has_value>"#;
+const QUIRE_FRAGMENT_REPLACER_1: &str =
+    r#"<crm:E54_Dimension crm:P91_has_unit="quire" crm:P90_has_value=""#;
+const QUIRE_FRAGMENT_TO_REPLACE_2: &str = r#"</crm:P90_has_value></crm:E54_Dimension>"#;
+const QUIRE_FRAGMENT_REPLACER_2: &str = r#"0" />"#;
+
+fn main() {
+    let base_dir_path = std::env::current_dir().unwrap();
+    let input_dir_full_path = base_dir_path.join("input");
+    let tmp_dir_full_path = base_dir_path.join("tmp");
+    let output_dir_full_path = base_dir_path.join("output");
+
+    //deflate_archive(input_dir_full_path, tmp_dir_full_path.clone());
+
+    convert(tmp_dir_full_path, output_dir_full_path);
+}
 
 fn deflate_archive(input_dir_full_path: PathBuf, tmp_dir_full_path: PathBuf) {
     let archives_glob = glob::Pattern::new("full*.zip").expect("wrong glob pattern for archives");
@@ -40,7 +58,40 @@ fn convert(tmp_dir_full_path: PathBuf, output_dir_full_path: PathBuf) {
         .expect("Failed to read the glob pattern")
         .filter_map(Result::ok)
     {
-        println!("{:?}", rdf_xml_file_path);
+        let file_basename = rdf_xml_file_path.file_stem().unwrap().display();
+        let rdf_xml_file_contents = std::fs::read_to_string(&rdf_xml_file_path).unwrap();
+        let rdf_xml_file_processed_contents = rdf_xml_file_contents
+            .replace(
+                "dcterms:hasPart rdf:resource=\"",
+                "dcterms:hasPart rdf:resource=\"https://betamasaheft.eu/",
+            )
+            .replace(
+                "crm:P55_has_current_location rdf:resource=\"",
+                "crm:P55_has_current_location rdf:resource=\"https://betamasaheft.eu/",
+            )
+            .replace(QUIRE_FRAGMENT_TO_REPLACE_1, QUIRE_FRAGMENT_REPLACER_1)
+            .replace(QUIRE_FRAGMENT_TO_REPLACE_2, QUIRE_FRAGMENT_REPLACER_2)
+            .replace(
+                "https://betamasaheft.eu/https://betamasaheft.eu/",
+                "https://betamasaheft.eu/",
+            )
+            .replace(" \"/>", "\"/>");
+
+        let mut serializer = TurtleSerializer::new().for_writer(Vec::new());
+
+        for triple in RdfXmlParser::new().for_slice(rdf_xml_file_processed_contents.as_bytes()) {
+            let triple = triple.unwrap();
+
+            serializer.serialize_triple(triple.as_ref()).unwrap();
+        }
+
+        let result = serializer.finish().unwrap();
+
+        std::fs::write(
+            output_dir_full_path.join(format!("{}.ttl", file_basename)),
+            result,
+        )
+        .unwrap();
     }
 }
 
@@ -51,7 +102,7 @@ fn test_convert() {
     let tmp_dir_full_path = base_dir_path.join("tmp");
     let output_dir_full_path = base_dir_path.join("output");
 
-    deflate_archive(input_dir_full_path, tmp_dir_full_path.clone());
+    //deflate_archive(input_dir_full_path, tmp_dir_full_path.clone());
 
     convert(tmp_dir_full_path, output_dir_full_path);
 }
