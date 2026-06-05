@@ -1,9 +1,9 @@
+FROM adfreiburg/qlever:commit-b802870
+
 LABEL org.opencontainers.image.source=https://github.com/BetaMasaheft/collatex-service
 LABEL org.opencontainers.image.description="Docker container for using QLever as a web service"
 LABEL org.opencontainers.image.licenses=MIT
 LABEL org.opencontainers.image.authors="Claudius Teodorescu <claudius.teodorescu@gmail.com>"
-
-FROM adfreiburg/qlever:commit-b802870
 
 USER root
 
@@ -19,7 +19,7 @@ RUN qlever index \
     --name "bm" \
     --cat-input-files 'cat *.ttl' \
     --input-files "*.ttl" \
-    --stxxl-memory "12GB" \
+    --stxxl-memory "1GB" \
     --parallel-parsing false \
     --system "native"
 
