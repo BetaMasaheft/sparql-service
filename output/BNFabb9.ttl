@@ -1,0 +1,576 @@
+<https://betamasaheft.eu/BNFabb9> <http://purl.org/dc/terms/licence> <http://opendatacommons.org/licenses/odbl/1.0/> ;
+	a <https://betamasaheft.eu/mss> ;
+	<http://purl.org/dc/terms/source> <https://betamasaheft.eu/tei/BNFabb9.xml> ;
+	<http://xmlns.com/foaf/0.1/homepage> <https://betamasaheft.eu/manuscripts/BNFabb9/main> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier> "BNFabb9" ;
+	<http://purl.org/dc/elements/1.1/publisher> "Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft Imprimerie nationale Imprimerie nationale–Ernest Leroux, éditeur Imprimerie impériale Secrétariat du CorpusSCO Secrétariat du CorpusSCO,  Akademie der Wissenschaften in Hamburg" ;
+	<http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu> ;
+	<http://purl.org/dc/terms/bibliographicCitation> "BNFabb9" ;
+	<http://purl.org/dc/elements/1.1/format> "xml" ;
+	<http://purl.org/dc/elements/1.1/language> "en"^^<http://www.w3.org/2001/XMLSchema#language> , "gez"^^<http://www.w3.org/2001/XMLSchema#language> ;
+	<http://purl.org/dc/elements/1.1/contributor> "Denis Nosnitsin" , "Alessandro Bausi" ;
+	a <https://betamasaheft.eu/Bible> , <https://betamasaheft.eu/NewTestament> , <https://betamasaheft.eu/ChristianLiterature> ;
+	<http://purl.org/dc/terms/bibliographicCitation> "bm:ContiRossini1914Notice" , "bm:Chaine1912Catalogue" , "bm:Abbadie1859Cat" ;
+	a <https://w3id.org/sdc/ontology#UniProd> , <https://w3id.org/sdc/ontology#UniCirc> ;
+	<https://w3id.org/sdc/ontology#hasCertainty> <https://w3id.org/sdc/ontology#Certain> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "BnF Éthiopien d'Abbadie 9" .
+<https://betamasaheft.eu/manuscript/BNFabb9/viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif/BNFabb9/manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript/BNFabb9/viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif/BNFabb9/manifest> .
+<https://betamasaheft.eu/BNFabb9> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript/BNFabb9/viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0303BNF> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "BnF Éthiopien d'Abbadie 9" .
+<https://betamasaheft.eu/manuscript//viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif//manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript//viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif//manifest> .
+<https://betamasaheft.eu/BNFabb9> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript//viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0303BNF> ;
+	<http://kuberam.ro/ns/kerthasTotalLeaves> "1+152+1 3\n                             " .
+_:df972cc1c894a69e3b6123c31957f0e5 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "height" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "235" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/BNFabb9> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:df972cc1c894a69e3b6123c31957f0e5 .
+_:e32143902aa0aa6ed8d3242a21d7cc1 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "width" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "194" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/BNFabb9> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:e32143902aa0aa6ed8d3242a21d7cc1 ;
+	<http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> <https://betamasaheft.eu/vocabularies/material.html#parchment> ;
+	a <https://betamasaheft.eu/ontology/Codex> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/BNFabb9/hand/h1> , <https://betamasaheft.eu/BNFabb9/layout/layout1> , <https://betamasaheft.eu/BNFabb9/quire/q1> , <https://betamasaheft.eu/BNFabb9/quire/q2> , <https://betamasaheft.eu/BNFabb9/quire/q3> , <https://betamasaheft.eu/BNFabb9/quire/q4> , <https://betamasaheft.eu/BNFabb9/quire/q5> , <https://betamasaheft.eu/BNFabb9/quire/q6> , <https://betamasaheft.eu/BNFabb9/quire/q7> , <https://betamasaheft.eu/BNFabb9/quire/q8> , <https://betamasaheft.eu/BNFabb9/quire/q9> , <https://betamasaheft.eu/BNFabb9/quire/q10> , <https://betamasaheft.eu/BNFabb9/quire/q11> , <https://betamasaheft.eu/BNFabb9/quire/q12> , <https://betamasaheft.eu/BNFabb9/quire/q13> , <https://betamasaheft.eu/BNFabb9/quire/q14> , <https://betamasaheft.eu/BNFabb9/quire/q15> , <https://betamasaheft.eu/BNFabb9/quire/q16> , <https://betamasaheft.eu/BNFabb9/quire/q17> , <https://betamasaheft.eu/BNFabb9/quire/q18> , <https://betamasaheft.eu/BNFabb9/quire/q19> , <https://betamasaheft.eu/BNFabb9/quire/q20> , <https://betamasaheft.eu/BNFabb9/quire/q21> , <https://betamasaheft.eu/BNFabb9/quire/q22> , <https://betamasaheft.eu/BNFabb9/decoration/d1> , <https://betamasaheft.eu/BNFabb9/binding/b1> , <https://betamasaheft.eu/BNFabb9/binding/b2> , <https://betamasaheft.eu/BNFabb9/binding/b3> , <https://betamasaheft.eu/BNFabb9/binding/b11> , <https://betamasaheft.eu/BNFabb9/binding/b6> , <https://betamasaheft.eu/BNFabb9/binding/b7> , <https://betamasaheft.eu/BNFabb9/binding/b8> , <https://betamasaheft.eu/BNFabb9/addition/a1> , <https://betamasaheft.eu/BNFabb9/addition/a2> , <https://betamasaheft.eu/BNFabb9/addition/e1> , <https://betamasaheft.eu/BNFabb9/addition/e2> , <https://betamasaheft.eu/BNFabb9/addition/e3> , <https://betamasaheft.eu/BNFabb9/addition/e4> , <https://betamasaheft.eu/BNFabb9/addition/e5> , <https://betamasaheft.eu/BNFabb9/addition/e6> , <https://betamasaheft.eu/BNFabb9/addition/e7> , <https://betamasaheft.eu/BNFabb9/addition/e8> , <https://betamasaheft.eu/BNFabb9/addition/e9> , <https://betamasaheft.eu/BNFabb9/addition/e10> ;
+	<http://kuberam.ro/ns/kerttotal-test-time> 22 .
+_:d79b1bf930ecc659d8ab730bda1dfd50 <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "220" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "quire" .
+<https://betamasaheft.eu/BNFabb9> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> _:d79b1bf930ecc659d8ab730bda1dfd50 .
+<https://betamasaheft.eu/BNFabb9/place/annotation/1> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFabb9> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/INS0341DL> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "Dabra Libānos of Šawā" .
+<https://betamasaheft.eu/BNFabb9/person/annotation/1> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFabb9> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS3779enbaqom> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "ʾǝč̣č̣age ʿƎnbāqom" .
+<https://betamasaheft.eu/BNFabb9/person/annotation/2> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFabb9> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS3779enbaqom> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "ዕንባቆም፡ መስኪን፡ ወመምህር፡ ዘደብረ፡ ሊባኖስ" .
+<https://betamasaheft.eu/BNFabb9/person/annotation/3> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFabb9> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS3451DeJacob> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "Giustino De Jacobis" .
+<https://betamasaheft.eu/BNFabb9/person/annotation/4> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFabb9> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS3451DeJacob> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "አቡነ፡ ያዕቆብ፡ ሮማዊ፡" .
+<https://betamasaheft.eu/BNFabb9/person/annotation/5> a <http://www.w3.org/ns/oa#Annotation> , <https://betamasaheft.eu/ontology/Owner> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFabb9> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS1071dAbbadi> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "Antoine d'Abbadie" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3505PaulineEpis> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 13 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.1> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.2> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.3> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.4> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.5> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.6> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.7> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.8> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.9> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.10> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.11> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.12> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i1.13> .
+_:e165ba869932c0f704d2b8fe265db513 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1> <http://kuberam.ro/ns/kerthasLocus> _:e165ba869932c0f704d2b8fe265db513 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3515Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:a67a878d02c6931affeb2b82eb5fc8b2 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.1> <http://kuberam.ro/ns/kerthasLocus> _:a67a878d02c6931affeb2b82eb5fc8b2 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3516Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b7c32157702728b6354674af018c3a4c a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.2> <http://kuberam.ro/ns/kerthasLocus> _:b7c32157702728b6354674af018c3a4c .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3517Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d319031c60ca77df33486f5d67262d58 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.3> <http://kuberam.ro/ns/kerthasLocus> _:d319031c60ca77df33486f5d67262d58 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3518Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ce195a7fb772fa1ced607ea51f466373 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.4> <http://kuberam.ro/ns/kerthasLocus> _:ce195a7fb772fa1ced607ea51f466373 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.5> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3519Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:f87e6a980c590356c97e9f56f7101c19 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.5> <http://kuberam.ro/ns/kerthasLocus> _:f87e6a980c590356c97e9f56f7101c19 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.6> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3520Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d19c22ee151bcbe48d7cfbc83b13cf4c a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.6> <http://kuberam.ro/ns/kerthasLocus> _:d19c22ee151bcbe48d7cfbc83b13cf4c .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.7> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3521Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ed5e4a0a2d857a84f57d5c2a508042f7 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.7> <http://kuberam.ro/ns/kerthasLocus> _:ed5e4a0a2d857a84f57d5c2a508042f7 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.8> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3522Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:f34ff74be1af0dca877238cec52332e3 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.8> <http://kuberam.ro/ns/kerthasLocus> _:f34ff74be1af0dca877238cec52332e3 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.9> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3523Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:a78c3e27d2b8997656d4d9e6e7e4aae9 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.9> <http://kuberam.ro/ns/kerthasLocus> _:a78c3e27d2b8997656d4d9e6e7e4aae9 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.10> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3525Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d7f5bf4b3c1dff7cbf8a5a0255ac2fcc a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.10> <http://kuberam.ro/ns/kerthasLocus> _:d7f5bf4b3c1dff7cbf8a5a0255ac2fcc .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.11> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3526Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b59cf4b24c6eb894be3f0ee2266efee a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.11> <http://kuberam.ro/ns/kerthasLocus> _:b59cf4b24c6eb894be3f0ee2266efee .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.12> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3527Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:f4f9ecd66620e448672f3254bc7a0601 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.12> <http://kuberam.ro/ns/kerthasLocus> _:f4f9ecd66620e448672f3254bc7a0601 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.13> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3528Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b19a626377174fcba5e8cc8109a11e7a a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.13> <http://kuberam.ro/ns/kerthasLocus> _:b19a626377174fcba5e8cc8109a11e7a .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.14> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3524Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b1c843ec8e3f3fbf4c15a743a1249848 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i1.14> <http://kuberam.ro/ns/kerthasLocus> _:b1c843ec8e3f3fbf4c15a743a1249848 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT1019Actsof> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d2e720359d2f8e39bb6fea47619fee9b a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i2> <http://kuberam.ro/ns/kerthasLocus> _:d2e720359d2f8e39bb6fea47619fee9b .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3506CatholicEpis> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 7 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/BNFabb9/msitem/ms_i3.1> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i3.2> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i3.3> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i3.4> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i3.5> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i3.6> , <https://betamasaheft.eu/BNFabb9/msitem/ms_i3.7> .
+_:d83414f1f08c2a74463d67e1a6237bb9 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3> <http://kuberam.ro/ns/kerthasLocus> _:d83414f1f08c2a74463d67e1a6237bb9 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3507Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:fea60cb6732932e94e753ec0d1fc6f81 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.1> <http://kuberam.ro/ns/kerthasLocus> _:fea60cb6732932e94e753ec0d1fc6f81 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3508Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b0dc4d8674fd2b1c7ad7fc8fbd9f2ca4 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.2> <http://kuberam.ro/ns/kerthasLocus> _:b0dc4d8674fd2b1c7ad7fc8fbd9f2ca4 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3509Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:e00cbf9fe826b7485db9861a808916dd a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.3> <http://kuberam.ro/ns/kerthasLocus> _:e00cbf9fe826b7485db9861a808916dd .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3510Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ecf69163b6eed7a75df7086443185597 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.4> <http://kuberam.ro/ns/kerthasLocus> _:ecf69163b6eed7a75df7086443185597 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.5> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3511Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:f6306c4aea8d008eb580a3b8142f2ff6 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.5> <http://kuberam.ro/ns/kerthasLocus> _:f6306c4aea8d008eb580a3b8142f2ff6 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.6> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3512Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ae22bb5363b13e781438d70801aef3a6 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.6> <http://kuberam.ro/ns/kerthasLocus> _:ae22bb5363b13e781438d70801aef3a6 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.7> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3513Epistle> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b028109e955f96fcfa482e6c97a6f588 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i3.7> <http://kuberam.ro/ns/kerthasLocus> _:b028109e955f96fcfa482e6c97a6f588 .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3179Revela> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/BNFabb9/colophon/coloph1> .
+_:f82e73cda61f743d78ffbde0f31719de a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/msitem/ms_i4> <http://kuberam.ro/ns/kerthasLocus> _:f82e73cda61f743d78ffbde0f31719de ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS3779enbaqom> , <https://betamasaheft.eu/PRS3779enbaqom> .
+<https://betamasaheft.eu/BNFabb9/colophon/coloph1> a <https://betamasaheft.eu/Colophon> .
+_:ce2d1eb3f9809af0364798a41df887a5 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" .
+<https://betamasaheft.eu/BNFabb9/colophon/coloph1> <http://kuberam.ro/ns/kerthasLocus> _:ce2d1eb3f9809af0364798a41df887a5 ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS3779enbaqom> , <https://betamasaheft.eu/PRS3779enbaqom> .
+<https://betamasaheft.eu/BNFabb9/quire/q1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:a615fbcaf7a3dbd18892f10cbcdb24c6 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q1> <http://kuberam.ro/ns/kerthasLocus> _:a615fbcaf7a3dbd18892f10cbcdb24c6 .
+_:f3b03bfb20b8ed198bcbe3ae950b6340 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "2" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q1> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f3b03bfb20b8ed198bcbe3ae950b6340 .
+<https://betamasaheft.eu/BNFabb9/quire/q2> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:deb31de30251e0c74e3968640dd8c2de a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q2> <http://kuberam.ro/ns/kerthasLocus> _:deb31de30251e0c74e3968640dd8c2de .
+_:da331ea23683073dd4a103512352cd8c a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q2> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:da331ea23683073dd4a103512352cd8c .
+<https://betamasaheft.eu/BNFabb9/quire/q3> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:c503d5d6c2d5690f730609d751c22354 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q3> <http://kuberam.ro/ns/kerthasLocus> _:c503d5d6c2d5690f730609d751c22354 .
+_:f864be6627190fcb7f552a67ecffe24d a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "6" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q3> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f864be6627190fcb7f552a67ecffe24d .
+<https://betamasaheft.eu/BNFabb9/quire/q4> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:fe521dfe5667e100b9f27c09dd58b8d3 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q4> <http://kuberam.ro/ns/kerthasLocus> _:fe521dfe5667e100b9f27c09dd58b8d3 .
+_:d38da4c55a108ffd10ac70f2017853be a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q4> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:d38da4c55a108ffd10ac70f2017853be .
+<https://betamasaheft.eu/BNFabb9/quire/q5> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:b954f2c20d5f1c7e1883d8c404fdb20d a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q5> <http://kuberam.ro/ns/kerthasLocus> _:b954f2c20d5f1c7e1883d8c404fdb20d .
+_:f4a7bbd3e3f82dbe8b4d90f3c4b65c9e a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q5> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f4a7bbd3e3f82dbe8b4d90f3c4b65c9e .
+<https://betamasaheft.eu/BNFabb9/quire/q6> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:d30aa9244b14b7ea987ead5198faca78 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q6> <http://kuberam.ro/ns/kerthasLocus> _:d30aa9244b14b7ea987ead5198faca78 .
+_:e9f3798896794b3647fdfc4d66bbac7a a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "10" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q6> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:e9f3798896794b3647fdfc4d66bbac7a .
+<https://betamasaheft.eu/BNFabb9/quire/q7> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:cc9bf4ea77b6a74cef5de5855fcf2d5a a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q7> <http://kuberam.ro/ns/kerthasLocus> _:cc9bf4ea77b6a74cef5de5855fcf2d5a .
+_:f92003461f032df4596cd8b4fd1c9f5c a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q7> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f92003461f032df4596cd8b4fd1c9f5c .
+<https://betamasaheft.eu/BNFabb9/quire/q8> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:bccb3a2fda0d0e6ba60ade416e8ee279 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q8> <http://kuberam.ro/ns/kerthasLocus> _:bccb3a2fda0d0e6ba60ade416e8ee279 .
+_:b8d4611dc89086bd6da79a45974b802c a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q8> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:b8d4611dc89086bd6da79a45974b802c .
+<https://betamasaheft.eu/BNFabb9/quire/q9> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:b2720fe95c99c5edbb542860d71ab7d4 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q9> <http://kuberam.ro/ns/kerthasLocus> _:b2720fe95c99c5edbb542860d71ab7d4 .
+_:f2f7e4cf95705436ef2874e756b19d5d a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q9> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f2f7e4cf95705436ef2874e756b19d5d .
+<https://betamasaheft.eu/BNFabb9/quire/q10> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:d6ab9646b6b8cbd799d7c037c2acb7b0 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q10> <http://kuberam.ro/ns/kerthasLocus> _:d6ab9646b6b8cbd799d7c037c2acb7b0 .
+_:a1d820a0fa617f2515280e2e68cbf281 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q10> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:a1d820a0fa617f2515280e2e68cbf281 .
+<https://betamasaheft.eu/BNFabb9/quire/q11> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:dcd564f764a5165e2fea33d3df915ed5 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q11> <http://kuberam.ro/ns/kerthasLocus> _:dcd564f764a5165e2fea33d3df915ed5 .
+_:c8b0bf28fffe35c85e66268020a0f3c3 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "7" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q11> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:c8b0bf28fffe35c85e66268020a0f3c3 .
+<https://betamasaheft.eu/BNFabb9/quire/q12> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:ac30843970fe0891354a2677857e5943 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q12> <http://kuberam.ro/ns/kerthasLocus> _:ac30843970fe0891354a2677857e5943 .
+_:f12a34c6e001202e1884421e6df4193c a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q12> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f12a34c6e001202e1884421e6df4193c .
+<https://betamasaheft.eu/BNFabb9/quire/q13> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:e78e5e688fff7060bf2af3e915b32812 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q13> <http://kuberam.ro/ns/kerthasLocus> _:e78e5e688fff7060bf2af3e915b32812 .
+_:dfd79be4e1bba610471eaee424aa1e66 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q13> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:dfd79be4e1bba610471eaee424aa1e66 .
+<https://betamasaheft.eu/BNFabb9/quire/q14> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:e6a3fb103f7d3c1404545973863c719a a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q14> <http://kuberam.ro/ns/kerthasLocus> _:e6a3fb103f7d3c1404545973863c719a .
+_:bdf67e4df830beeb52bbddd086528f3a a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q14> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:bdf67e4df830beeb52bbddd086528f3a .
+<https://betamasaheft.eu/BNFabb9/quire/q15> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:e585d32f25827feb2f5e59aaee83a2d4 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q15> <http://kuberam.ro/ns/kerthasLocus> _:e585d32f25827feb2f5e59aaee83a2d4 .
+_:a318eda60815d3d5358946c7f7b85d12 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q15> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:a318eda60815d3d5358946c7f7b85d12 .
+<https://betamasaheft.eu/BNFabb9/quire/q16> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:c5a141d27f1926f572becc62f5d805c3 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q16> <http://kuberam.ro/ns/kerthasLocus> _:c5a141d27f1926f572becc62f5d805c3 .
+_:f1e90792d79f08dcb5cd9192dacf12f5 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "5" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q16> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f1e90792d79f08dcb5cd9192dacf12f5 .
+<https://betamasaheft.eu/BNFabb9/quire/q17> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:a248be147e211b23150c51065971f818 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q17> <http://kuberam.ro/ns/kerthasLocus> _:a248be147e211b23150c51065971f818 .
+_:ed31082f98edfbb306a9d9350583cd8f a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q17> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:ed31082f98edfbb306a9d9350583cd8f .
+<https://betamasaheft.eu/BNFabb9/quire/q18> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:efdfea86a1466185ac811a25373cd02a a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q18> <http://kuberam.ro/ns/kerthasLocus> _:efdfea86a1466185ac811a25373cd02a .
+_:bed94d2993ce6accf7cf7449f8963330 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q18> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:bed94d2993ce6accf7cf7449f8963330 .
+<https://betamasaheft.eu/BNFabb9/quire/q19> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:c48dce83fa0e5cf4a3ebb22d5fe7af1e a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q19> <http://kuberam.ro/ns/kerthasLocus> _:c48dce83fa0e5cf4a3ebb22d5fe7af1e .
+_:cdca3fb1fd7f589ce1f428b3d11f48de a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q19> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:cdca3fb1fd7f589ce1f428b3d11f48de .
+<https://betamasaheft.eu/BNFabb9/quire/q20> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:b2c8133591f3fe35f33579a7abae404c a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q20> <http://kuberam.ro/ns/kerthasLocus> _:b2c8133591f3fe35f33579a7abae404c .
+_:d3171f210ac0b7481975dae2972edb4f a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q20> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:d3171f210ac0b7481975dae2972edb4f .
+<https://betamasaheft.eu/BNFabb9/quire/q21> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:bdb968d08caf9c895eda8825f4742c69 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q21> <http://kuberam.ro/ns/kerthasLocus> _:bdb968d08caf9c895eda8825f4742c69 .
+_:f6979bb82e30a53301a6b02de2159a02 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "2" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q21> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f6979bb82e30a53301a6b02de2159a02 .
+<https://betamasaheft.eu/BNFabb9/quire/q22> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/quire> .
+_:c124f6764ff6c6dd2d9575f7b5fd0f78 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/quire/q22> <http://kuberam.ro/ns/kerthasLocus> _:c124f6764ff6c6dd2d9575f7b5fd0f78 .
+_:a0ab48296ea6e6139645a8a95199da29 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "2" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/BNFabb9/quire/q22> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:a0ab48296ea6e6139645a8a95199da29 .
+<https://betamasaheft.eu/BNFabb9/layout/layout1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/layout> .
+_:c962b46dbd357bb8abcdc30857076c83 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/layout/layout1> <http://kuberam.ro/ns/kerthasLocus> _:c962b46dbd357bb8abcdc30857076c83 ;
+	a <https://w3id.org/sdc/ontology#UniRegl> , <https://w3id.org/sdc/ontology#UniMeP> .
+<https://betamasaheft.eu/BNFabb9/hand/h1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/hand> , <https://w3id.org/sdc/ontology#UniMain> , <https://betamasaheft.eu/Ethiopic> .
+<https://betamasaheft.eu/BNFabb9/decoration/d1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/decoration> .
+_:d0fadf5a3cb5ce1e9d082876f010f232 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" .
+<https://betamasaheft.eu/BNFabb9/decoration/d1> <http://kuberam.ro/ns/kerthasLocus> _:d0fadf5a3cb5ce1e9d082876f010f232 ;
+	a <https://betamasaheft.eu/ornamentation> .
+<https://betamasaheft.eu/BNFabb9/addition/a1> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/Letter> ;
+	<http://purl.org/dc/elements/1.1/language> "" ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS3451DeJacob> , <https://betamasaheft.eu/PRS3451DeJacob> .
+_:eef0c049c5f2246d58509987a7a42074 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" .
+<https://betamasaheft.eu/BNFabb9/addition/a1> <http://kuberam.ro/ns/kerthasLocus> _:eef0c049c5f2246d58509987a7a42074 .
+<https://betamasaheft.eu/BNFabb9/addition/a2> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/GuestText> .
+_:f016f5696bd532c95186bffcc18dc45d a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/addition/a2> <http://kuberam.ro/ns/kerthasLocus> _:f016f5696bd532c95186bffcc18dc45d .
+<https://betamasaheft.eu/BNFabb9/addition/e1> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/StampExlibris> .
+_:cf5e7887a5480324c47def3634332eb2 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" .
+<https://betamasaheft.eu/BNFabb9/addition/e1> <http://kuberam.ro/ns/kerthasLocus> _:cf5e7887a5480324c47def3634332eb2 .
+<https://betamasaheft.eu/BNFabb9/addition/e2> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/findingAid> ;
+	<http://purl.org/dc/elements/1.1/language> "" .
+_:d784aaab8c8995aff8ecb560410495ed a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" .
+<https://betamasaheft.eu/BNFabb9/addition/e2> <http://kuberam.ro/ns/kerthasLocus> _:d784aaab8c8995aff8ecb560410495ed .
+<https://betamasaheft.eu/BNFabb9/addition/e3> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/StampExlibris> .
+_:ecfd9d621f52eb16c610a410e86b7ca7 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" .
+<https://betamasaheft.eu/BNFabb9/addition/e3> <http://kuberam.ro/ns/kerthasLocus> _:ecfd9d621f52eb16c610a410e86b7ca7 .
+<https://betamasaheft.eu/BNFabb9/addition/e4> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/findingAid> ;
+	<http://purl.org/dc/elements/1.1/language> "" .
+_:ae93c77284d9c70b75909c9726a3b8b2 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" .
+<https://betamasaheft.eu/BNFabb9/addition/e4> <http://kuberam.ro/ns/kerthasLocus> _:ae93c77284d9c70b75909c9726a3b8b2 .
+<https://betamasaheft.eu/BNFabb9/addition/e5> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/Comment> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/LIT3530OldTes> .
+_:c0c8e9efb0b752c13dbddc0a76fd58c0 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/addition/e5> <http://kuberam.ro/ns/kerthasLocus> _:c0c8e9efb0b752c13dbddc0a76fd58c0 .
+<https://betamasaheft.eu/BNFabb9/addition/e6> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/findingAid> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/LIT3530OldTes> .
+_:b51395517255fa2ac64c801f2ae7bba0 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" ;
+	<http://kuberam.ro/ns/kertlocusTo> "" .
+<https://betamasaheft.eu/BNFabb9/addition/e6> <http://kuberam.ro/ns/kerthasLocus> _:b51395517255fa2ac64c801f2ae7bba0 .
+<https://betamasaheft.eu/BNFabb9/addition/e7> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/Correction> .
+_:d2dc620ae2fc90bc7c2220c28237035c a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" , "" , "" , "" , "" , "" , "" , "" , "" , "" .
+<https://betamasaheft.eu/BNFabb9/addition/e7> <http://kuberam.ro/ns/kerthasLocus> _:d2dc620ae2fc90bc7c2220c28237035c .
+<https://betamasaheft.eu/BNFabb9/addition/e8> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/Correction> .
+_:aea3033f7f3941868f419dd96d0d0d79 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" , "" , "" , "" , "" .
+<https://betamasaheft.eu/BNFabb9/addition/e8> <http://kuberam.ro/ns/kerthasLocus> _:aea3033f7f3941868f419dd96d0d0d79 .
+<https://betamasaheft.eu/BNFabb9/addition/e9> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/findingAid> ;
+	<http://purl.org/dc/elements/1.1/language> "" .
+_:a3a6ac5c32f1f99d7c44a42581d295 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" .
+<https://betamasaheft.eu/BNFabb9/addition/e9> <http://kuberam.ro/ns/kerthasLocus> _:a3a6ac5c32f1f99d7c44a42581d295 .
+<https://betamasaheft.eu/BNFabb9/addition/e10> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/StampExlibris> .
+_:ffe6c47e6e3c8d60ba1aa7a263430521 a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" .
+<https://betamasaheft.eu/BNFabb9/addition/e10> <http://kuberam.ro/ns/kerthasLocus> _:ffe6c47e6e3c8d60ba1aa7a263430521 .
+<https://betamasaheft.eu/BNFabb9/binding/b1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/binding> .
+<https://betamasaheft.eu/BNFabb9/binding/b2> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/binding> .
+<https://betamasaheft.eu/BNFabb9/binding/b3> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/binding> , <https://betamasaheft.eu/SewingStations> .
+<https://betamasaheft.eu/BNFabb9/binding/b11> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/binding> , <https://betamasaheft.eu/EndLeaves> .
+<https://betamasaheft.eu/BNFabb9/binding/b6> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/binding> .
+_:ed9fd52532891d3735db1b767ad2ef55 a <http://www.cidoc-crm.org/cidoc-crm/E52_Time-span> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by> "18th century?" .
+<https://betamasaheft.eu/BNFabb9/binding/b6> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time_span> _:ed9fd52532891d3735db1b767ad2ef55 ;
+	a <https://betamasaheft.eu/Other> .
+<https://betamasaheft.eu/BNFabb9/binding/b7> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/binding> , <https://betamasaheft.eu/SlipCase> .
+<https://betamasaheft.eu/BNFabb9/binding/b8> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFabb9> ;
+	a <https://betamasaheft.eu/binding> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> <https://betamasaheft.eu/vocabularies/material.html#cardboard> , <https://betamasaheft.eu/vocabularies/material.html#paper> , <https://betamasaheft.eu/vocabularies/material.html#leather> ;
+	a <https://betamasaheft.eu/bindingMaterial> .

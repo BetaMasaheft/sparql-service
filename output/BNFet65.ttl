@@ -1,0 +1,117 @@
+<https://betamasaheft.eu/BNFet65> <http://purl.org/dc/terms/licence> <http://opendatacommons.org/licenses/odbl/1.0/> ;
+	a <https://betamasaheft.eu/mss> ;
+	<http://purl.org/dc/terms/source> <https://betamasaheft.eu/tei/BNFet65.xml> ;
+	<http://xmlns.com/foaf/0.1/homepage> <https://betamasaheft.eu/manuscripts/BNFet65/main> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier> "BNFet65" ;
+	<http://purl.org/dc/elements/1.1/publisher> "Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft Imprimerie nationale Cambridge University Press,  Akademie der Wissenschaften in Hamburg" ;
+	<http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu> ;
+	<http://purl.org/dc/terms/bibliographicCitation> "BNFet65" ;
+	<http://purl.org/dc/elements/1.1/format> "xml" ;
+	<http://purl.org/dc/elements/1.1/language> "gez"^^<http://www.w3.org/2001/XMLSchema#language> ;
+	<http://purl.org/dc/elements/1.1/contributor> "Dorothea Reule" , "Alessandro Bausi" ;
+	a <https://betamasaheft.eu/ChristianLiterature> , <https://betamasaheft.eu/Commentary> ;
+	<http://purl.org/dc/terms/temporal> <http://n2t.net/ark:/99152/p03tcssvm7f> , <http://n2t.net/ark:/99152/p03tcssdh3k> ;
+	<http://purl.org/dc/terms/bibliographicCitation> "bm:Zotenberg1877Catalogue" , "bm:Cowley1983Apocalypse" ;
+	a <https://w3id.org/sdc/ontology#UniProd> , <https://w3id.org/sdc/ontology#UniCirc> ;
+	<https://w3id.org/sdc/ontology#hasCertainty> <https://w3id.org/sdc/ontology#Certain> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "BnF Éthiopien 65" .
+<https://betamasaheft.eu/manuscript/BNFet65/viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif/BNFet65/manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript/BNFet65/viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif/BNFet65/manifest> .
+<https://betamasaheft.eu/BNFet65> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript/BNFet65/viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Éth. 34" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0303BNF> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "BnF Éthiopien 65" .
+<https://betamasaheft.eu/manuscript//viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif//manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript//viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif//manifest> .
+<https://betamasaheft.eu/BNFet65> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript//viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Éth. 34" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0303BNF> ;
+	<http://kuberam.ro/ns/kerthasTotalLeaves> "132" .
+_:fb283586d6b33628b3320b8aaad47a78 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "height" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "310" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/BNFet65> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:fb283586d6b33628b3320b8aaad47a78 .
+_:dc5574a92aebf09eacd337f19fa55f0e a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "width" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "285" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/BNFet65> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:dc5574a92aebf09eacd337f19fa55f0e ;
+	<http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> <https://betamasaheft.eu/vocabularies/material.html#parchment> ;
+	a <https://betamasaheft.eu/ontology/Codex> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/BNFet65/hand/h1> , <https://betamasaheft.eu/BNFet65/layout/layout1> , <https://betamasaheft.eu/BNFet65/addition/a1> , <https://betamasaheft.eu/BNFet65/addition/e1> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 2 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/BNFet65/msitem/ms_i1> , <https://betamasaheft.eu/BNFet65/msitem/ms_i2> .
+<https://betamasaheft.eu/BNFet65/person/annotation/1> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFet65> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS11055YaMaryam> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "የማርያም፡ ገንዜ" .
+<https://betamasaheft.eu/BNFet65/person/annotation/2> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFet65> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS5655Jacobof> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "Jacob of Sarug" .
+<https://betamasaheft.eu/BNFet65/person/annotation/3> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFet65> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS11056Yeshaq> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "ይስሐቅ፡" .
+<https://betamasaheft.eu/BNFet65/person/annotation/4> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFet65> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS11057Petros> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "ጴጥሮስ፡ ቀሲስ፡ ጽሙድ፡ እልሰደመንቲ፡" .
+<https://betamasaheft.eu/BNFet65/person/annotation/5> a <http://www.w3.org/ns/oa#Annotation> , <https://betamasaheft.eu/ontology/Scribe> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFet65> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS11056Yeshaq> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "Yǝsḥaq" .
+<https://betamasaheft.eu/BNFet65/person/annotation/6> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/BNFet65> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS5655Jacobof> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-04-05+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "Jacob of Sarug" .
+<https://betamasaheft.eu/BNFet65/msitem/ms_i1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/elements/1.1/language> "gez" ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT1234Catena> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 2 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/BNFet65/msitem/ms_i1.1> , <https://betamasaheft.eu/BNFet65/msitem/ms_i1.2> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS11055YaMaryam> , <https://betamasaheft.eu/PRS5655Jacobof> .
+<https://betamasaheft.eu/BNFet65/msitem/ms_i1.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT1234Catena#Introduction> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+<https://betamasaheft.eu/BNFet65/msitem/ms_i1.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT1234Catena#CommentaryMatthew> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+<https://betamasaheft.eu/BNFet65/msitem/ms_i2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/elements/1.1/language> "gez" ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3837Commentary> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:c915565bf3dc9180289b24249b4153ac a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusFrom> "" .
+<https://betamasaheft.eu/BNFet65/msitem/ms_i2> <http://kuberam.ro/ns/kerthasLocus> _:c915565bf3dc9180289b24249b4153ac ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS11056Yeshaq> , <https://betamasaheft.eu/PRS11057Petros> .
+<https://betamasaheft.eu/BNFet65/layout/layout1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFet65> ;
+	a <https://betamasaheft.eu/layout> , <https://w3id.org/sdc/ontology#UniMeP> .
+<https://betamasaheft.eu/BNFet65/hand/h1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/BNFet65> ;
+	a <https://betamasaheft.eu/hand> .
+_:eedd402500206b4a6578f009b5519fad a <http://www.cidoc-crm.org/cidoc-crm/E52_Time-span> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P79_beginning_is_qualified_by> "1600-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P80_end_is_qualified_by> "1699-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://betamasaheft.eu/BNFet65/hand/h1> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time_span> _:eedd402500206b4a6578f009b5519fad ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS11056Yeshaq> ;
+	a <https://w3id.org/sdc/ontology#UniMain> , <https://betamasaheft.eu/Ethiopic> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/BNFet65#ms_i1> , <https://betamasaheft.eu/BNFet65/msitem/ms_i2> .
+<https://betamasaheft.eu/BNFet65/addition/a1> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/Unclear> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS5655Jacobof> .
+_:d00d28fcb053aabd4ad29d45375ddfde a <http://kuberam.ro/ns/kertLocus> ;
+	<http://kuberam.ro/ns/kertlocusTarget> "" .
+<https://betamasaheft.eu/BNFet65/addition/a1> <http://kuberam.ro/ns/kerthasLocus> _:d00d28fcb053aabd4ad29d45375ddfde .
+<https://betamasaheft.eu/BNFet65/addition/e1> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
