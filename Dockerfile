@@ -30,3 +30,4 @@ ENTRYPOINT ["qlever", "start", "--name", "bm", "--description", "bm", "--port", 
 # sudo docker build -t sparql-service .
 # sudo docker run -p 7000:7000 -p 8176:8176 sparql-service
 # curl "http://localhost:7000/?query=select%20*%20where%20%7Bs%20?p%20?o%7D%20limit%207"
+# curl "http://localhost:7000/?query=select%20*%20where%20%7B?s%20?p%20?o%7D%20limit%20777777"
