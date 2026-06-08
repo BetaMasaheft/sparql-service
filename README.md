@@ -37,11 +37,6 @@ to
 There is text "no matching prefix..." between tags...
 ```
 
-## Files manuscripts/EMIP01195.rdf, manuscripts/EMIP01197.rdf
-```text
-Trimmed " INS0529AAC".
-```
-
 ## Files persons/PRS0052IHA.rdf, persons/PRS0092IHA.rdf, persons/PRS0391IHA.rdf
 ```text
 converted
