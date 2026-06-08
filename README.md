@@ -1,4 +1,4 @@
-# rdfxml-to-turtle-service
+# sparql-service
 
 # Errors found in RDF/XML data
 
