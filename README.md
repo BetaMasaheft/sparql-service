@@ -139,3 +139,8 @@ empty language <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT4336
 ```text
 non-conformant IRI "https://betamasaheft.eu/RIE185bisand270bis#RIE185bisII1 RIE185bisand270bis#RIE185bisII2 RIE185bisand270bis#RIE185bisII3"
 ```
+
+
+## Resources
+
+* [Linked Open Data Based on La Syntaxe du Codex for Manuscripts in Beta maṣāḥǝft](https://dlib.nyu.edu/awdl/isaw/isaw-papers/20-7/)
