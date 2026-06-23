@@ -3,12 +3,12 @@ FROM ubuntu:latest AS builder
 
 WORKDIR /home/ubuntu
 
-RUN apt-get update && apt-get install -y curl unzip default-jre libsaxonb-java
+RUN apt-get update && apt-get install -y curl unzip default-jre libsaxonb-java fd-find
 
 # Download and unzip the archive for the expanded data
 RUN --mount=type=secret,id=DEPLOY_PAT \
     curl -H "Authorization: token $(cat /run/secrets/DEPLOY_PAT)" -L https://github.com/BetaMasaheft/expanded/archive/refs/heads/main.zip -o main.zip &&\
-    unzip -q main.zip -d ./input/ &&\
+    unzip -qj main.zip -d ./input/ &&\
     rm main.zip
 
 COPY ./modules/ ./modules/
@@ -17,7 +17,6 @@ COPY ./modules/ ./modules/
 RUN ./modules/move-tei-files/move-tei-files.sh
 
 # Convert the expanded data from TEI to RDF/XML format
-
 RUN ./modules/tei-to-rdf-xml/tei-to-rdf-xml.sh
 
 #COPY ./sparql-service ./sparql-service
