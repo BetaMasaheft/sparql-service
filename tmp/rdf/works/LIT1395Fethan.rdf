@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:pleiades="https://pleiades.stoa.org/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wd="https://www.wikidata.org/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:oa="http://www.w3.org/ns/oa#"
+    xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+    xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:saws="http://purl.org/saws/ontology#" xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+    xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+    xmlns:betmas="http://kuberam.ro/ns/kert" xmlns:lawd="http://lawd.info/ontology/"
+    xmlns:sdc="https://w3id.org/sdc/ontology#" xmlns:t="http://www.tei-c.org/ns/1.0"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ecrm="http://erlangen-crm.org/current/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:snap="http://data.snapdrgn.net/ontology/snap#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan">
+        <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/work" />
+        <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LIT1395Fethan.xml" />
+        <foaf:homepage rdf:resource="https://betamasaheft.eu/works/LIT1395Fethan/main" />
+        <crm:P48_has_preferred_identifier>LIT1395Fethan</crm:P48_has_preferred_identifier>
+        <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+            Forschungsumgebung / Beta maṣāḥǝft Harrassowitz Verlag Casa Editrice Italiana Casa
+            Editrice Italiana Faculty of Law, Haile Selassie I University E Typographeo Academico
+            Imprimerie nationale Ex Typographio Albiziniano Typis Vaticanis Harrassowitz Verlag
+            Biblioteca Apostolica Vaticana Gedruckt auf Kosten des Verfassers, und in Commission bei
+            Siegmund Schmerber Biblioteca Apostolica Vaticana E Typographeo Academico In Officina
+            Orphanotrophei. The Church Missionary Society, Akademie der Wissenschaften in Hamburg</dc:publisher>
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu" />
+        <dcterms:bibliographicCitation>LIT1395Fethan</dcterms:bibliographicCitation>
+        <dc:format>xml</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ar</dc:language>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+        <dc:contributor>Dorothea Reule</dc:contributor>
+        <dc:contributor>Alessandro Bausi</dc:contributor>
+        <dc:contributor>SiegbertUhlig</dc:contributor>
+        <dc:contributor>IgnazioGuidi</dc:contributor>
+        <dc:contributor>IgnazioGuidi</dc:contributor>
+        <dc:contributor>Peter L.Strauss</dc:contributor>
+        <dc:contributor>SiegbertUhlig</dc:contributor>
+        <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/CanonLaw" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/Translation" />
+        <dcterms:temporal rdf:resource="http://n2t.net/ark:/99152/p03tcssvm7f" />
+        <dc:title>Fǝtḥa nagaśt</dc:title>
+        <dc:title xml:lang="gez">ፍትሐ፡ ነገሥት፡</dc:title>
+        <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1395Fethan/title/t1"
+            xml:lang="gez" />
+        <dc:title xml:lang="gez">Fǝtḥa nagaśt</dc:title>
+        <dc:title xml:lang="en">The Law of the Kings</dc:title>
+        <dc:title xml:lang="ar">مجموع القوانين</dc:title>
+        <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1395Fethan/title/t2arabic"
+            xml:lang="ar" />
+        <dc:title xml:lang="ar">Maǧmūʿ al-qawānīn</dc:title>
+        <dc:title xml:lang="en">Collection of Canons</dc:title>
+        <dc:title xml:lang="en">Nomocanon</dc:title>
+        <dc:title>F. N.</dc:title>
+        <dc:source rdf:resource="https://betamasaheft.eu/BnF%20Syriaque%20225" />
+        <dc:source rdf:resource="https://betamasaheft.eu/BnF%20Arabe%20247" />
+        <dc:source rdf:resource="https://betamasaheft.eu/BnF%20Arabe%20248" />
+        <dc:source rdf:resource="https://betamasaheft.eu/BnF%20Arabe%20245" />
+        <dc:source rdf:resource="https://betamasaheft.eu/BnF%20Arabe%20249" />
+        <dc:source rdf:resource="https://betamasaheft.eu/BnF%20Arabe%20246" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Introduction" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Part1" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Part2" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan#t2arabic">
+        <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS1341AbulFa" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/IT1395Fethan#t1">
+        <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS7834PetrosA" />
+    </rdf:Description>
+    <oa:Annotation rdf:about="https://betamasaheft.eu/LIT1395Fethan/person/annotation/1">
+        <rdf:type rdf:resource="https://betamasaheft.eu/ontology/Translator" />
+        <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <oa:hasBody rdf:resource="https://betamasaheft.eu/PRS7834PetrosA" />
+        <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-05+02:00</oa:annotatedAt>
+        <lawd:hasName>Ṗeṭros ʾAbda Sayd</lawd:hasName>
+    </oa:Annotation>
+    <oa:Annotation rdf:about="https://betamasaheft.eu/LIT1395Fethan/person/annotation/2">
+        <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <oa:hasBody rdf:resource="https://betamasaheft.eu/PRS1341AbulFa" />
+        <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-05+02:00</oa:annotatedAt>
+        <lawd:hasName>Abū l-Faḍāʾil b. al-ʿAssāl aṣ-Ṣafī</lawd:hasName>
+    </oa:Annotation>
+    <oa:Annotation rdf:about="https://betamasaheft.eu/LIT1395Fethan/person/annotation/3">
+        <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <oa:hasBody rdf:resource="https://betamasaheft.eu/PRS3175Constant" />
+        <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-05+02:00</oa:annotatedAt>
+        <lawd:hasName>Constantine I</lawd:hasName>
+    </oa:Annotation>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Introduction">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+        <crm:P4_has_time_span>
+            <crm:E52_Time-span>
+                <crm:P78_is_identified_by>1848</crm:P78_is_identified_by>
+            </crm:E52_Time-span>
+        </crm:P4_has_time_span>
+        <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS1341AbulFa" />
+        <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS3175Constant" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//EthiopicIntroduction" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//IntroductionCanons" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//IndexPart1" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//IndexPart2" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//EthiopicIntroduction">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+        <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS1341AbulFa" />
+        <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS3175Constant" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//IntroductionCanons">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+        <crm:P4_has_time_span>
+            <crm:E52_Time-span>
+                <crm:P78_is_identified_by>1848</crm:P78_is_identified_by>
+            </crm:E52_Time-span>
+        </crm:P4_has_time_span>
+        <dcterms:bibliographicCitation>bm:Dillmann1848Catalogus</dcterms:bibliographicCitation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//IndexPart1">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//IndexPart2">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Part1">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter1" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter2" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter3" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter4" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter5" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter6" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter7" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter8" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter9" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter10" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter11" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter12" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter13" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter14" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter15" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter16" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter17" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter18" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter19" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter20" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter21" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter22" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter1">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter2">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter3">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter4">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter5">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter6">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter7">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter8">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter9">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter10">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter11">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter12">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter13">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter14">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter15">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter16">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter17">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter18">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter19">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter20">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter21">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter22">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Part2">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+        <crm:P4_has_time_span>
+            <crm:E52_Time-span>
+                <crm:P78_is_identified_by>1841</crm:P78_is_identified_by>
+            </crm:E52_Time-span>
+        </crm:P4_has_time_span>
+        <crm:P4_has_time_span>
+            <crm:E52_Time-span>
+                <crm:P78_is_identified_by>1841</crm:P78_is_identified_by>
+            </crm:E52_Time-span>
+        </crm:P4_has_time_span>
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter23" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter24" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter25" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter26" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter27" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter28" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter29" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter30" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter31" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter32" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter33" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter34" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter35" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter36" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter37" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter38" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter39" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter40" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter41" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter42" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter43" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter44" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter45" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter46" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter47" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter48" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter49" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter50" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Chapter51" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//Appendix" />
+        <dcterms:hasPart rdf:resource="LIT1395Fethan//ColophonTranslation" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter23">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter24">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter25">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter26">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter27">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter28">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter29">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter30">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter31">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter32">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter33">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter34">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter35">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter36">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter37">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter38">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter39">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter40">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter41">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter42">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter43">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter44">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+        <crm:P4_has_time_span>
+            <crm:E52_Time-span>
+                <crm:P78_is_identified_by>1841</crm:P78_is_identified_by>
+            </crm:E52_Time-span>
+        </crm:P4_has_time_span>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter45">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter46">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter47">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter48">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter49">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter50">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Chapter51">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//Appendix">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan//ColophonTranslation">
+        <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1395Fethan" />
+        <rdf:type rdf:resource="https://betamasaheft.eu/" />
+        <crm:P4_has_time_span>
+            <crm:E52_Time-span>
+                <crm:P78_is_identified_by>1841</crm:P78_is_identified_by>
+            </crm:E52_Time-span>
+        </crm:P4_has_time_span>
+        <dcterms:bibliographicCitation>bm:Isenberg1841Dictionary</dcterms:bibliographicCitation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan/title/t1">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title" />
+        <rdfs:label>ፍትሐ፡ ነገሥት፡</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://betamasaheft.eu/LIT1395Fethan/title/t2arabic">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title" />
+        <rdfs:label>مجموع القوانين</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>

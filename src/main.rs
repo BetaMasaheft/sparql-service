@@ -16,12 +16,12 @@ fn main() {
     let tmp_dir_full_path = base_dir_path.join("tmp");
     let output_dir_full_path = base_dir_path.join("output");
 
-    //deflate_archive(input_dir_full_path, tmp_dir_full_path.clone());
+    //decompress_archive(input_dir_full_path, tmp_dir_full_path.clone());
 
     convert(tmp_dir_full_path, output_dir_full_path);
 }
 
-fn deflate_archive(input_dir_full_path: PathBuf, tmp_dir_full_path: PathBuf) {
+fn decompress_archive(input_dir_full_path: PathBuf, tmp_dir_full_path: PathBuf) {
     let archives_glob = glob::Pattern::new("full*.zip").expect("wrong glob pattern for archives");
     let archive_globbed_path = input_dir_full_path.join(archives_glob.as_str());
 
@@ -102,7 +102,7 @@ fn test_convert() {
     let tmp_dir_full_path = base_dir_path.join("tmp");
     let output_dir_full_path = base_dir_path.join("output");
 
-    //deflate_archive(input_dir_full_path, tmp_dir_full_path.clone());
+    //decompress_archive(input_dir_full_path, tmp_dir_full_path.clone());
 
     convert(tmp_dir_full_path, output_dir_full_path);
 }
