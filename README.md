@@ -1,16 +1,81 @@
 # sparql-service
 
 
+## Fixes needed for expansion of the TEI files
+
+```xml
+<!-- missing of base URL -->
+<ref type="mss" corresp="BNFabb66A BNFabb66B">le n.66</ref>
+
+<witness xml:id="D" corresp="https://betamasaheft.eu/RIE185bisand270bis#RIE185bisII1 RIE185bisand270bis#RIE185bisII2 RIE185bisand270bis#RIE185bisII3"><idno>RIÉ 185bis and 270bis</idno></witness>
+
+<t:placeName ref="39303">A(u)xoume</t:placeName>
+
+<repository ref=" INS0529AAC"></repository> 
+
+```
+
+Document `LIT7447AbrTarWA` has no TEI namespace in expanded form.
+
+```xml
+<relation name="snap:Group" ref="http://data.snapdrgn.net/ontology/snap#Group" active="https://betamasaheft.eu/ETH2279Konno" passive="https://betamasaheft.eu/ETH1973Oromo"/>
+
+<rdf:Description rdf:about="https://betamasaheft.eu/ETH2279Konno">
+    <snap:hasBond rdf:resource="https://betamasaheft.eu/bond/Group-https://betamasaheft.eu/ETH1973Oromo"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://betamasaheft.eu/bond/Group-https://betamasaheft.eu/ETH1973Oromo">
+    <rdf:type rdf:resource="http://data.snapdrgn.net/ontology/snap#Group"/>
+    <snap:bond-with rdf:resource="https://betamasaheft.eu/ETH1973Oromo"/>
+</rdf:Description>
+```
+
+```xml
+<relation name="snap:Group" ref="http://data.snapdrgn.net/ontology/snap#Group" active="https://betamasaheft.eu/PRS12016Evangelists" passive="https://betamasaheft.eu/PRS5695John"/>
+<relation name="snap:Group" ref="http://data.snapdrgn.net/ontology/snap#Group" active="https://betamasaheft.eu/PRS12016Evangelists" passive="https://betamasaheft.eu/PRS6751Mark"/>
+<relation name="snap:Group" ref="http://data.snapdrgn.net/ontology/snap#Group" active="https://betamasaheft.eu/PRS12016Evangelists" passive="https://betamasaheft.eu/PRS6902Matthew"/>
+<relation name="snap:Group" ref="http://data.snapdrgn.net/ontology/snap#Group" active="https://betamasaheft.eu/PRS12016Evangelists" passive="https://betamasaheft.eu/PRS6387Luke"/>
+
+
+<rdf:Description rdf:about="https://betamasaheft.eu/PRS12016Evangelists">
+    <snap:hasBond rdf:resource="https://betamasaheft.eu/bond/Group-https://betamasaheft.eu/PRS5695John"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://betamasaheft.eu/bond/Group-https://betamasaheft.eu/PRS5695John">
+    <rdf:type rdf:resource="http://data.snapdrgn.net/ontology/snap#Group"/>
+    <snap:bond-with rdf:resource="https://betamasaheft.eu/PRS5695John"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://betamasaheft.eu/PRS12016Evangelists">
+    <snap:hasBond rdf:resource="https://betamasaheft.eu/bond/Group-https://betamasaheft.eu/PRS6751Mark"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://betamasaheft.eu/bond/Group-https://betamasaheft.eu/PRS6751Mark">
+    <rdf:type rdf:resource="http://data.snapdrgn.net/ontology/snap#Group"/>
+    <snap:bond-with rdf:resource="https://betamasaheft.eu/PRS6751Mark"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://betamasaheft.eu/PRS12016Evangelists">
+    <snap:hasBond rdf:resource="https://betamasaheft.eu/bond/Group-https://betamasaheft.eu/PRS6902Matthew"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://betamasaheft.eu/bond/Group-https://betamasaheft.eu/PRS6902Matthew">
+    <rdf:type rdf:resource="http://data.snapdrgn.net/ontology/snap#Group"/>
+    <snap:bond-with rdf:resource="https://betamasaheft.eu/PRS6902Matthew"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://betamasaheft.eu/PRS12016Evangelists">
+    <snap:hasBond rdf:resource="https://betamasaheft.eu/bond/Group-https://betamasaheft.eu/PRS6387Luke"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://betamasaheft.eu/bond/Group-https://betamasaheft.eu/PRS6387Luke">
+    <rdf:type rdf:resource="http://data.snapdrgn.net/ontology/snap#Group"/>
+    <snap:bond-with rdf:resource="https://betamasaheft.eu/PRS6387Luke"/>
+</rdf:Description>
+
+```
+
+
+
 # Errors found in RDF/XML data
 
 > The file LIT6554SacerPrayers should not be named LIT6554SacrePrayers?
 
-## File manuscripts/BDLclarkeor39.rdf, works/LIT1295Dersan.rdf, manuscripts/RIE271and190.rdf, places/LOC5017Nubia.rdf, studies/STU0001Commentarius.rdf, works/LIT1252Confes.rdf, works/LIT2170Peripl.rdf, works/LIT3122Galaw.rdf, works/LIT3963Homily.rdf, works/LIT4851greekRoyal.rdf, works/LIT5012MonumentumAdulitanum1.rdf, works/LIT5019MonumentumAdulitanum2.rdf, works/LIT5065Antislaveryprotocol.rdf, works/LIT7363WaGassu.rdf
-```text
-<oa:hasBody rdf:resource="<id>"/>
-converted to
-<oa:hasBody rdf:resource="<base-iri>#<id>"/>
-```
 
 ## Files manuscripts/BNFabb152.rdf, manuscripts/IVEf67.rdf
 ```text

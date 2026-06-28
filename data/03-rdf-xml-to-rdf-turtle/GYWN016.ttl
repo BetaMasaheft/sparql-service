@@ -1,0 +1,54 @@
+<https://betamasaheft.eu/GYWN016> <http://purl.org/dc/terms/licence> <http://opendatacommons.org/licenses/odbl/1.0/> ;
+	a <https://betamasaheft.eu/mss> ;
+	<http://purl.org/dc/terms/source> <https://betamasaheft.eu/tei/GYWN016.xml> ;
+	<http://xmlns.com/foaf/0.1/homepage> <https://betamasaheft.eu/manuscripts/GYWN016/main> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier> "GYWN016" ;
+	<http://purl.org/dc/elements/1.1/publisher> "Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft,  Akademie der Wissenschaften in Hamburg" ;
+	<http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu> ;
+	<http://purl.org/dc/terms/bibliographicCitation> "GYWN016" ;
+	<http://purl.org/dc/elements/1.1/format> "xml" ;
+	<http://purl.org/dc/elements/1.1/language> "en"^^<http://www.w3.org/2001/XMLSchema#language> , "gez"^^<http://www.w3.org/2001/XMLSchema#language> , "am"^^<http://www.w3.org/2001/XMLSchema#language> ;
+	<http://purl.org/dc/elements/1.1/contributor> "Alessandro Bausi" , "Mersha Alehegne" , "Eugenia Sokolinski" ;
+	a <https://betamasaheft.eu/ChristianLiterature> , <https://betamasaheft.eu/Liturgy> , <https://w3id.org/sdc/ontology#UniProd> , <https://w3id.org/sdc/ontology#UniCirc> ;
+	<https://w3id.org/sdc/ontology#hasCertainty> <https://w3id.org/sdc/ontology#Certain> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "GYWN-016" .
+<https://betamasaheft.eu/manuscript/GYWN016/viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif/GYWN016/manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript/GYWN016/viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif/GYWN016/manifest> .
+<https://betamasaheft.eu/GYWN016> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript/GYWN016/viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0954YohannesW> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "GYWN-016" .
+<https://betamasaheft.eu/manuscript//viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif//manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript//viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif//manifest> .
+<https://betamasaheft.eu/GYWN016> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript//viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0954YohannesW> ;
+	<https://betamasaheft.eu/ontology/hasTotalLeaves> "42" .
+_:f673a1a73ff8c918b8289e492208d6c1 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "height" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "170" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/GYWN016> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f673a1a73ff8c918b8289e492208d6c1 .
+_:f8474d57f4c9ba0b3e9eb8634ec04d07 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "width" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "140" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/GYWN016> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f8474d57f4c9ba0b3e9eb8634ec04d07 ;
+	<http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> <https://betamasaheft.eu/vocabularies/material.html#paper> ;
+	a <https://betamasaheft.eu/ontology/Codex> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/GYWN016//handDesc1> , <https://betamasaheft.eu/GYWN016/layout/layout1> , <https://betamasaheft.eu/GYWN016/binding/b1> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 1 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/GYWN016/msitem/ms_i1> .
+<https://betamasaheft.eu/GYWN016/msitem/ms_i1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "YaṢǝge Yǝtbahāl" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+<https://betamasaheft.eu/GYWN016/layout/layout1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/GYWN016> ;
+	a <https://betamasaheft.eu/layout> , <https://w3id.org/sdc/ontology#UniMeP> .
+<https://betamasaheft.eu/GYWN016/hand/h1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/GYWN016> ;
+	a <https://betamasaheft.eu/hand> , <https://w3id.org/sdc/ontology#UniMain> , <https://betamasaheft.eu/Ethiopic> .
+<https://betamasaheft.eu/GYWN016/binding/b1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/GYWN016> ;
+	a <https://betamasaheft.eu/binding> .

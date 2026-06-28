@@ -3,12 +3,10 @@ name = "sparql-service"
 version = "0.0.2"
 edition = "2024"
 authors = ["Claudius Teodorescu <claudius.teodorescu@gmail.com>"]
-description = "Converts XML to RDF/Turtle."
+description = "Converts RDF/XML to RDF/Turtle."
 
 [dependencies]
 decompress = "0.6.0"
-#decompress = { version = "0.6.0", default-features = false, feature = "zip" }
-glob = "0.3.3"
 oxrdfxml = "0.2.3"
 oxttl = "0.2.3"
 

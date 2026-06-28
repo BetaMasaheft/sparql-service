@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/LOC6655SudTegray">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/place"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LOC6655SudTegray.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/places/LOC6655SudTegray/main"/>
+      <crm:P48_has_preferred_identifier>LOC6655SudTegray</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft Harrassowitz Verlag,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>LOC6655SudTegray</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ti</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>Francesca Panini</dc:contributor>
+      <dc:contributor>SiegbertUhlig</dc:contributor>
+      <dc:contributor>AlessandroBausi</dc:contributor>
+      <geo:location>
+         <rdf:Description>
+            <geo:lat>12.96033</geo:lat>
+            <geo:long>39.52831</geo:long>
+         </rdf:Description>
+      </geo:location>
+      <foaf:primaryTopicOf rdf:resource="https://betamasaheft.eu/places/LOC6655SudTegray/main"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/"/>
+      <pleiades:hasFeatureType rdf:resource="https://betamasaheft.eu/authority-files/zoba"/>
+      <pleiades:hasFeatureType rdf:resource="https://betamasaheft.eu/authority-files/zone"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/place"/>
+      <lawd:hasName>
+         <rdf:Description>
+            <lawd:variantForm>ደቡባዊ፡ ትግራይ፡</lawd:variantForm>
+         </rdf:Description>
+      </lawd:hasName>
+      <lawd:hasName>
+         <rdf:Description>
+            <lawd:primaryForm>Dabubāwi Tǝgrāy</lawd:primaryForm>
+         </rdf:Description>
+      </lawd:hasName>
+      <lawd:hasName>
+         <rdf:Description>
+            <lawd:primaryForm>Southern Tǝgrāy Zone</lawd:primaryForm>
+         </rdf:Description>
+      </lawd:hasName>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LOC4667MayCaw">
+      <gn:locatedIn rdf:resource="https://betamasaheft.eu/LOC6655SudTegray"/>
+   </rdf:Description>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LOC6655SudTegray/place/annotation/1">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LOC6655SudTegray"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC4667MayCaw"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Māy Ḉaw</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LOC6655SudTegray/place/annotation/2">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LOC6655SudTegray"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC5932Tegray"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Tǝgrāy National Regional State</lawd:hasName>
+   </oa:Annotation>
+</rdf:RDF>

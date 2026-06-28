@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/INS0996GGabriel">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ins"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/INS0996GGabriel.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/institutions/INS0996GGabriel/main"/>
+      <crm:P48_has_preferred_identifier>INS0996GGabriel</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft Harrassowitz Verlag Harrassowitz Verlag,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>INS0996GGabriel</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>Eugenia Sokolinski</dc:contributor>
+      <dc:contributor>SiegbertUhlig</dc:contributor>
+      <dc:contributor>SiegbertUhlig</dc:contributor>
+      <geo:location>
+         <rdf:Description>
+            <geo:lat>12.6154</geo:lat>
+            <geo:long>37.4681</geo:long>
+         </rdf:Description>
+      </geo:location>
+      <foaf:primaryTopicOf rdf:resource="https://betamasaheft.eu/institutions/INS0996GGabriel/main"/>
+      <pleiades:hasFeatureType rdf:resource="https://betamasaheft.eu/authority-files/church"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/ins"/>
+      <lawd:hasName>
+         <rdf:Description>
+            <lawd:variantForm>ገብርኤል፡</lawd:variantForm>
+         </rdf:Description>
+      </lawd:hasName>
+      <lawd:hasName>
+         <rdf:Description>
+            <lawd:primaryForm>Gabrǝʾel</lawd:primaryForm>
+         </rdf:Description>
+      </lawd:hasName>
+      <lawd:hasName>
+         <rdf:Description>
+            <lawd:primaryForm>ʾAbun Bet Gabrǝʾel</lawd:primaryForm>
+         </rdf:Description>
+      </lawd:hasName>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/INS0996Gabriel">
+      <gn:nearBy rdf:resource="https://betamasaheft.eu/LOC3288Gannat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/INS0996Gabriel">
+      <dc:relation rdf:resource="https://betamasaheft.eu/LOC1058AbunBe"/>
+   </rdf:Description>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/INS0996GGabriel/place/annotation/1">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/INS0996GGabriel"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC6541DabraSahaySell"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Dabra Ḍahāy Śǝllāse</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/INS0996GGabriel/place/annotation/2">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/INS0996GGabriel"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC3288Gannat"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Gannat Tarrā</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/INS0996GGabriel/place/annotation/3">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/INS0996GGabriel"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC3577Gondar"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Gondar</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/INS0996GGabriel/place/annotation/4">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/INS0996GGabriel"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC3577Gondar"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Gondar</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/INS0996GGabriel/place/annotation/5">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/INS0996GGabriel"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC6540Entone"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ʾAbbā ʾƎnṭonǝs</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/INS0996GGabriel/place/annotation/6">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/INS0996GGabriel"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC1058AbunBe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ʾAbun Bet</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/INS0996GGabriel/place/annotation/7">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/INS0996GGabriel"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC1058AbunBe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ʾAbun Bet</lawd:hasName>
+   </oa:Annotation>
+</rdf:RDF>

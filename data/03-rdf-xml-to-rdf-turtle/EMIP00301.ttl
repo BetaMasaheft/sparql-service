@@ -1,0 +1,782 @@
+<https://betamasaheft.eu/EMIP00301> <http://purl.org/dc/terms/licence> <http://opendatacommons.org/licenses/odbl/1.0/> ;
+	a <https://betamasaheft.eu/mss> ;
+	<http://purl.org/dc/terms/source> <https://betamasaheft.eu/tei/EMIP00301.xml> ;
+	<http://xmlns.com/foaf/0.1/homepage> <https://betamasaheft.eu/manuscripts/EMIP00301/main> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier> "EMIP00301" ;
+	<http://purl.org/dc/elements/1.1/publisher> "Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft,  " ;
+	<http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu> ;
+	<http://purl.org/dc/terms/bibliographicCitation> "EMIP00301" ;
+	<http://purl.org/dc/elements/1.1/format> "xml" ;
+	<http://purl.org/dc/elements/1.1/language> "en"^^<http://www.w3.org/2001/XMLSchema#language> , "gez"^^<http://www.w3.org/2001/XMLSchema#language> , "am"^^<http://www.w3.org/2001/XMLSchema#language> ;
+	<http://purl.org/dc/elements/1.1/contributor> "Ashlee Benson" , "Jonah Sandford" , "Ralph Lee" ;
+	a <https://w3id.org/sdc/ontology#UniProd> , <https://w3id.org/sdc/ontology#UniCirc> ;
+	<https://w3id.org/sdc/ontology#hasCertainty> <https://w3id.org/sdc/ontology#Certain> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Weiner Codex 117" .
+<https://betamasaheft.eu/manuscript/EMIP00301/viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif/EMIP00301/manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript/EMIP00301/viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif/EMIP00301/manifest> .
+<https://betamasaheft.eu/EMIP00301> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript/EMIP00301/viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0447EMIP> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Weiner Codex 117" .
+<https://betamasaheft.eu/manuscript//viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif//manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript//viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif//manifest> .
+<https://betamasaheft.eu/EMIP00301> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript//viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0447EMIP> ;
+	<https://betamasaheft.eu/ontology/hasTotalLeaves> "i + 117" .
+_:def15f14e533996a3d39f702d667e939 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "height" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "222" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/EMIP00301> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:def15f14e533996a3d39f702d667e939 .
+_:bca0e4a7240cdf2367794f68b7b94aa8 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "width" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "171" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/EMIP00301> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:bca0e4a7240cdf2367794f68b7b94aa8 .
+_:a296dc026627b9a85f294e5c1fb8da4d a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "depth" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "68" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/EMIP00301> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:a296dc026627b9a85f294e5c1fb8da4d ;
+	<http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> <https://betamasaheft.eu/vocabularies/material.html#parchment> ;
+	a <https://betamasaheft.eu/ontology/Codex> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301//handDesc1> , <https://betamasaheft.eu/EMIP00301/layout/layout1> , <https://betamasaheft.eu/EMIP00301/layout/layout2> , <https://betamasaheft.eu/EMIP00301/layout/layout3> , <https://betamasaheft.eu/EMIP00301/quire/q1> , <https://betamasaheft.eu/EMIP00301/quire/q2> , <https://betamasaheft.eu/EMIP00301/quire/q3> , <https://betamasaheft.eu/EMIP00301/quire/q4> , <https://betamasaheft.eu/EMIP00301/quire/q5> , <https://betamasaheft.eu/EMIP00301/quire/q6> , <https://betamasaheft.eu/EMIP00301/quire/q7> , <https://betamasaheft.eu/EMIP00301/quire/q8> , <https://betamasaheft.eu/EMIP00301/quire/q9> , <https://betamasaheft.eu/EMIP00301/quire/q10> , <https://betamasaheft.eu/EMIP00301/quire/q11> , <https://betamasaheft.eu/EMIP00301/quire/q12> , <https://betamasaheft.eu/EMIP00301/quire/q13> , <https://betamasaheft.eu/EMIP00301/decoration/d1> , <https://betamasaheft.eu/EMIP00301/decoration/d2> , <https://betamasaheft.eu/EMIP00301/decoration/d3> , <https://betamasaheft.eu/EMIP00301/decoration/d4> , <https://betamasaheft.eu/EMIP00301/decoration/d5> , <https://betamasaheft.eu/EMIP00301/decoration/d6> , <https://betamasaheft.eu/EMIP00301/decoration/d7> , <https://betamasaheft.eu/EMIP00301/decoration/d8> , <https://betamasaheft.eu/EMIP00301/binding/b1> , <https://betamasaheft.eu/EMIP00301/binding/b2> , <https://betamasaheft.eu/EMIP00301/addition/a1> , <https://betamasaheft.eu/EMIP00301/addition/a2> , <https://betamasaheft.eu/EMIP00301/addition/a3> , <https://betamasaheft.eu/EMIP00301/addition/a4> , <https://betamasaheft.eu/EMIP00301/addition/a5> , <https://betamasaheft.eu/EMIP00301/addition/e1> , <https://betamasaheft.eu/EMIP00301/addition/a6> , <https://betamasaheft.eu/EMIP00301/addition/a7> , <https://betamasaheft.eu/EMIP00301/addition/e2> , <https://betamasaheft.eu/EMIP00301/addition/a8> , <https://betamasaheft.eu/EMIP00301/addition/a9> , <https://betamasaheft.eu/EMIP00301/addition/a10> , <https://betamasaheft.eu/EMIP00301/addition/e4> , <https://betamasaheft.eu/EMIP00301/addition/e5> , <https://betamasaheft.eu/EMIP00301/addition/e6> , <https://betamasaheft.eu/EMIP00301/addition/e7> , <https://betamasaheft.eu/EMIP00301/addition/e8> , <https://betamasaheft.eu/EMIP00301/addition/e9> ;
+	<https://betamasaheft.eu/ontology/hasTotalQuires> 13 .
+_:a8529a9c5f9f60816bcee926bb3c8691 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "13" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "quire" .
+<https://betamasaheft.eu/EMIP00301> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:a8529a9c5f9f60816bcee926bb3c8691 .
+<https://betamasaheft.eu/EMIP00301/person/annotation/1> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/EMIP00301> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS7049Michael> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-06-27+03:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "Michael" .
+<https://betamasaheft.eu/EMIP00301/person/annotation/2> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/EMIP00301> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS4377Gabriel> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-06-27+03:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "Gabriel" .
+<https://betamasaheft.eu/EMIP00301/person/annotation/3> a <http://www.w3.org/ns/oa#Annotation> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/EMIP00301> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS4585Georgeo> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-06-27+03:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "St George of Lydda" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT1295Dersan> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 12 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12> , <https://betamasaheft.eu/EMIP00301/colophon/coloph1> .
+_:c33c95b7483efd546762edc30628a308 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1> <https://betamasaheft.eu/ontology/hasLocus> _:c33c95b7483efd546762edc30628a308 ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/EMIP00016> .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Ḫǝdar" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.4> .
+_:c2b5597c8a224dbfc7aa9393da25a2c5 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1> <https://betamasaheft.eu/ontology/hasLocus> _:c2b5597c8a224dbfc7aa9393da25a2c5 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily by Dämatewos" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:fe8fe7ba74c17725a684cf0da6d6f098 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.1> <https://betamasaheft.eu/ontology/hasLocus> _:fe8fe7ba74c17725a684cf0da6d6f098 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:fde236f8669b7a2de8db80d7fe208087 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.2> <https://betamasaheft.eu/ontology/hasLocus> _:fde236f8669b7a2de8db80d7fe208087 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary entry: Mission of the Archangel to Joshua, son of Nun" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d0b3406301a402bcd552d1cc54ea3e5b a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.3> <https://betamasaheft.eu/ontology/hasLocus> _:d0b3406301a402bcd552d1cc54ea3e5b .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:de06e9d1da4d2518d3d9e6323f8dc15a a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.1.4> <https://betamasaheft.eu/ontology/hasLocus> _:de06e9d1da4d2518d3d9e6323f8dc15a .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Taḫśaś" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.4> .
+_:e9dce6e294bcfb9ac2c43e84b62f4a87 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2> <https://betamasaheft.eu/ontology/hasLocus> _:e9dce6e294bcfb9ac2c43e84b62f4a87 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ba454a1af8f31884f776ce35f8b8aad7 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.1> <https://betamasaheft.eu/ontology/hasLocus> _:ba454a1af8f31884f776ce35f8b8aad7 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:e0fb7ef4722db1e8b26c2cdea4a43dda a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.2> <https://betamasaheft.eu/ontology/hasLocus> _:e0fb7ef4722db1e8b26c2cdea4a43dda .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary Entry: Mission of the Archangel to rescue the three holy children" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d957abff85ef66fbb034b868c047977b a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.3> <https://betamasaheft.eu/ontology/hasLocus> _:d957abff85ef66fbb034b868c047977b .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:e3a5a1717f2ed37eac63ca46308345b a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.2.4> <https://betamasaheft.eu/ontology/hasLocus> _:e3a5a1717f2ed37eac63ca46308345b .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Ṭǝrr" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.4> .
+_:e74aa792ee8e0ee003295a9f28233153 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3> <https://betamasaheft.eu/ontology/hasLocus> _:e74aa792ee8e0ee003295a9f28233153 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ff97113b7c17900dfcbc1a3945038b74 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.1> <https://betamasaheft.eu/ontology/hasLocus> _:ff97113b7c17900dfcbc1a3945038b74 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:f7da3aac79157b2df460a598ce7ba6e3 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.2> <https://betamasaheft.eu/ontology/hasLocus> _:f7da3aac79157b2df460a598ce7ba6e3 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary Entry: Mission of the Archangel to save Jacob from the wrath of Esau" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:a33fbaf5cb6f92f6b62f47254691cc59 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.3> <https://betamasaheft.eu/ontology/hasLocus> _:a33fbaf5cb6f92f6b62f47254691cc59 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:fadbf128ee209c4cc65356ea4d2a94da a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.3.4> <https://betamasaheft.eu/ontology/hasLocus> _:fadbf128ee209c4cc65356ea4d2a94da .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Yäkkatit" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.4> .
+_:a58cbe50221ab77ea7f38373cf296518 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4> <https://betamasaheft.eu/ontology/hasLocus> _:a58cbe50221ab77ea7f38373cf296518 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:f9c747f2862291b18c36dd0785949b6f a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.1> <https://betamasaheft.eu/ontology/hasLocus> _:f9c747f2862291b18c36dd0785949b6f .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:e9320284961d0ab86b09b478400df831 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.2> <https://betamasaheft.eu/ontology/hasLocus> _:e9320284961d0ab86b09b478400df831 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary Entry: Mission of the Archangel to Samson, the giant" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:e34173729631c78349306645eaa2143c a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.3> <https://betamasaheft.eu/ontology/hasLocus> _:e34173729631c78349306645eaa2143c .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ac3ddce6a4258f8079f6d35afb0f021e a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.4.4> <https://betamasaheft.eu/ontology/hasLocus> _:ac3ddce6a4258f8079f6d35afb0f021e .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Mäggabit" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.4> .
+_:f05fad1db6f72fe4c1802a11d9d972b1 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5> <https://betamasaheft.eu/ontology/hasLocus> _:f05fad1db6f72fe4c1802a11d9d972b1 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily by the archbishop of Antioch" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:e59b1f36adc6a27b2da62cf7734274bf a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.1> <https://betamasaheft.eu/ontology/hasLocus> _:e59b1f36adc6a27b2da62cf7734274bf .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ca9cd2a6040004f0383b39135570e778 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.2> <https://betamasaheft.eu/ontology/hasLocus> _:ca9cd2a6040004f0383b39135570e778 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary Entry: Mission of the Archangel to Balaam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d1307a6419dcb354342554800a20149d a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.3> <https://betamasaheft.eu/ontology/hasLocus> _:d1307a6419dcb354342554800a20149d .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:daac2e4079c3c8dbbaea3f969724664e a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.5.4> <https://betamasaheft.eu/ontology/hasLocus> _:daac2e4079c3c8dbbaea3f969724664e .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miyazya" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.4> .
+_:e3c9e1a3a3a4172f2d507a3bce82198d a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6> <https://betamasaheft.eu/ontology/hasLocus> _:e3c9e1a3a3a4172f2d507a3bce82198d ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/EMIP00016> .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily (attributed to Cyril) on the greatness or glory of the Archangel Michael" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:a0fd9af14c3ff55c3e29cf661ef5f2fd a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.1> <https://betamasaheft.eu/ontology/hasLocus> _:a0fd9af14c3ff55c3e29cf661ef5f2fd ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/EMIP00016> .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:db502517db70ac25d5c0fe2e12cf3abb a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.2> <https://betamasaheft.eu/ontology/hasLocus> _:db502517db70ac25d5c0fe2e12cf3abb .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary entries: Mission of the Archangel to the Prophet Jeremiah and Bishop Anthony" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ff37eb8173138ce88d5cc1ff3357d376 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.3> <https://betamasaheft.eu/ontology/hasLocus> _:ff37eb8173138ce88d5cc1ff3357d376 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:efbd8862f10c3705271970a12c0389fa a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.6.4> <https://betamasaheft.eu/ontology/hasLocus> _:efbd8862f10c3705271970a12c0389fa .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Gǝnbot" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.4> .
+_:d9bc2f56832ba5c08c8b69f7f92042cf a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7> <https://betamasaheft.eu/ontology/hasLocus> _:d9bc2f56832ba5c08c8b69f7f92042cf .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily by Yoḥannǝs, Bishop of Ethiopia, who came after Bishop Yǝṣḥaq, on the conflict between the consort of King Arqadewos and John Chysostom" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:c20f7ad4cee839f12cf71851bd5d1d2b a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.1> <https://betamasaheft.eu/ontology/hasLocus> _:c20f7ad4cee839f12cf71851bd5d1d2b .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ddc184ddeba9b62aaa9df59afd3c7f10 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.2> <https://betamasaheft.eu/ontology/hasLocus> _:ddc184ddeba9b62aaa9df59afd3c7f10 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary entry: Mission of the Archangel to Habakkuk" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d17ed071a44ed316020fe7cd24045ebd a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.3> <https://betamasaheft.eu/ontology/hasLocus> _:d17ed071a44ed316020fe7cd24045ebd .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:f31f20963bfeee29e977dee5b3dbaef3 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.7.4> <https://betamasaheft.eu/ontology/hasLocus> _:f31f20963bfeee29e977dee5b3dbaef3 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Säne" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.4> .
+_:a53b7e27e4a9a410c65f71802b256f1 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8> <https://betamasaheft.eu/ontology/hasLocus> _:a53b7e27e4a9a410c65f71802b256f1 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily by Bishop of Aksum on the family of Astäraniqos and Euphemia" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:caa365611b9a10d780b518a68557dc24 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.1> <https://betamasaheft.eu/ontology/hasLocus> _:caa365611b9a10d780b518a68557dc24 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ba607fd116c60cf3272b73e53c04565b a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.2> <https://betamasaheft.eu/ontology/hasLocus> _:ba607fd116c60cf3272b73e53c04565b .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary entry: The building of the church of the Archangel in place of a pagan temple in Alexandria" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:a9561cd056b1ed282c3f468208fa189f a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.3> <https://betamasaheft.eu/ontology/hasLocus> _:a9561cd056b1ed282c3f468208fa189f .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d6d35937085d18cef13aa36b748d628 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.8.4> <https://betamasaheft.eu/ontology/hasLocus> _:d6d35937085d18cef13aa36b748d628 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Ḥamle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.4> .
+_:ac4bc2534f4f8577a304ddd1298021d7 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9> <https://betamasaheft.eu/ontology/hasLocus> _:ac4bc2534f4f8577a304ddd1298021d7 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily by Bishop Yoḥannǝs on the wicked wealthy man whose property was inherited by the son of his poor neighbor" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:a58f9fc9a21ba842774838736828288b a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.1> <https://betamasaheft.eu/ontology/hasLocus> _:a58f9fc9a21ba842774838736828288b .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:c08f7890a037f3fd990ee3ceab72ec19 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.2> <https://betamasaheft.eu/ontology/hasLocus> _:c08f7890a037f3fd990ee3ceab72ec19 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary entry: Mission to the camp of Sennacherib" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:da10fcf4a670332e8a6d92e3ba33aec1 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.3> <https://betamasaheft.eu/ontology/hasLocus> _:da10fcf4a670332e8a6d92e3ba33aec1 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:c7a568f45cd5b7608913cf631264318d a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.9.4> <https://betamasaheft.eu/ontology/hasLocus> _:c7a568f45cd5b7608913cf631264318d .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Näḥase" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.4> .
+_:cac70a0303a832c61271995f3194b319 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10> <https://betamasaheft.eu/ontology/hasLocus> _:cac70a0303a832c61271995f3194b319 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily (anonymous) on the book of the angels that came from Jerusalem" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:cecdf0acff30cc5b9e3f21d364dd31bb a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.1> <https://betamasaheft.eu/ontology/hasLocus> _:cecdf0acff30cc5b9e3f21d364dd31bb .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d66ebad093a773abae5b607cff1c0384 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.2> <https://betamasaheft.eu/ontology/hasLocus> _:d66ebad093a773abae5b607cff1c0384 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary entry: Mission of the Archangel to the Emperor Constantine" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:db355c781e99d8319f5f641f272d7664 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.3> <https://betamasaheft.eu/ontology/hasLocus> _:db355c781e99d8319f5f641f272d7664 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:bc45d0a810cdb1476130606362d8d1f1 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.10.4> <https://betamasaheft.eu/ontology/hasLocus> _:bc45d0a810cdb1476130606362d8d1f1 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Mäskäräm" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.4> .
+_:c0e95fea06a9dacc516644d8b9c2a34b a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11> <https://betamasaheft.eu/ontology/hasLocus> _:c0e95fea06a9dacc516644d8b9c2a34b .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily (anonymous) on not worshipping other gods" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ac2661c449d1be0bf4f35b30b1fce1b2 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.1> <https://betamasaheft.eu/ontology/hasLocus> _:ac2661c449d1be0bf4f35b30b1fce1b2 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:bfb5bcdbc1505acf6f7b6084d1273d10 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.2> <https://betamasaheft.eu/ontology/hasLocus> _:bfb5bcdbc1505acf6f7b6084d1273d10 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary entry: Mission to Prophet Isaiah" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:cee1948313e5a5ec0a3ced15b91350a9 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.3> <https://betamasaheft.eu/ontology/hasLocus> _:cee1948313e5a5ec0a3ced15b91350a9 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:dbba40555130322f82a4032ce6f6f20 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.11.4> <https://betamasaheft.eu/ontology/hasLocus> _:dbba40555130322f82a4032ce6f6f20 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Ṭǝqǝmt" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 4 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.1> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.2> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.3> , <https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.4> .
+_:a57f3afbb059f2b39ae0069f61c1503e a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12> <https://betamasaheft.eu/ontology/hasLocus> _:a57f3afbb059f2b39ae0069f61c1503e .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Homily (anonymous) on the need to make the angels sureties by honoring them" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:e5f69f7e0949a6eb31c75a307bfe80de a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.1> <https://betamasaheft.eu/ontology/hasLocus> _:e5f69f7e0949a6eb31c75a307bfe80de .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Miracle" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:cf5eb39b4b29fe62a7817f00795bc1f1 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.2> <https://betamasaheft.eu/ontology/hasLocus> _:cf5eb39b4b29fe62a7817f00795bc1f1 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Synaxary entry: Mission to Prophet Samuel" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:aac2a64987da55a2855824a9f4dcb176 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.3> <https://betamasaheft.eu/ontology/hasLocus> _:aac2a64987da55a2855824a9f4dcb176 .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Greeting to the Archangel, Sälam" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:c997fefeb98d9ecd855a6ec5cd96815 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/msitem/ms_i1.12.4> <https://betamasaheft.eu/ontology/hasLocus> _:c997fefeb98d9ecd855a6ec5cd96815 .
+<https://betamasaheft.eu/EMIP00301/colophon/coloph1> a <https://betamasaheft.eu/Colophon> .
+_:a555a8d5a9edac24ea8ab2f7ac5e6f1d a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/colophon/coloph1> <https://betamasaheft.eu/ontology/hasLocus> _:a555a8d5a9edac24ea8ab2f7ac5e6f1d .
+<https://betamasaheft.eu/EMIP00301/quire/q1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:ecb644fb39ff931584f517de870eedda a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q1> <https://betamasaheft.eu/ontology/hasLocus> _:ecb644fb39ff931584f517de870eedda .
+_:dc916d88f62d411bde26c953afc1edd8 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "11" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q1> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:dc916d88f62d411bde26c953afc1edd8 .
+<https://betamasaheft.eu/EMIP00301/quire/q2> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:f1f472f047ecab404d4bfb7034cf28cd a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q2> <https://betamasaheft.eu/ontology/hasLocus> _:f1f472f047ecab404d4bfb7034cf28cd .
+_:f869f20dbb6cfeccbafbd4222ed84c8d a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "10" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q2> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f869f20dbb6cfeccbafbd4222ed84c8d .
+<https://betamasaheft.eu/EMIP00301/quire/q3> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:eb5bf49d6414cc1ba8b9ca5b11da5458 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q3> <https://betamasaheft.eu/ontology/hasLocus> _:eb5bf49d6414cc1ba8b9ca5b11da5458 .
+_:a8e4f26bef387b502c575de9883ead43 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "10" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q3> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:a8e4f26bef387b502c575de9883ead43 .
+<https://betamasaheft.eu/EMIP00301/quire/q4> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:f26d1c7a05a5a7aa0b43d5f7f8de8681 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q4> <https://betamasaheft.eu/ontology/hasLocus> _:f26d1c7a05a5a7aa0b43d5f7f8de8681 .
+_:bbd56b55d574325ae17673ca48605789 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "10" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q4> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:bbd56b55d574325ae17673ca48605789 .
+<https://betamasaheft.eu/EMIP00301/quire/q5> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:f5060de504ba8a26065f246d876e9486 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q5> <https://betamasaheft.eu/ontology/hasLocus> _:f5060de504ba8a26065f246d876e9486 .
+_:e10bc5f1d81f0e4cb9487c1a48de04a4 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "10" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q5> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:e10bc5f1d81f0e4cb9487c1a48de04a4 .
+<https://betamasaheft.eu/EMIP00301/quire/q6> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:cfacf113f10f99c2c53c558aa310f4b9 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q6> <https://betamasaheft.eu/ontology/hasLocus> _:cfacf113f10f99c2c53c558aa310f4b9 .
+_:fbf9808d6e4d423cfc67e45bcc8fa62e a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "10" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q6> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:fbf9808d6e4d423cfc67e45bcc8fa62e .
+<https://betamasaheft.eu/EMIP00301/quire/q7> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:aba185b3c3a83f160fd0925cc0e13483 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q7> <https://betamasaheft.eu/ontology/hasLocus> _:aba185b3c3a83f160fd0925cc0e13483 .
+_:f1c321110283e7551aa23682587d6d a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "10" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q7> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f1c321110283e7551aa23682587d6d .
+<https://betamasaheft.eu/EMIP00301/quire/q8> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:a0d406d2547a3082156f6fb5d55c17bd a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q8> <https://betamasaheft.eu/ontology/hasLocus> _:a0d406d2547a3082156f6fb5d55c17bd .
+_:db79af074b69f6d1e01f4de5bae41089 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "10" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q8> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:db79af074b69f6d1e01f4de5bae41089 .
+<https://betamasaheft.eu/EMIP00301/quire/q9> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:df3fbdde658cac379ee7c9e656d07b88 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q9> <https://betamasaheft.eu/ontology/hasLocus> _:df3fbdde658cac379ee7c9e656d07b88 .
+_:c8086ac029e50e10e24ce27b8ff1adf9 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "10" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q9> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:c8086ac029e50e10e24ce27b8ff1adf9 .
+<https://betamasaheft.eu/EMIP00301/quire/q10> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:f47f2e80ec9a5e3ad450cc8897c2b72 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q10> <https://betamasaheft.eu/ontology/hasLocus> _:f47f2e80ec9a5e3ad450cc8897c2b72 .
+_:ae93739575868fb42e22250b1ce439a4 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "10" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q10> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:ae93739575868fb42e22250b1ce439a4 .
+<https://betamasaheft.eu/EMIP00301/quire/q11> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:f861c8ec705c64b9a4a831b42e309419 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q11> <https://betamasaheft.eu/ontology/hasLocus> _:f861c8ec705c64b9a4a831b42e309419 .
+_:b4ecee685ba6a333873bf14726829f7b a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "10" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q11> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:b4ecee685ba6a333873bf14726829f7b .
+<https://betamasaheft.eu/EMIP00301/quire/q12> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:b90f3faa7a4be7015c914b854dc8a5a4 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q12> <https://betamasaheft.eu/ontology/hasLocus> _:b90f3faa7a4be7015c914b854dc8a5a4 .
+_:bde31ef9519f853782222a3eaf3d488 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "5" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q12> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:bde31ef9519f853782222a3eaf3d488 .
+<https://betamasaheft.eu/EMIP00301/quire/q13> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/quire> .
+_:f6383b8c937977e2007686bc354f7157 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/quire/q13> <https://betamasaheft.eu/ontology/hasLocus> _:f6383b8c937977e2007686bc354f7157 .
+_:e642684ec5a4aaed35b112c63316e79 a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "2" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "leaf" .
+<https://betamasaheft.eu/EMIP00301/quire/q13> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:e642684ec5a4aaed35b112c63316e79 .
+<https://betamasaheft.eu/EMIP00301/layout/layout1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/layout> , <https://w3id.org/sdc/ontology#UniMeP> .
+<https://betamasaheft.eu/EMIP00301/layout/layout2> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/layout> .
+_:e51926314895562a9e58662d3fbcd02 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/layout/layout2> <https://betamasaheft.eu/ontology/hasLocus> _:e51926314895562a9e58662d3fbcd02 ;
+	a <https://w3id.org/sdc/ontology#UniMeP> .
+<https://betamasaheft.eu/EMIP00301/layout/layout3> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/layout> .
+_:f54bb95796a03d0f24cb94cf94ec7b0b a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMIP00301/layout/layout3> <https://betamasaheft.eu/ontology/hasLocus> _:f54bb95796a03d0f24cb94cf94ec7b0b ;
+	a <https://w3id.org/sdc/ontology#UniMeP> .
+<https://betamasaheft.eu/EMIP00301/hand/h1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/hand> , <https://w3id.org/sdc/ontology#UniMain> , <https://betamasaheft.eu/Ethiopic> .
+<https://betamasaheft.eu/EMIP00301/decoration/d1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/decoration> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS7049Michael> , <https://betamasaheft.eu/PRS4377Gabriel> , <https://betamasaheft.eu/AT1031VirginAndChild> .
+_:c5cbf4e5874734c5bbd58a1c02926249 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/decoration/d1> <https://betamasaheft.eu/ontology/hasLocus> _:c5cbf4e5874734c5bbd58a1c02926249 ;
+	a <https://betamasaheft.eu/miniature> .
+<https://betamasaheft.eu/EMIP00301/decoration/d2> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/decoration> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/AT1096SavioroftheWorld> .
+_:ce11b0873e7efe972f06810c6941dd41 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/decoration/d2> <https://betamasaheft.eu/ontology/hasLocus> _:ce11b0873e7efe972f06810c6941dd41 ;
+	a <https://betamasaheft.eu/miniature> .
+<https://betamasaheft.eu/EMIP00301/decoration/d3> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/decoration> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS4585Georgeo> , <https://betamasaheft.eu/AT1035HolyMan> .
+_:b537f78c9fff699fbe7c2bad505194f1 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/decoration/d3> <https://betamasaheft.eu/ontology/hasLocus> _:b537f78c9fff699fbe7c2bad505194f1 ;
+	a <https://betamasaheft.eu/miniature> , <https://betamasaheft.eu/dragon> .
+<https://betamasaheft.eu/EMIP00301/decoration/d4> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/decoration> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/AT1005Crucifixion> .
+_:a3e5721559fa4938e0a1894e9f58bd93 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/decoration/d4> <https://betamasaheft.eu/ontology/hasLocus> _:a3e5721559fa4938e0a1894e9f58bd93 ;
+	a <https://betamasaheft.eu/miniature> .
+<https://betamasaheft.eu/EMIP00301/decoration/d5> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/decoration> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/AT1049Resurrection> .
+_:a95ccc74b7898cee5dfea05ff7461e61 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/decoration/d5> <https://betamasaheft.eu/ontology/hasLocus> _:a95ccc74b7898cee5dfea05ff7461e61 ;
+	a <https://betamasaheft.eu/miniature> .
+<https://betamasaheft.eu/EMIP00301/decoration/d6> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/decoration> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/AT1062CoronationMary> .
+_:e8bfec23d711842338cc1977ee1597e2 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/decoration/d6> <https://betamasaheft.eu/ontology/hasLocus> _:e8bfec23d711842338cc1977ee1597e2 ;
+	a <https://betamasaheft.eu/miniature> .
+<https://betamasaheft.eu/EMIP00301/decoration/d7> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/decoration> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/AT1024MosesLaw> .
+_:b3560a55e9c373b0188983314322b67b a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/decoration/d7> <https://betamasaheft.eu/ontology/hasLocus> _:b3560a55e9c373b0188983314322b67b ;
+	a <https://betamasaheft.eu/miniature> .
+<https://betamasaheft.eu/EMIP00301/decoration/d8> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/decoration> .
+_:ac2a6c52e25956d5107136e74c5ba509 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" , "" , "" , "" .
+<https://betamasaheft.eu/EMIP00301/decoration/d8> <https://betamasaheft.eu/ontology/hasLocus> _:ac2a6c52e25956d5107136e74c5ba509 .
+_:adcddfdecf97121c0cf31363fcb3b449 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/decoration/d8> <https://betamasaheft.eu/ontology/hasLocus> _:adcddfdecf97121c0cf31363fcb3b449 ;
+	a <https://betamasaheft.eu/frame> .
+<https://betamasaheft.eu/EMIP00301/addition/a1> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+_:e45504257985d6258c555cd1a4ccbae4 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/a1> <https://betamasaheft.eu/ontology/hasLocus> _:e45504257985d6258c555cd1a4ccbae4 .
+<https://betamasaheft.eu/EMIP00301/addition/a2> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+_:e4a44a3dbff45c8503ec17e253ce15aa a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/a2> <https://betamasaheft.eu/ontology/hasLocus> _:e4a44a3dbff45c8503ec17e253ce15aa .
+<https://betamasaheft.eu/EMIP00301/addition/a3> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/GuestText> .
+_:c5bf643feda9d2cb6a127395f422924c a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/a3> <https://betamasaheft.eu/ontology/hasLocus> _:c5bf643feda9d2cb6a127395f422924c .
+<https://betamasaheft.eu/EMIP00301/addition/a4> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/Asmat> .
+_:b509592a3243131cbf421453cd1e63ce a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/a4> <https://betamasaheft.eu/ontology/hasLocus> _:b509592a3243131cbf421453cd1e63ce .
+<https://betamasaheft.eu/EMIP00301/addition/a5> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/GuestText> .
+_:e005b5f7a674fe8e342460fc30467f54 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/a5> <https://betamasaheft.eu/ontology/hasLocus> _:e005b5f7a674fe8e342460fc30467f54 .
+<https://betamasaheft.eu/EMIP00301/addition/e1> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+_:a73556caee05dab3482eb1cf7b2b3507 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" , "" .
+<https://betamasaheft.eu/EMIP00301/addition/e1> <https://betamasaheft.eu/ontology/hasLocus> _:a73556caee05dab3482eb1cf7b2b3507 .
+<https://betamasaheft.eu/EMIP00301/addition/a6> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+_:d4b279eac678bfef9fea24fe9a2cd23d a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/a6> <https://betamasaheft.eu/ontology/hasLocus> _:d4b279eac678bfef9fea24fe9a2cd23d .
+<https://betamasaheft.eu/EMIP00301/addition/a7> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+_:e0ddf0c081c3084536b7022182efee78 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/a7> <https://betamasaheft.eu/ontology/hasLocus> _:e0ddf0c081c3084536b7022182efee78 .
+<https://betamasaheft.eu/EMIP00301/addition/e2> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+<https://betamasaheft.eu/EMIP00301/addition/a8> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+_:c90867c496ee7802fb158bc9a5e9371a a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/a8> <https://betamasaheft.eu/ontology/hasLocus> _:c90867c496ee7802fb158bc9a5e9371a .
+<https://betamasaheft.eu/EMIP00301/addition/a9> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/OwnershipNote> .
+_:c59af7e71e5561667c6cd2ca6b097c72 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/a9> <https://betamasaheft.eu/ontology/hasLocus> _:c59af7e71e5561667c6cd2ca6b097c72 .
+<https://betamasaheft.eu/EMIP00301/addition/a10> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/OwnershipNote> .
+_:c987573eefd642f029eff20f78157f69 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/a10> <https://betamasaheft.eu/ontology/hasLocus> _:c987573eefd642f029eff20f78157f69 .
+<https://betamasaheft.eu/EMIP00301/addition/e4> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+_:e9ae3ef3ac79a36d2ea448836fbaa69f a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/e4> <https://betamasaheft.eu/ontology/hasLocus> _:e9ae3ef3ac79a36d2ea448836fbaa69f .
+<https://betamasaheft.eu/EMIP00301/addition/e5> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+_:f8f36949458d9de03f0134efb5b28601 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" , "" , "" .
+<https://betamasaheft.eu/EMIP00301/addition/e5> <https://betamasaheft.eu/ontology/hasLocus> _:f8f36949458d9de03f0134efb5b28601 .
+<https://betamasaheft.eu/EMIP00301/addition/e6> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+<https://betamasaheft.eu/EMIP00301/addition/e7> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+_:f7a8169b1b58ba2d5ab4d40534bcbf8e a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" , "" , "" , "" , "" .
+<https://betamasaheft.eu/EMIP00301/addition/e7> <https://betamasaheft.eu/ontology/hasLocus> _:f7a8169b1b58ba2d5ab4d40534bcbf8e .
+<https://betamasaheft.eu/EMIP00301/addition/e8> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+_:bf266770c1845c8a12b4734c1b40b4af a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMIP00301/addition/e8> <https://betamasaheft.eu/ontology/hasLocus> _:bf266770c1845c8a12b4734c1b40b4af .
+<https://betamasaheft.eu/EMIP00301/addition/e9> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> .
+_:e6980ea8bba93485e11cf679c8564d84 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" , "" , "" , "" .
+<https://betamasaheft.eu/EMIP00301/addition/e9> <https://betamasaheft.eu/ontology/hasLocus> _:e6980ea8bba93485e11cf679c8564d84 .
+<https://betamasaheft.eu/EMIP00301/binding/b1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/binding> .
+<https://betamasaheft.eu/EMIP00301/binding/b2> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMIP00301> ;
+	a <https://betamasaheft.eu/binding> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> <https://betamasaheft.eu/vocabularies/material.html#parchment> , <https://betamasaheft.eu/vocabularies/material.html#wood> , <https://betamasaheft.eu/vocabularies/material.html#leather> ;
+	a <https://betamasaheft.eu/bindingMaterial> .

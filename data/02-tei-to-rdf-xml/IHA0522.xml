@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/mss"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/IHA0522.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/manuscripts/IHA0522/main"/>
+      <crm:P48_has_preferred_identifier>IHA0522</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft,  IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>IHA0522</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ar</dc:language>
+      <dc:contributor>Irmeli Perho</dc:contributor>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniProd"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCirc"/>
+      <sdc:hasCertainty rdf:resource="https://w3id.org/sdc/ontology#Certain"/>
+      <crm:P1_is_identified_by>ZM00020</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by>WOZM00020</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by/>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0011IHA"/>
+      <crm:P1_is_identified_by>ZM00020</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by>WOZM00020</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by/>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0011IHA"/>
+      <betmas:hasTotalLeaves/>
+      <crm:P46_is_composed_of rdf:resource="https://betamasaheft.eu/vocabularies/material.html#paper"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/Codex"/>
+      <dcterms:hasPart rdf:resource="IHA0522//handDesc1"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a1_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a13_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a4_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a5_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a8_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a9_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a7_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a11_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a12_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a14_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a3_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a10_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a6_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a0_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a2_1537"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a0_1539"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a0_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a1_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a9_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a11_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a2_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a4_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a8_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a6_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a10_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a5_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a12_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a7_1535"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a1_1536"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a3_1536"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a0_1536"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a2_1536"/>
+      <dcterms:hasPart rdf:resource="IHA0522/addition/a1"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="IHA0522/msitem/ms_i0"/>
+      <dcterms:hasPart rdf:resource="IHA0522/msitem/ms_i1"/>
+      <dcterms:hasPart rdf:resource="IHA0522/msitem/ms_i2"/>
+      <dcterms:hasPart rdf:resource="IHA0522/msitem/ms_i3"/>
+      <dcterms:hasPart rdf:resource="IHA0522/msitem/ms_i4"/>
+   </rdf:Description>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/1">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0381IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>الخضري, محمد بن مصطفى الشافعي</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/2">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0381IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>الخضري, محمد بن مصطفى الشافعي</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/3">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0082IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>عبد الله بن احمد الفاكهي</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/4">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0082IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>عبد الله بن احمد الفاكهي</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/5">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0883IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>كاتب شلبي , مصطفى بن عبد الله</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/6">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0883IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>كاتب شلبي , مصطفى بن عبد الله</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/7">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0871IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>وجيه الدين الارزنجاني , عمر بن عبد المحسن</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/8">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0871IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>وجيه الدين الارزنجاني , عمر بن عبد المحسن</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/9">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0382IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>الاشموني, علي بن محمد بن عيسى أبو الحسن نور الدين الشافعي</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/10">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0382IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>الاشموني, علي بن محمد بن عيسى أبو الحسن نور الدين الشافعي</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/11">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0873IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>عصام الدين الاسفرائني , ابراهيم بن محمد عرب شاه</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/12">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0873IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>عصام الدين الاسفرائني , ابراهيم بن محمد عرب شاه</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/13">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0250IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>الكردي, محمد بن سليمان</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/14">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0250IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>الكردي, محمد بن سليمان</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/15">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0880IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>محمد بن حسن الاستراباذي</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/16">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0880IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>محمد بن حسن الاستراباذي</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/17">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0872IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>وجيه الدين بن ناصر العلوى الكجراتي</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/18">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0872IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>وجيه الدين بن ناصر العلوى الكجراتي</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/19">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0869IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>محمد شريف</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/20">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0869IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>محمد شريف</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/21">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0052IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>البجيرمي٬ سليمان بن محمد بن عمر المصري الشافعي</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/IHA0522/person/annotation/22">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS0052IHA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>البجيرمي٬ سليمان بن محمد بن عمر المصري الشافعي</lawd:hasName>
+   </oa:Annotation>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/msitem/ms_i0">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1179IHA"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/msitem/ms_i1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1144IHA"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/msitem/ms_i2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1190IHA"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/msitem/ms_i3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1207IHA"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/msitem/ms_i4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1208IHA"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/hand/h0">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Arabic"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/IHA0522#ms_i0"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/hand/h1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Arabic"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/IHA0522#ms_i1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/hand/h2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Arabic"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/IHA0522#ms_i2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/hand/h3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Arabic"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/IHA0522#ms_i3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/hand/h4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/IHA0522"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Arabic"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/IHA0522#ms_i4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a1_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a13_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0381IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0381IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0082IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0082IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0883IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0883IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1206IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1206IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Linguistics"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a4_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Linguistics"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a5_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0871IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0871IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a8_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1205IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1205IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a9_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0382IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0382IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a7_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0873IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0873IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1193IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1193IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a11_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1194IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1194IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a12_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT0111IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT0111IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a14_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0250IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0250IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Linguistics"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a3_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a10_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0880IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0880IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT0497IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT0497IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1202IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1202IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1203IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1203IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Linguistics"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a6_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0872IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0872IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a0_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a2_1537">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0869IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0869IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a0_1539">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Linguistics"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a0_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/IHA6686#ms_i6686"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Hadit"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a1_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Documentary"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a9_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT0015IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT0015IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a11_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Linguistics"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a2_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a4_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Linguistics"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Hadit"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a8_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Linguistics"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a6_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Linguistics"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a10_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Jurisprudence"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a5_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0052IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS0052IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT0279IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT0279IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a12_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a7_1535">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1170IHA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1170IHA"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Hadit"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a1_1536">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a3_1536">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a0_1536">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a2_1536">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/IHA0522/addition/a1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+</rdf:RDF>

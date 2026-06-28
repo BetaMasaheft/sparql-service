@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/mss"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/BNFet143.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/manuscripts/BNFet143/main"/>
+      <crm:P48_has_preferred_identifier>BNFet143</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft Lang Lang Lang Peeters Imprimerie nationale Kartoffeldruck-Verlag Kai Brodersen,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>BNFet143</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:contributor>Dorothea Reule</dc:contributor>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/HistoryAndHistoriography"/>
+      <dcterms:temporal rdf:resource="http://n2t.net/ark:/99152/p03tcssvtwm"/>
+      <dcterms:temporal rdf:resource="http://n2t.net/ark:/99152/p03tcssfc3r"/>
+      <dcterms:bibliographicCitation>bm:Zotenberg1877Catalogue</dcterms:bibliographicCitation>
+      <dcterms:bibliographicCitation>bm:Kropp2016Zekra</dcterms:bibliographicCitation>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniProd"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCirc"/>
+      <sdc:hasCertainty rdf:resource="https://w3id.org/sdc/ontology#Certain"/>
+      <crm:P1_is_identified_by>BnF Éthiopien 143</crm:P1_is_identified_by>
+      <foaf:depiction>
+         <rdf:Description rdf:about="https://betamasaheft.eu/manuscript/BNFet143/viewer">
+            <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+            <svcs:has_service>
+               <rdf:Description rdf:about="https://betamasaheft.eu/api/iiif/BNFet143/manifest">
+                  <rdf:type rdf:resource="http://rdfs.org/sioc/services#Service"/>
+                  <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+                  <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+               </rdf:Description>
+            </svcs:has_service>
+         </rdf:Description>
+      </foaf:depiction>
+      <crm:P1_is_identified_by>Éth. 147</crm:P1_is_identified_by>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0303BNF"/>
+      <crm:P1_is_identified_by>BnF Éthiopien 143</crm:P1_is_identified_by>
+      <foaf:depiction>
+         <rdf:Description rdf:about="https://betamasaheft.eu/manuscript//viewer">
+            <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+            <svcs:has_service>
+               <rdf:Description rdf:about="https://betamasaheft.eu/api/iiif//manifest">
+                  <rdf:type rdf:resource="http://rdfs.org/sioc/services#Service"/>
+                  <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+                  <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+               </rdf:Description>
+            </svcs:has_service>
+         </rdf:Description>
+      </foaf:depiction>
+      <crm:P1_is_identified_by>Éth. 147</crm:P1_is_identified_by>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0303BNF"/>
+      <betmas:hasTotalLeaves>370</betmas:hasTotalLeaves>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P2_has_type>height</crm:P2_has_type>
+            <crm:P90_has_value>320</crm:P90_has_value>
+            <crm:P91_has_unit>mm</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P2_has_type>width</crm:P2_has_type>
+            <crm:P90_has_value>220</crm:P90_has_value>
+            <crm:P91_has_unit>mm</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+      <crm:P46_is_composed_of rdf:resource="https://betamasaheft.eu/vocabularies/material.html#paper"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/Codex"/>
+      <dcterms:hasPart rdf:resource="BNFet143//handDesc1"/>
+      <dcterms:hasPart rdf:resource="BNFet143/layout/layout1"/>
+      <dcterms:hasPart rdf:resource="BNFet143/addition/e1"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1"/>
+      <dcterms:hasPart rdf:resource="BNFet143//SecondPeriod"/>
+      <dcterms:hasPart rdf:resource="BNFet143//SubscriptionIntroduction"/>
+      <dcterms:hasPart rdf:resource="BNFet143//ExcerptIyasu"/>
+   </rdf:Description>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/1">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5222haylaMi"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ኀይሉ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/2">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS3493Delnaod"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Dǝlnāʿod</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/3">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS10303Yekunno"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Yǝkunno ʾAmlāk</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/4">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS3501Demetros"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Dǝmeṭros</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/5">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS1854Amdase"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ʿAmda Ṣǝyon I</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/6">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS1854Amdase"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ʿAmda Ṣǝyon I</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/7">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS10626ZaraY"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Zarʾa Yāʿqob</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/8">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6229LebnaDe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Lǝbna Dǝngǝl</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/9">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS2334BaedaM"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Baʾǝda Māryām I</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/10">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6229LebnaDe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Lǝbna Dǝngǝl</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/11">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS3874eskender"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ʾƎskǝndǝr</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/12">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6229LebnaDe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Lǝbna Dǝngǝl</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/13">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7481NaodA"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Nāʿod</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/14">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4428Galawdew"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Galāwdewos</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/15">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5222haylaMi"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ኀይሉ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/16">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS3856esateof"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>እሼቴ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/17">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS9853Walatta"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ወለተ፡ ሩፋኤል፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/18">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5616IyasuI"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>አድያም፡ ሰገድ፡ ኢያሱ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/19">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8550sardaDe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Śarḍa Dǝngǝl</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/20">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8550sardaDe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Śarḍa Dǝngǝl</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/21">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7091Mikael"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <betmas:hasRole>
+         <betmas:Role>
+            <betmas:roleType rdf:resource="https://betamasaheft.eu/ontology/title"/>
+            <betmas:roleName>rās</betmas:roleName>
+         </betmas:Role>
+      </betmas:hasRole>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/22">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7091Mikael"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <betmas:hasRole>
+         <betmas:Role>
+            <betmas:roleType rdf:resource="https://betamasaheft.eu/ontology/title"/>
+            <betmas:roleName>rās</betmas:roleName>
+         </betmas:Role>
+      </betmas:hasRole>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/23">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7091Mikael"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <betmas:hasRole>
+         <betmas:Role>
+            <betmas:roleType rdf:resource="https://betamasaheft.eu/ontology/title"/>
+            <betmas:roleName>rās</betmas:roleName>
+         </betmas:Role>
+      </betmas:hasRole>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/24">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS10376Yohanne"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Yoḥannǝs II</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/25">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS9153TaklaHa"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Takla Hāymānot II</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/26">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS9142TaklaGi"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Takla Giyorgis I</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/27">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS9153TaklaHa"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <betmas:hasRole>
+         <betmas:Role>
+            <betmas:roleType rdf:resource="https://betamasaheft.eu/ontology/office"/>
+            <betmas:roleName>ንጉሥ፡ </betmas:roleName>
+         </betmas:Role>
+      </betmas:hasRole>
+      <lawd:hasName>አድማስ፡ ሰገድ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/28">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS10747Zotenbe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Hermann Zotenberg</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/29">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7091Mikael"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Mikāʾel Sǝḥul</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BNFet143/person/annotation/30">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS1750Aligaz"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Aligaz</lawd:hasName>
+   </oa:Annotation>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language>gez</dc:language>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.1"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.2"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.3"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.4"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.5"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.6"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.7"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.8"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.9"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.10"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.11"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.13"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.14"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.15"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.16"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.17"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.19"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.21"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.22"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.23"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.24"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.25"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.26"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1909</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1909</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>Year of Grace 517</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1988</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1989</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1989</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1902</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1902</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>7301</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1989</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5222haylaMi"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3493Delnaod"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10303Yekunno"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3501Demetros"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS1854Amdase"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS1854Amdase"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10626ZaraY"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6229LebnaDe"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS2334BaedaM"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6229LebnaDe"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3874eskender"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6229LebnaDe"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7481NaodA"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4428Galawdew"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5222haylaMi"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3856esateof"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9853Walatta"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5616IyasuI"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8550sardaDe"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8550sardaDe"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7091Mikael"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7091Mikael"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7091Mikael"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10376Yohanne"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9153TaklaHa"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9142TaklaGi"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9153TaklaHa"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10747Zotenbe"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7091Mikael"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS1750Aligaz"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#IntroductionWaldaAmid"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.2.1"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.2.2"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.2.3"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.2.4"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.2.5"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.2.6"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.2.7"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.2.8"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.2.9"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dcterms:bibliographicCitation>bm:ContiRossini1909Listes</dcterms:bibliographicCitation>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1909</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1909</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3493Delnaod"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10303Yekunno"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3501Demetros"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.2.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.2.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.2.3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.2.4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.2.5">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3854KingList"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <dcterms:bibliographicCitation>bm:ContiRossini1909Listes</dcterms:bibliographicCitation>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1909</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.2.6">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.2.7">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3493Delnaod"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.2.8">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10303Yekunno"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3501Demetros"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.2.9">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SubscriptionIntroduction"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT2341serata"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#ZenaLedatomu"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.5">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#AmdaSeyon"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>Year of Grace 517</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS1854Amdase"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.6">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SuccessorsAmdaSeyon"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS1854Amdase"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.7">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#ZaraYaqob"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10626ZaraY"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6229LebnaDe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.8">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#BaedaMaryam"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/colophon/coloph1"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS2334BaedaM"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6229LebnaDe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/colophon/coloph1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/Colophon"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6229LebnaDe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.9">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Eskender"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3874eskender"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6229LebnaDe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.10">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Naod"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7481NaodA"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.11">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SerataGebr"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dcterms:bibliographicCitation>bm:Kropp1988Serata</dcterms:bibliographicCitation>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1988</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.1"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.2"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.3"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.4"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.5"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.6"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.7"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.8"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.9"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.10"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.11"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.12.12"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs1"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs2"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs3"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs4"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.5">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs5"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.6">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs6"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.7">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs7"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.8">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs8"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.9">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs9"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.10">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs10"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.11">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs11"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.12.12">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RoyalSongs12"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.13">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#LebnaDengel"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.14">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.15">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Galawdewos"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/colophon/coloph2"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1989</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4428Galawdew"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5222haylaMi"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3856esateof"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9853Walatta"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5616IyasuI"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/colophon/coloph2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/Colophon"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1989</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5222haylaMi"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3856esateof"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9853Walatta"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5616IyasuI"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.16">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Minas"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.17">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SardaDengel"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.17.1"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.17.2"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.17.3"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.17.4"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.17.5"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.17.6"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.17.7"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.17.8"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.17.9"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8550sardaDe"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8550sardaDe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.17.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SardaDengel1"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.17.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SardaDengel2"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.17.3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SardaDengel3"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.17.4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SardaDengel4"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.17.5">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SardaDengel5"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.17.6">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SardaDengel6"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.17.7">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SardaDengel7"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.17.8">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SardaDengel8"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/colophon/coloph4"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8550sardaDe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/colophon/coloph4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/Colophon"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8550sardaDe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.17.9">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SardaDengel9"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8550sardaDe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#SuccessorsSardaDengel"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.1"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.2"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.3"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.4"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.5"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.6"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.7"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.8"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.9"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.10"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.11"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.12"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.18.13"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Yaqob1"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Zadengel"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Yaqob2"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Susenyos"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.5">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Fasiladas"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.6">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Yohannes1"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.7">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Yohannes2"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.8">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Iyasu"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.9">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#TaklaHaymanot"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.10">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Tewoflos"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.11">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Yostos"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.12">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Dawit"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.18.13">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Bakaffa"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.19">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#IyasuII"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#Iyoas"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.1"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.2"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.3"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.4"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.5"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.6"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.7"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.8"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.9"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.10"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.11"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.12"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.13"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.14"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.15"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.16"/>
+      <dcterms:hasPart rdf:resource="BNFet143/msitem/ms_i1.20.17"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7091Mikael"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7091Mikael"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.5">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.6">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.7">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.8">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.9">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.10">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.11">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.12">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.13">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language>gez</dc:language>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7091Mikael"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.14">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language>gez</dc:language>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7091Mikael"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.15">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.16">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.20.17">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.21">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RasMikael"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/colophon/coloph5"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1989</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7091Mikael"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10376Yohanne"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9153TaklaHa"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9142TaklaGi"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9153TaklaHa"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/colophon/coloph5">
+      <rdf:type rdf:resource="https://betamasaheft.eu/Colophon"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9153TaklaHa"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.22">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#TaklaGiyorgis"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.23">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#BiographyHaylu"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BNFet143/colophon/coloph6"/>
+      <dcterms:hasPart rdf:resource="BNFet143/colophon/coloph7"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dcterms:bibliographicCitation>bm:Guidi1902HaylaM</dcterms:bibliographicCitation>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1902</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1902</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10747Zotenbe"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7091Mikael"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/colophon/coloph6">
+      <rdf:type rdf:resource="https://betamasaheft.eu/Colophon"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/colophon/coloph7">
+      <rdf:type rdf:resource="https://betamasaheft.eu/Colophon"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.24">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RasAli"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.25">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language>gez</dc:language>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#RasAligaz"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>7301</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS1750Aligaz"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/msitem/ms_i1.26">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4090Haylu#EndowmentMakanaIyasus"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1989</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/layout/layout1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/layout"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMeP"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/hand/h1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P79_beginning_is_qualified_by rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-01-01</crm:P79_beginning_is_qualified_by>
+            <crm:P80_end_is_qualified_by rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1877-01-01</crm:P80_end_is_qualified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Ethiopic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143/addition/e1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143//SecondPeriod">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/BNFet143#ms_i1.2.2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143//SubscriptionIntroduction">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/BNFet143#ms_i1.2.9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BNFet143//ExcerptIyasu">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BNFet143"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/BNFet143#ms_i1.19"/>
+   </rdf:Description>
+</rdf:RDF>

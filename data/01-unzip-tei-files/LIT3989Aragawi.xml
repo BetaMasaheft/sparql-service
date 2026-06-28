@@ -1,0 +1,533 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT3989Aragawi"><teiHeader xml:base="https://betamasaheft.eu/">
+      <fileDesc>
+         <titleStmt><title type="full">ʾAragāwi manfasāwi</title>
+            <title xml:lang="gez" xml:id="t1">አረጋዊ፡ መንፈሳዊ፡</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">ʾAragāwi manfasāwi</title>
+            <title xml:lang="en" corresp="#t1">The Spiritual Elder</title>
+            <title xml:lang="ar" xml:id="t2arabic">Compendium of aš-Šayḫ al-Rūḥānī</title>
+            <title xml:lang="syr" xml:id="t3syriac">Compendium of Yoḥannān Sabhā</title>
+            
+            <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         <date type="expanded">2022-01-05T15:14:57.706+01:00</date><date type="lastModified">29.6.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3989Aragawi</idno><idno type="URI">https://betamasaheft.eu/LIT3989Aragawi</idno><idno type="filename">LIT3989Aragawi.xml</idno><idno type="ID">LIT3989Aragawi</idno></publicationStmt>
+         <sourceDesc>
+            <p>Work of the literatures of Ethiopia and Eritrea</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+         
+         
+         
+      </fileDesc>
+      <encodingDesc>
+         
+            
+         
+      <p>Encoded according 
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
+                        These Guidelines detail the TEI format ruled by 
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
+                        The present TEI file is enriched with an 
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/BetMas/modules/expand.xqm">Xquery transformation</ref> 
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="Epistles" match="t:div" use="t:div"><desc><list><item>Letters</item></list></desc><assertion unit="Letter 2" match="t:div" use="t:div"><desc><list><item>Letter2</item></list></desc></assertion><assertion unit="Letter 40" match="t:div" use="t:div"><desc><list><item>Letter40</item></list></desc></assertion><assertion unit="Letter 1" match="t:div" use="t:div"><desc><list><item>Letter1</item></list></desc></assertion><assertion unit="Letter 41" match="t:div" use="t:div"><desc><list><item>Letter41</item></list></desc></assertion><assertion unit="Letter 42" match="t:div" use="t:div"><desc><list><item>Letter42</item></list></desc></assertion><assertion unit="Letter 20" match="t:div" use="t:div"><desc><list><item>Letter20</item></list></desc></assertion><assertion unit="Letter 43" match="t:div" use="t:div"><desc><list><item>Letter43</item></list></desc></assertion><assertion unit="Letter 21" match="t:div" use="t:div"><desc><list><item>Letter21</item></list></desc></assertion><assertion unit="Letter 6" match="t:div" use="t:div"><desc><list><item>Letter6</item></list></desc></assertion><assertion unit="Letter 44" match="t:div" use="t:div"><desc><list><item>Letter44</item></list></desc></assertion><assertion unit="Letter 22" match="t:div" use="t:div"><desc><list><item>Letter22</item></list></desc></assertion><assertion unit="Letter 5" match="t:div" use="t:div"><desc><list><item>Letter5</item></list></desc></assertion><assertion unit="Letter 45" match="t:div" use="t:div"><desc><list><item>Letter45</item></list></desc></assertion><assertion unit="Letter 23" match="t:div" use="t:div"><desc><list><item>Letter23</item></list></desc></assertion><assertion unit="Letter 4" match="t:div" use="t:div"><desc><list><item>Letter4</item></list></desc></assertion><assertion unit="Letter 46" match="t:div" use="t:div"><desc><list><item>Letter46</item></list></desc></assertion><assertion unit="Letter 24" match="t:div" use="t:div"><desc><list><item>Letter24</item></list></desc></assertion><assertion unit="Letter 3" match="t:div" use="t:div"><desc><list><item>Letter3</item></list></desc></assertion><assertion unit="Letter 47" match="t:div" use="t:div"><desc><list><item>Letter47</item></list></desc></assertion><assertion unit="Letter 25" match="t:div" use="t:div"><desc><list><item>Letter25</item></list></desc></assertion><assertion unit="Letter 48" match="t:div" use="t:div"><desc><list><item>Letter48</item></list></desc></assertion><assertion unit="Letter 26" match="t:div" use="t:div"><desc><list><item>Letter26</item></list></desc></assertion><assertion unit="Letter 9" match="t:div" use="t:div"><desc><list><item>Letter9</item></list></desc></assertion><assertion unit="Letter 27" match="t:div" use="t:div"><desc><list><item>Letter27</item></list></desc></assertion><assertion unit="Letter 8" match="t:div" use="t:div"><desc><list><item>Letter8</item></list></desc></assertion><assertion unit="Letter 28" match="t:div" use="t:div"><desc><list><item>Letter28</item></list></desc></assertion><assertion unit="Letter 7" match="t:div" use="t:div"><desc><list><item>Letter7</item></list></desc></assertion><assertion unit="Letter 18" match="t:div" use="t:div"><desc><list><item>Letter18</item></list></desc></assertion><assertion unit="Letter 19" match="t:div" use="t:div"><desc><list><item>Letter19</item></list></desc></assertion><assertion unit="Sending of the letter 36 (ፍናዌ፡ መልእክት፡ ሠላሰ፡ ወስድስቱ።)" match="t:div" use="t:div"><desc><list><item>SendingLetter36</item></list></desc></assertion><assertion unit="Letter 30" match="t:div" use="t:div"><desc><list><item>Letter30</item></list></desc></assertion><assertion unit="Letter 31" match="t:div" use="t:div"><desc><list><item>Letter31</item></list></desc></assertion><assertion unit="Letter 32" match="t:div" use="t:div"><desc><list><item>Letter32</item></list></desc></assertion><assertion unit="Letter 10" match="t:div" use="t:div"><desc><list><item>Letter10</item></list></desc></assertion><assertion unit="Letter 33" match="t:div" use="t:div"><desc><list><item>Letter33</item></list></desc></assertion><assertion unit="Letter 11" match="t:div" use="t:div"><desc><list><item>Letter11</item></list></desc></assertion><assertion unit="Letter 34" match="t:div" use="t:div"><desc><list><item>Letter34</item></list></desc></assertion><assertion unit="Letter 12" match="t:div" use="t:div"><desc><list><item>Letter12</item></list></desc></assertion><assertion unit="Letter 35" match="t:div" use="t:div"><desc><list><item>Letter35</item></list></desc></assertion><assertion unit="Letter 13" match="t:div" use="t:div"><desc><list><item>Letter13</item></list></desc></assertion><assertion unit="Letter 36" match="t:div" use="t:div"><desc><list><item>Letter36</item></list></desc></assertion><assertion unit="Letter 14" match="t:div" use="t:div"><desc><list><item>Letter14</item></list></desc></assertion><assertion unit="Letter 37" match="t:div" use="t:div"><desc><list><item>Letter37</item></list></desc></assertion><assertion unit="Letter 15" match="t:div" use="t:div"><desc><list><item>Letter15</item></list></desc></assertion><assertion unit="Letter 38" match="t:div" use="t:div"><desc><list><item>Letter38</item></list></desc></assertion><assertion unit="Letter 16" match="t:div" use="t:div"><desc><list><item>Letter16</item></list></desc></assertion><assertion unit="Letter 39" match="t:div" use="t:div"><desc><list><item>Letter39</item></list></desc></assertion><assertion unit="Letter 17" match="t:div" use="t:div"><desc><list><item>Letter17</item></list></desc></assertion><assertion unit="Letter 29" match="t:div" use="t:div"><desc><list><item>Letter29</item></list></desc></assertion></assertion><assertion unit="30 Homilies or treatises" match="t:div" use="t:div"><desc><list><item>Homilies</item></list></desc><assertion unit="Homily on fornication" match="t:div" use="t:div"><desc><list><item>Homily3</item></list></desc></assertion><assertion unit="Homily on the manifestation of Jesus Christ in men, followed by a few sentences of a monk." match="t:div" use="t:div"><desc><list><item>Homily22</item></list></desc></assertion><assertion unit="Homily on self control" match="t:div" use="t:div"><desc><list><item>Homily1</item></list></desc></assertion><assertion unit="Homily on voluntary death (renunciation of the world) and the future life" match="t:div" use="t:div"><desc><list><item>Homily12</item></list></desc></assertion><assertion unit="Homily on the angels' love towards the monks, on the temptations&#xA;               of evil spirits, etc." match="t:div" use="t:div"><desc><list><item>Homily6</item></list></desc></assertion><assertion unit="Account of a vision" match="t:div" use="t:div"><desc><list><item>Homily24</item></list></desc></assertion><assertion unit="Homily on seeing God" match="t:div" use="t:div"><desc><list><item>Homily29</item></list></desc></assertion><assertion unit="Homily on the gifts of the Spirit received by those who dedicate themselves to&#xA;               the contemplation of God" match="t:div" use="t:div"><desc><list><item>Homily18</item></list></desc></assertion><assertion unit="Homily on silence" match="t:div" use="t:div"><desc><list><item>Homily26</item></list></desc></assertion><assertion unit="Homily on the constant contemplation of God" match="t:div" use="t:div"><desc><list><item>Homily30</item></list></desc></assertion><assertion unit="Homily on blasphemy" match="t:div" use="t:div"><desc><list><item>Homily4</item></list></desc></assertion><assertion unit="Homily on true spritual visions" match="t:div" use="t:div"><desc><list><item>Homily7</item></list></desc></assertion><assertion unit="Question to ʾAragāwi manfasāwi" match="t:div" use="t:div"><desc><list><item>Homily15.1</item></list></desc></assertion><assertion unit="Homily on the different gifts of God" match="t:div" use="t:div"><desc><list><item>Homily14</item></list></desc></assertion><assertion unit="Homily on the contemplation of the Trinity" match="t:div" use="t:div"><desc><list><item>Homily17</item></list></desc></assertion><assertion unit="Homily on prayer, the virtue of spiritual natures, knowledge of God, etc." match="t:div" use="t:div"><desc><list><item>Homily10</item></list></desc></assertion><assertion unit="Homily on novices" match="t:div" use="t:div"><desc><list><item>Homily9</item></list></desc></assertion><assertion unit="Explanation of the vision narrated in &#xA;                  " match="t:div" use="t:div"><desc><list><item>Homily25</item></list></desc></assertion><assertion unit="Homily on delight of those who love God while they contemplate his glory" match="t:div" use="t:div"><desc><list><item>Homily19</item></list></desc></assertion><assertion unit="Homily on the inappropriateness of speaking badly of the Fathers" match="t:div" use="t:div"><desc><list><item>Homily8</item></list></desc></assertion><assertion unit="Epistle written by a brother on the purification of&#xA;                    the soul through penitence" match="t:div" use="t:div"><desc><list><item>Epistle</item></list></desc></assertion><assertion unit="Homily on the manifestation of God in the soul and of the soul's intimacy with God" match="t:div" use="t:div"><desc><list><item>Homily16</item></list></desc></assertion><assertion unit="Prayers preceding the Homilies" match="t:div" use="t:div"><desc><list><item>HomiliesPrayer</item></list></desc></assertion><assertion unit="Homily on fight and victory on the road to perfection" match="t:div" use="t:div"><desc><list><item>Homily2</item></list></desc><assertion unit="3rd part" match="t:div" use="t:div"><desc><list><item>Homily2.3</item></list></desc></assertion><assertion unit="4th part" match="t:div" use="t:div"><desc><list><item>Homily2.4</item></list></desc></assertion><assertion unit="5th part" match="t:div" use="t:div"><desc><list><item>Homily2.5</item></list></desc></assertion><assertion unit="2nd part" match="t:div" use="t:div"><desc><list><item>Homily2.2</item></list></desc></assertion><assertion unit="1st part" match="t:div" use="t:div"><desc><list><item>Homily2.1</item></list></desc></assertion></assertion><assertion unit="Homily on the intimacy (በእንተ፡ ስነ፡ ሞገስ፡) which the souls moved by the Spirit enjoy with God" match="t:div" use="t:div"><desc><list><item>Homily13</item></list></desc></assertion><assertion unit="Incipit" match="t:div" use="t:div"><desc><list><item>Incipit</item></list></desc></assertion><assertion unit="Saying of a monk" match="t:div" use="t:div"><desc><list><item>Saying</item></list></desc></assertion><assertion unit="Answer written by the author to his brother on the purification of&#xA;               the soul through penitence" match="t:div" use="t:div"><desc><list><item>Homily23</item></list></desc></assertion><assertion unit="Homily on the contemplation of divine providence" match="t:div" use="t:div"><desc><list><item>Homily28</item></list></desc></assertion><assertion unit="Homily on love of God" match="t:div" use="t:div"><desc><list><item>Homily27</item></list></desc></assertion><assertion unit="Exhortation to penitence" match="t:div" use="t:div"><desc><list><item>Homily21</item></list></desc></assertion><assertion unit="Homily on the mysteries of the New World" match="t:div" use="t:div"><desc><list><item>Homily15</item></list></desc></assertion><assertion unit="Homily on anger, insanity and pride" match="t:div" use="t:div"><desc><list><item>Homily5</item></list></desc></assertion><assertion unit="Homily on control of the inner and outer senses" match="t:div" use="t:div"><desc><list><item>Homily11</item></list></desc></assertion><assertion unit="Homily on the renunciation of the world  and the cessation of intimacy" match="t:div" use="t:div"><desc><list><item>Homily20</item></list></desc></assertion></assertion><assertion unit="Letter by  to a monk called John in Kanūbiyūn and the latter's answer " match="t:div" use="t:div"><desc><list><item>LettersExplanation</item></list></desc><assertion unit="Answer from the monk John to &#xA;                  " match="t:div" use="t:div"><desc><list><item>AnswerExplanation</item></list></desc><assertion unit="Subscription concerning the translation of the work" match="t:div" use="t:div"><desc><list><item>NoteTranslationExplicit</item></list></desc></assertion></assertion><assertion unit="Letter by  to a monk  called John" match="t:div" use="t:div"><desc><list><item>LetterExplanation</item></list></desc></assertion></assertion><assertion unit="Compendium of three homilies on the spiritual life / Dǝrsān baʾǝnta  ʾarʾǝsta ʾaʾǝmro" match="t:div" use="t:div"><desc><list><item>ChaptersKnowledge</item></list></desc><assertion unit="3rd Chapter" match="t:div" use="t:div"><desc><list><item>Chapter3</item></list></desc></assertion><assertion unit="2nd Chapter" match="t:div" use="t:div"><desc><list><item>Chapter2</item></list></desc></assertion><assertion unit="1st Chapter" match="t:div" use="t:div"><desc><list><item>Chapter1</item></list></desc></assertion></assertion></assertion></source-url></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="ar">Arabic</t:language><t:language ident="gez">Gǝʿǝz</t:language><t:language ident="syr">Syriac</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="MonasticLiterature" ana="#MonasticLiterature"/>
+               <t:term key="Translation" ana="#Translation"/>
+               <t:term key="Paks2" ana="#Paks2"/>
+            </t:keywords>
+         </t:textClass>
+         <t:abstract>
+            <t:p>
+               <t:foreign xml:lang="gez">ʾAragāwi manfasāwi</t:foreign>, "the spritual elder" is in Ethiopian tradition both the name of the author 
+            <t:persName ref="https://betamasaheft.eu/PRS5740JohnSab">John Saba</t:persName> and of his anthology of homilies and letters, which was translated from Syriac to Arabic and from
+            Arabic to Gǝʿǝz.</t:p>
+            <t:p>The anthology contains in Syriac 25-28 homilies, 48-51 letters and 3-8 homilies under the title "Chapters on Knowledge". The Arabic and Gǝʿǝz
+               version have 30 homilies, 48 letters and 3 "Chapters on Knowledge" and as a preface or epilogue a letter from <t:persName ref="https://betamasaheft.eu/PRS5740JohnSab">John Saba</t:persName>
+               to another monk and the latter's answer.
+               <t:bibl corresp="http://zotero.org/groups/358366/items/9MWQV2EZ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Graf1944GCALI"/><title level="m">Geschichte der christlichen arabischen Literatur&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Die Übersetzungen</title><title level="s">Studi e Testi</title><author><forename>Georg</forename><surname>Graf</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>Biblioteca Apostolica Vaticana</publisher><date>1944</date><series><title level="s">Studi e Testi</title><biblScope unit="volume">118</biblScope></series><biblScope unit="volume">I</biblScope><biblScope unit="volume">118</biblScope><note type="url">https://archive.org/details/GGrafGeschichte</note><note type="tags"><note type="tag">bm:Graf1944GCALI</note></note><note type="tag">bm:Graf1944GCALI</note><t:citedRange unit="page">434-436</t:citedRange></t:bibl>
+            </t:p>
+         </t:abstract>
+      <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change who="#DR" when="2016-10-10">Dorothea Reule: Created file</change>
+         <change who="#DR" when="2017-02-24">Dorothea Reule: Added keywords</change>
+         <change who="#DR" when="2017-06-29">Dorothea Reule: Added keywords</change>
+      </t:revisionDesc>
+   </teiHeader><standOff><listRelation>
+            <relation name="saws:isAttributedToAuthor" ref="http://purl.org/saws/ontology#isAttributedToAuthor" active="https://betamasaheft.eu/LIT3989Aragawi" passive="https://betamasaheft.eu/PRS5740JohnSab">
+            </relation>
+            <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT3989Aragawi" passive="https://betamasaheft.eu/LIT1908Masahe"/>
+            <relation name="saws:isVersionInAnotherLanguageOf" ref="http://purl.org/saws/ontology#isVersionInAnotherLanguageOf" active="https://betamasaheft.eu/LIT3989Aragawi#t1" passive="https://betamasaheft.eu/LIT3989Aragawi#t2arabic">
+               <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">The work was translated in the <t:date>16th century</t:date> on the order of <t:persName ref="https://betamasaheft.eu/PRS6229LebnaDe">Lǝbna Dǝngǝl</t:persName>, according to Ethiopian tradition
+                  by <t:persName ref="https://betamasaheft.eu/PRS6774Marqos">Mārqos [I]</t:persName> and <t:persName ref="https://betamasaheft.eu/PRS3779enbaqom">ʾƎnbāqom</t:persName>.
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/72SSJU6W"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Lucchesi2003Aragawi"/><title level="a">Arägawi mänfäsawi</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Enzo</forename><surname>Lucchesi</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">309b-310a</biblScope><note type="tags"><note type="tag">bm:Lucchesi2003Aragawi</note></note><note type="tag">bm:Lucchesi2003Aragawi</note></t:bibl>
+               </t:desc>
+            </relation>
+            <relation name="saws:isVersionInAnotherLanguageOf" ref="http://purl.org/saws/ontology#isVersionInAnotherLanguageOf" active="https://betamasaheft.eu/LIT3989Aragawi#t2arabic" passive="https://betamasaheft.eu/LIT3989Aragawi#t3syriac">
+               <t:desc xmlns:t="http://www.tei-c.org/ns/1.0"> The Syriac original was translated to Arabic <t:date>before the middle of the 13th century</t:date> by a deacon called
+                  <t:persName ref="https://betamasaheft.eu/PRS11214Yuhanna">Yuḥannā</t:persName> and a priest called <t:persName ref="https://betamasaheft.eu/PRS11215Ibrahim">ʾĪbrāhīm</t:persName>.
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/9MWQV2EZ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Graf1944GCALI"/><title level="m">Geschichte der christlichen arabischen Literatur&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Die Übersetzungen</title><title level="s">Studi e Testi</title><author><forename>Georg</forename><surname>Graf</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>Biblioteca Apostolica Vaticana</publisher><date>1944</date><series><title level="s">Studi e Testi</title><biblScope unit="volume">118</biblScope></series><biblScope unit="volume">I</biblScope><biblScope unit="volume">118</biblScope><note type="url">https://archive.org/details/GGrafGeschichte</note><note type="tags"><note type="tag">bm:Graf1944GCALI</note></note><note type="tag">bm:Graf1944GCALI</note><t:citedRange unit="page">434</t:citedRange></t:bibl>
+               </t:desc>
+            </relation>
+         </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         
+        <t:div type="bibliography">
+       
+         
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/72SSJU6W"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Lucchesi2003Aragawi"/><title level="a">Arägawi mänfäsawi</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Enzo</forename><surname>Lucchesi</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">309b-310a</biblScope><note type="tags"><note type="tag">bm:Lucchesi2003Aragawi</note></note><note type="tag">bm:Lucchesi2003Aragawi</note></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/9MWQV2EZ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Graf1944GCALI"/><title level="m">Geschichte der christlichen arabischen Literatur&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Die Übersetzungen</title><title level="s">Studi e Testi</title><author><forename>Georg</forename><surname>Graf</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>Biblioteca Apostolica Vaticana</publisher><date>1944</date><series><title level="s">Studi e Testi</title><biblScope unit="volume">118</biblScope></series><biblScope unit="volume">I</biblScope><biblScope unit="volume">118</biblScope><note type="url">https://archive.org/details/GGrafGeschichte</note><note type="tags"><note type="tag">bm:Graf1944GCALI</note></note><note type="tag">bm:Graf1944GCALI</note><t:citedRange unit="page">434-436</t:citedRange></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/CCCR3UHQ"><seg corresp="#t2arabic #t3syriac" type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Assemanus1719BibliothecaI"/><title level="m">Bibliotheca Orientalis Clementino-Vaticana: In Qua Manuscriptos Codices Syriacos, Arabicos, Persicos, Turcicos, Hebraicos, Samaritanos, Armenicos, Aethiopicos, Graecos, Aegyptiacos, Ibericos, &amp; Malabaricos, Jussu Et Munificentia Clementis XI. Pontificis Maximi Ex Oriente conquisitos, comparatos, avectos, &amp; Bibliothecae Vaticanae addictos</title><author><forename>Joseph Simonius</forename><surname>Assemanus</surname></author><pubPlace>Romae</pubPlace><publisher>Typis Sacræ Congregationis de Propaganda Fide</publisher><date>1719</date><biblScope unit="volume">I</biblScope><note type="url">http://digitale-sammlungen.ulb.uni-bonn.de/content/titleinfo/31899</note><note type="tags"><note type="tag">bm:Assemanus1719BibliothecaI</note></note><note type="tag">bm:Assemanus1719BibliothecaI</note><t:citedRange unit="page">433-444</t:citedRange><note type="about">(about: title , <ref target="/LIT3989Aragawi#t2arabic #t3syriac"/>)</note></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/R9N2AUUU"><seg corresp="#t2arabic #t3syriac" type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zotenberg1874Catalogue"/><title level="m">Catalogues des manuscrits syriaques et sabéens (mandaïtes) de la Bibliothèque nationale</title><title level="s">Manuscrits orientaux</title><author><forename>Hermann</forename><surname>Zotenberg</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1874</date><series><title level="s">Manuscrits orientaux</title></series><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k2299742/f1.image</note><note type="tags"><note type="tag">Syriac</note><note type="tag">Catalogue</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1874Catalogue</note></note><note type="tag">Syriac</note><note type="tag">Catalogue</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1874Catalogue</note><t:citedRange unit="page">152-154</t:citedRange><note type="about">(about: title , <ref target="/LIT3989Aragawi#t2arabic #t3syriac"/>)</note></t:bibl>
+            </t:listBibl>
+         
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/HW8AD8CJ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1982Aragawi"/><title level="m">Maṣaḥǝfta manakosāt. Śostǝññā maṣḥaf. ʾAragāwi manfasāwi</title><author><name>Anon.</name></author><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>n.pub.</publisher><date>1982</date><note type="tags"><note type="tag">bm:1982Aragawi</note></note><note type="tag">bm:1982Aragawi</note></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/JMFMB2HV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Nicolas2016Aragawi"/><title level="m">La version éthiopienne de la collection des lettres de Jean de Dalyatha dit «Aragawi Manfasawi»: Édition critique du texte éthiopien (guèze) inédit, comparaison avec la version arabe, traduction française, étude</title><author><forename>Michel</forename><surname>Nicolas</surname></author><pubPlace>Saint-Denis</pubPlace><publisher>Éditions Publibook Université</publisher><date>2016</date><note type="tags"><note type="tag">bm:Nicolas2016Aragawi</note></note><note type="tag">bm:Nicolas2016Aragawi</note></t:bibl>
+            </t:listBibl>         
+         
+        </t:div>
+         
+        <t:div type="edition">
+           <t:div type="textpart" xml:id="Homilies">
+               <t:label>30 Homilies or treatises</t:label>
+              
+              <t:div type="textpart" xml:id="Incipit">
+                 <t:label>Incipit</t:label>
+                 <t:note>The following text is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/BNFet115">Paris, Bibliothèque nationale de France, BnF Éthiopien 115</t:ref>.</t:note>
+                 <t:ab xml:lang="gez">እወጥን፡ ጽሒፈ፡ መጽሐፍ፡
+                    ዘአረጋዊ፡ ጻድቅ፡ መንፈሳዊ። ዘይቤ፡ በእንተ፡ ሀብታት፡ አምላካውያት፡ ወሕዋጼ፡ ጸጋ፡ እንተ፡ ይፌንዋ፡
+                    እግዚአብሔር፡ ለኑዛዜ፡ ባሕታውያን፡ ወበተድላሆሙ፡ ወበእንተ፡ ራእያት፡ መንፈሳዊያት፡ ወአእምሮ፡
+                    ኅቡአት፡ ወበእንተ፡ ሕሊናት፡ ወጸብአ፡ ሰይጣናት፡ ወተጋድሎ፡ ወዘይከውን፡ ምስሌሆሙ፡ በእንተ፡ ፈሊጠ፡
+                    ምግባር፡ ዘሠናይ፡ ወዘእኩይ። በእንተ፡ ሥርዓታት። ወምግባር፡ ትሩፋት፡ ወጸሎታት። ወዓዲ፡ በእንተ፡ አእምሮ፡
+                    እግዚአብሔር፡ ወምሥጢራተ፡ ዓለም፡ ሐዲስ።</t:ab>
+              </t:div>
+              
+              <t:div type="textpart" xml:id="HomiliesPrayer">
+                 <t:label>Prayers preceding the Homilies</t:label>
+                 <t:note>The following text is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet84">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 84</t:ref>.</t:note>
+                 <t:ab xml:lang="gez">ጸሎት፡ ኦክርስቶስ፡ ወልደ፡ እግዚአብሔር፡ ሕያው፡ ክሥት፡ አዕይንተ፡ አልባቢነ፡ ከመ፡ ንለቡ፡ አንብቦ፡ መጻሕፍቲከ፡ ቅዱሳት፡ አሜን፨ አንተ፡ በኃይልከ፡ ዘታነሥኦሙ፡ ለኵሎሙ፡ ጠባይዕት፡ 
+                    ነባብያን፡ <t:gap reason="omitted" extent="unknown" resp="PRS4805Grebaut PRS9530Tisseran"/> ሀበነ፡ ለነኒ፡ ኃይለ፡ ለድኩማን፡ ወለኅጡኣነ፡ አእምሮ፡ ከመ፡ 
+                    ንጽሐፍ፡ ወጸግወነ፡ መንፈሰከ፡ ከመ፡ ንቅልም። በጸሎታ፡ ለእግዝእትነ፡ ንጽሕት፡ <t:gap reason="omitted" extent="unknown" resp="PRS4805Grebaut PRS9530Tisseran"/> 
+                    ወጸሎተ፡ ኵሎሙ፡ እለ፡ አሥመሩ፡ ፈቃደከ፡ አሜን፨</t:ab>
+              </t:div>
+            
+               <t:div type="textpart" xml:id="Homily1">
+                  <t:label>Homily on self control</t:label>
+                  <t:note>On Alertness and Vigilance and on Detachment from Passions  (cp. Ms. BN éth. 148, a.; Ms. Cod.Vat.aethiop. 84, 1; Ms. EMML no. 1937, 1.)</t:note>
+                  
+               </t:div>
+               <t:div type="textpart" xml:id="Homily2">
+                  <t:label>Homily on fight and victory on the road to perfection</t:label>
+                  <t:note>On Being Granted Wisdom of the Heart of the Holy Spirit and on Light for the Alert [which gives] Joy  (cp. Ms. BN éth. 148, b.; Ms. Cod.Vat.aethiop. 84,2; Ms. EMML no. 1937, 2.)</t:note>
+                  <t:div type="textpart" xml:id="Homily2.1">
+                     <t:label>1st part</t:label>
+                     <t:note/>
+                  </t:div>
+                  <t:div type="textpart" xml:id="Homily2.2">
+                     <t:label>2nd part</t:label>
+                     <t:note>On Spiritual Visions Which Are Granted to Hermits for their Contemplation</t:note>
+                  </t:div>
+                  <t:div type="textpart" xml:id="Homily2.3">
+                     <t:label>3rd part</t:label>
+                     <t:note>The Beginning Stage of Contemplation</t:note>
+                  </t:div>
+                  <t:div type="textpart" xml:id="Homily2.4">
+                     <t:label>4th part</t:label>
+                     <t:note>The Intermediate Stage</t:note>
+                  </t:div>
+                  <t:div type="textpart" xml:id="Homily2.5">
+                     <t:label>5th part</t:label>
+                     <t:note>The Stage of Perfection</t:note>
+                  </t:div>
+                  
+                  
+                  
+               </t:div>
+               <t:div type="textpart" xml:id="Homily3">
+                  <t:label>Homily on fornication</t:label>
+                  <t:note>On Fornication</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily4">
+                  <t:label>Homily on blasphemy</t:label>
+                  <t:note>On Blasphemy</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily5">
+                  <t:label>Homily on anger, insanity and pride</t:label>
+                  <t:note>On Anger, On Distraction, On Vainglory</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily6">
+                  <t:label>Homily on the angels' love towards the monks, on the temptations
+               of evil spirits, etc.</t:label>
+                  <t:note>On Love which Angels Reveal to the Pure in Heart and the Vigilant and the Repentant</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily7">
+                  <t:label>Homily on true spritual visions</t:label>
+                  <t:note>The Arabic title is <t:q xml:lang="ar">ميمر على الثاوريا القاطعة</t:q>, where according to <t:persName ref="https://betamasaheft.eu/PRS10747Zotenbe">Hermann Zotenberg</t:persName>, 
+                  <t:foreign xml:lang="ar">ṯāwirīya</t:foreign> should be translated with "contemplation" instead of "theory".</t:note>
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/R9N2AUUU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zotenberg1874Catalogue"/><title level="m">Catalogues des manuscrits syriaques et sabéens (mandaïtes) de la Bibliothèque nationale</title><title level="s">Manuscrits orientaux</title><author><forename>Hermann</forename><surname>Zotenberg</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1874</date><series><title level="s">Manuscrits orientaux</title></series><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k2299742/f1.image</note><note type="tags"><note type="tag">Syriac</note><note type="tag">Catalogue</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1874Catalogue</note></note><note type="tag">Syriac</note><note type="tag">Catalogue</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1874Catalogue</note><t:citedRange unit="page">152</t:citedRange><t:citedRange unit="part">h</t:citedRange></t:bibl>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily8">
+                  <t:label>Homily on the inappropriateness of speaking badly of the Fathers</t:label>
+                  <t:note>On That [it should be] Undesirable for Anyone to Despise Holy Fathers When They Speak with Naivety in Accordance to the Minds of the Listeners</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily9">
+                  <t:label>Homily on novices</t:label>
+                  <t:note>On Brothers Who Have Begun (Novices) the Pure Rule Which Is Loved by God</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily10">
+                  <t:label>Homily on prayer, the virtue of spiritual natures, knowledge of God, etc.</t:label>
+                  <t:note> On Prayer and on Virtue of Spiritual Dispositions and on Knowledge of God</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily11">
+                  <t:label>Homily on control of the inner and outer senses</t:label>
+                  <t:note>On Guarding of Outer and Inner Senses and on Anything [What Should] Be Guarded</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily12">
+                  <t:label>Homily on voluntary death (renunciation of the world) and the future life</t:label>
+                  <t:note>On Death Which Comes from Desire of This World</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily13">
+                  <t:label>Homily on the intimacy (<t:foreign xml:lang="gez">በእንተ፡ ስነ፡ ሞገስ፡</t:foreign>) which the souls moved by the Spirit enjoy with God</t:label>
+                  <t:note>On Grace Which Is Acquired from God</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily14">
+                  <t:label>Homily on the different gifts of God</t:label>
+                  <t:note>On Gifts of Knowledge Which Are Granted by Grace from God</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily15">
+                  <t:label>Homily on the mysteries of the New World</t:label>
+                  <t:note>On Mysteries of the New World</t:note>
+               </t:div>
+              
+              <t:div type="textpart" xml:id="Homily15.1">
+                 <t:label>Question to ʾAragāwi manfasāwi</t:label>
+                 <t:note>A question of one brother to ʾAragāwi manfasāwi</t:note>
+              </t:div>
+              
+               <t:div type="textpart" xml:id="Homily16">
+                  <t:label>Homily on the manifestation of God in the soul and of the soul's intimacy with God</t:label>
+                  <t:note>On Admiration of the Majesty of God and Its Manifestation</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily17">
+                  <t:label>Homily on the contemplation of the Trinity</t:label>
+                  <t:note>On the Holy Trinity</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily18">
+                  <t:label>Homily on the gifts of the Spirit received by those who dedicate themselves to
+               the contemplation of God</t:label>
+                  <t:note>On Divine Gifts of the Holy Spirit Which Are Given by Contemplation of God</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily19">
+                  <t:label>Homily on delight of those who love God while they contemplate his glory</t:label>
+                  <t:note>On the Sweetness of Comfort Which Moves Hearts of the Lovers of God</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily20">
+                  <t:label>Homily on the renunciation of the world  and the cessation of intimacy</t:label>
+                  <t:note>On the Flight from the World and Detachment form Anxiety</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily21">
+                  <t:label>Exhortation to penitence</t:label>
+                  <t:note>On Alertness and Prudence, and On Penitence</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily22">
+                  <t:label>Homily on the manifestation of Jesus Christ in men, followed by a few sentences of a monk.</t:label>
+                  <t:note>On Revelation of Christ Our God</t:note>
+               </t:div>
+              <t:div type="textpart" xml:id="Epistle">
+                 <t:label>Epistle written by a brother on the purification of
+                    the soul through penitence</t:label>
+                 <t:note>A reply to one of the brothers</t:note>
+              </t:div>
+               <t:div type="textpart" xml:id="Homily23">
+                  <t:label>Answer written by the author to his brother on the purification of
+               the soul through penitence</t:label>
+                  <t:note>A reply of ʾAragāwi manfasāwi to one brother concerning penitence which purifies the soul</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily24">
+                  <t:label>Account of a vision</t:label>
+                  <t:note>Vision That Appeared To One Man When He Approached to Perform Divine Mysteries</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily25">
+                  <t:label>Explanation of the vision narrated in <t:ref target="#Homily24"/>
+                  </t:label>
+                  <t:note>On the Explanation [of the Visions] of the Previous Father</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily26">
+                  <t:label>Homily on silence</t:label>
+                  <t:note>On How the Toil Becomes Beneficial for the Vigilant</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily27">
+                  <t:label>Homily on love of God</t:label>
+                  <t:note>On God’s Love and From Where Begins Love Upon a Man</t:note>
+               </t:div>
+              <t:div type="textpart" xml:id="Saying">
+                 <t:label>Saying of a monk</t:label>
+                 <t:note>A reply of ʾAragāwi manfasāwi to a brother</t:note>
+              </t:div>
+               <t:div type="textpart" xml:id="Homily28">
+                  <t:label>Homily on the contemplation of divine providence</t:label>
+                  <t:note>On Visions Given by God</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily29">
+                  <t:label>Homily on seeing God</t:label>
+                  <t:note>On Seeing God Which Is Made Possible for the Man Thanks to His Might</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="Homily30">
+                  <t:label>Homily on the constant contemplation of God</t:label>
+                  <t:note>On Praising in Songs and [with] Zeal for Remembering about God</t:note>
+               </t:div>
+            </t:div>
+         
+            <t:div type="textpart" xml:id="Letters">
+               <t:label>Epistles</t:label>
+               <t:note>in ESgkm001: 22 malʾǝkt and 27 fǝnnāwe malʾǝkt</t:note>
+               <t:note>in ESmakm012: 22 malʾǝkt and 28 fǝnnāwe malʾǝkt</t:note>
+               <t:div type="textpart" xml:id="Letter1">
+                  <t:label>Letter 1</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter2">
+                  <t:label>Letter 2</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter3">
+                  <t:label>Letter 3</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter4">
+                  <t:label>Letter 4</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter5">
+                  <t:label>Letter 5</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter6">
+                  <t:label>Letter 6</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter7">
+                  <t:label>Letter 7</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter8">
+                  <t:label>Letter 8</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter9">
+                  <t:label>Letter 9</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter10">
+                  <t:label>Letter 10</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter11">
+                  <t:label>Letter 11</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter12">
+                  <t:label>Letter 12</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter13">
+                  <t:label>Letter 13</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter14">
+                  <t:label>Letter 14</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter15">
+                  <t:label>Letter 15</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter16">
+                  <t:label>Letter 16</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter17">
+                  <t:label>Letter 17</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter18">
+                  <t:label>Letter 18</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter19">
+                  <t:label>Letter 19</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter20">
+                  <t:label>Letter 20</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter21">
+                  <t:label>Letter 21</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter22">
+                  <t:label>Letter 22</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter23">
+                  <t:label>Letter 23</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter24">
+                  <t:label>Letter 24</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter25">
+                  <t:label>Letter 25</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter26">
+                  <t:label>Letter 26</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter27">
+                  <t:label>Letter 27</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter28">
+                  <t:label>Letter 28</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter29">
+                  <t:label>Letter 29</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter30">
+                  <t:label>Letter 30</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter31">
+                  <t:label>Letter 31</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter32">
+                  <t:label>Letter 32</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter33">
+                  <t:label>Letter 33</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter34">
+                  <t:label>Letter 34</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter35">
+                  <t:label>Letter 35</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="SendingLetter36">
+                  <t:label>Sending of the letter 36 (<t:foreign xml:lang="gez">ፍናዌ፡ መልእክት፡ ሠላሰ፡ ወስድስቱ።</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter36">
+                  <t:label>Letter 36</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter37">
+                  <t:label>Letter 37</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter38">
+                  <t:label>Letter 38</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter39">
+                  <t:label>Letter 39</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter40">
+                  <t:label>Letter 40</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter41">
+                  <t:label>Letter 41</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter42">
+                  <t:label>Letter 42</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter43">
+                  <t:label>Letter 43</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter44">
+                  <t:label>Letter 44</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter45">
+                  <t:label>Letter 45</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter46">
+                  <t:label>Letter 46</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter47">
+                  <t:label>Letter 47</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Letter48">
+                  <t:label>Letter 48</t:label>
+               </t:div>
+            </t:div>
+         
+            <t:div type="textpart" xml:id="ChaptersKnowledge">
+               <t:label>Compendium of three homilies on the spiritual life / Dǝrsān baʾǝnta  ʾarʾǝsta ʾaʾǝmro</t:label>
+               <t:note> The Syriac mss. contain Rêšê dîḏaʽṯâ i.e., “Chapters of
+                  Knowledge” (Beulay 1978: 262) which were rendered into Gǝʿǝz as  ʾArʾǝsta
+                     ʾaʾǝmro (“Chapters of Knowledge” or “Heads of Knowledge”). In front
+                  of the title, the Ethiopian translator added "dǝrsān baʾǝnta"  and
+                  retained the plural form of  "ʾarʾǝst". For that reason in some
+                  catalogues of Ethiopic mss. a translation “Homilies on the heads of
+                  knowledge” may be encountered (s. e.g., <t:ref type="mss" corresp="https://betamasaheft.eu/BLorient529#ms_i8.39">BLorient 529</t:ref>, EMML 1937, EMML 2838,
+                  EMML 4043).</t:note>
+               
+               
+               <t:div type="textpart" xml:id="Chapter1">
+                  <t:label>1st Chapter</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Chapter2">
+                  <t:label>2nd Chapter</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Chapter3">
+                  <t:label>3rd Chapter</t:label>
+               </t:div>
+            </t:div>
+         
+            <t:div type="textpart" xml:id="LettersExplanation">
+               <t:label>Letter by <t:persName ref="https://betamasaheft.eu/PRS5740JohnSab">John Saba</t:persName> to a monk called John in Kanūbiyūn and the latter's answer </t:label>
+               <t:note>Letter of the saint Elder to his brother who was in a coenobitic Monastery (Malʾǝkta
+                  manfasāwi qǝddus ḫaba ʾǝḫuhu za-hallo yǝnabbǝr ba-dabra Konobyos)</t:note>
+               <t:listBibl type="editions" corresp="#t2arabic">
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/CCCR3UHQ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Assemanus1719BibliothecaI"/><title level="m">Bibliotheca Orientalis Clementino-Vaticana: In Qua Manuscriptos Codices Syriacos, Arabicos, Persicos, Turcicos, Hebraicos, Samaritanos, Armenicos, Aethiopicos, Graecos, Aegyptiacos, Ibericos, &amp; Malabaricos, Jussu Et Munificentia Clementis XI. Pontificis Maximi Ex Oriente conquisitos, comparatos, avectos, &amp; Bibliothecae Vaticanae addictos</title><author><forename>Joseph Simonius</forename><surname>Assemanus</surname></author><pubPlace>Romae</pubPlace><publisher>Typis Sacræ Congregationis de Propaganda Fide</publisher><date>1719</date><biblScope unit="volume">I</biblScope><note type="url">http://digitale-sammlungen.ulb.uni-bonn.de/content/titleinfo/31899</note><note type="tags"><note type="tag">bm:Assemanus1719BibliothecaI</note></note><note type="tag">bm:Assemanus1719BibliothecaI</note><t:citedRange unit="page">434-435</t:citedRange></t:bibl>
+               </t:listBibl>
+               <t:listBibl type="editions">
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/GJTZXA6E"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Grebaut1915Vieillard"/><title level="a">La lettre et la notice finales du Vieillard Spirituel</title><title level="j">Revue de l’Orient Chrétien</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><date>1915</date><biblScope unit="volume">20</biblScope><biblScope unit="page">77-81</biblScope><note type="tags"><note type="tag">bm:Grebaut1915Vieillard</note></note><note type="tag">bm:Grebaut1915Vieillard</note><t:citedRange unit="page">77-80</t:citedRange></t:bibl>
+               </t:listBibl>
+               <t:listBibl type="translation">
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/GJTZXA6E"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Grebaut1915Vieillard"/><title level="a">La lettre et la notice finales du Vieillard Spirituel</title><title level="j">Revue de l’Orient Chrétien</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><date>1915</date><biblScope unit="volume">20</biblScope><biblScope unit="page">77-81</biblScope><note type="tags"><note type="tag">bm:Grebaut1915Vieillard</note></note><note type="tag">bm:Grebaut1915Vieillard</note><t:citedRange unit="page">80-81</t:citedRange></t:bibl>
+               </t:listBibl>
+            
+               <t:div type="textpart" xml:id="LetterExplanation">
+                  <t:label>Letter by <t:persName ref="https://betamasaheft.eu/PRS5740JohnSab">John Saba</t:persName> to a monk  called John</t:label>
+                  <t:note>Petition (?) of the Saint Elder’s Own Brother in Which He Explains What Was the Reason for Writing the Book (Sǝʾǝlata ʾǝḫuhu la-qǝddus ʾAragāwi)</t:note>
+               </t:div>
+               <t:div type="textpart" xml:id="AnswerExplanation">
+                  <t:label>Answer from the monk John to <t:persName ref="https://betamasaheft.eu/PRS5740JohnSab">John Saba</t:persName>
+                  </t:label>
+                  
+                  <t:div type="textpart" xml:id="NoteTranslationExplicit">
+                     <t:label>Subscription concerning the translation of the work</t:label>
+                     
+                     <t:ab xml:lang="gez">
+                        <t:note>The following text is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/ESmakm012">ʾƎndartā, Māy ʾAnbasā Dabra Gannat Kidāna Mǝḥrat, MAKM-012</t:ref>.</t:note>ተተርጐመ፡ ዝንቱ፡ መጽሐፍ፡ እምልሳነ፡ ዓረቢ፡ ኀበ፡ 
+                        ልሳነ፡ ግዕዝ፡ ሐዲስ፡ በትእዛዘ፡ ቃሉ፡ ለልብነ፡ ድንግል፡ ንጉሥ፨ 
+                        ይጽሐፍ፡  ስሞ፡ ኢየሱስ፡ ክርስቶስ፡ በሰሌዳ፡ ስሙ፡ ለአረጋዊ፡ ምሉአ፡ መንፈስ አሜን።
+                        ተፈጸመት፡ ዛቲ፡ መጽሐፍ፡ በ፸፻፡ በ፲ወ፯፡ እምአመተ፡ ኵነኔ፡ በሐሳበ፡ ግብጻውያን፡ ፸፻ ፲ወ፬፡ በሐሳበ፡ ጽርእ፡ ወሮማውያን፡ 
+                        በ፲፻ ወ፭፻፲ወ፯ እምልደተ፡ መድኅን፡ በ፲፻ ወ፵ ዓመተ፡ ሰማዕት፡ መዋዕያን፡ አመ፡ ኃሙስ፡ ለወርኃ፡ መሰራ፡ በሐሳበ፡ 
+                        ያዕቆባውያን፡ ወአመ፡ ፳፱ ለተሙዝ፡ በሐሳበ፡ ዕብራውያን፡ ዝንዮ፡ በዮናናውያን፡ ዝውእቱ፡ ሐምሌ፡ ወአመ፡ ሐሙሱ፡ 
+                        ለነኅሴ፡ በሐሳበ፡ ኢትዮጵያውያን። እንዘ፡ አበቅቴ፡ ወርኃ፡ ፲ወ፬፡ ወአበቅቴ፡ ፀሐይ፡ ፭ ለኅእሊሚሞከ፡ በዘመነ፡ እብሬቱ፡ 
+                        ወእንዘ፡ ሀሎ፡ ፀሐይ፡ በሳድስ፡ ኆኅቱ፡ ወበ፳፡ ወተ፱መዐርጋቱ፡ ስብሐት፡ ወክብር፡ ይደሉ፡ ለዘያስተባሪ፡ ምዕዋይ፡ ዘመናት። 
+                        ግናይ፡ ወሰጊድ፡ ለወላዲተ፡ ለዓለመ፡ ዓለም፡ አሜን። ኦኢየሱስ፡ ክርስቶስ፡ አጽፈ፡ ኢያደልዎ፡ ለባሴ፡ ስረይ፡ ሊተ፡ ለገብርከ፡ 
+                        {አእምሮ} ነዳየ፡ ፈላሲ፡ ዘአሰለውኩ፡ ዘንተ፡ መጽሐፈ፡ እምነ፡ ዓረቢ፡ ለአባሲ፡ ድካመ፡ ጻማየ፡ በከ፡ ኢትረሲ፡ በእነተ፡ ወላዲትከ፡ 
+                        መድኃተ፡ ኀጥእ፡ ወተስፋ፡ አባሲ፡ ለዓለመ፡ ዓለም፡ አሜን፡ ወአሜን፡ ለይኩን፡ ለይኩን።
+                     </t:ab>
+                     
+                     <t:ab xml:lang="gez">
+                        <t:note>The following text is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/ESgkm001">Gāntā ʾAfašum, Maḵodʿa Dabra Gannat Kidāna Mǝḥrat, GKM-001</t:ref>.</t:note>ተተርጐመ፡ ዝንቱ፡ መጽሐፍ፡ እምልሳነ፡ ዓረቢ፡ ኅበ፡
+                        ልሳነ፡ ግዕዝ፡ ሐዲስ፡ በትእዛዘ፡ ቃሉ፡ ለልብነ፡ ድንግል፡ ንጉሥ፨
+                        ወለዛቲ፡ መጽሐፍ፡ አጽሐፍክዋ፡ አነ [vac.] በእንተ፡ ፍቅሩ፡ ለኢየሱስ፡ ክርስቶስ፨ እምቃለ፡ ኑዛዜ፡ እንተ፡
+                        ዘአረጋዊ፡ መንፈሳዊ፡ በእንተ፡ አሥምሮተ፡ እግዚአብሔር፨ ወምሥጢራተ፡ ዓለም፡ ሐዲስ፨ ወበእንተ፡ ሀብታት፡ አምላካውያት፨
+                        ወሕዋጼ፡ ጸጋ፡ እንተ፡ ይፌንዋ፡ ሎሙ፡ ለእለ፡ ይፈቅርዎ፡ ፍቁራኒሁ፡ ለኑዛዜሆሙ፡ ወተድላሆሙ፡ ለርእየ፡ ዚአሁ፥ እስከ፡
+                        ይረስዑ፡ ርእሶሙ፡ ወይሠጠሙ፡ ውስተ፡ ተደሞ፥ ዘባሕርየ፡ አስተርእዮቱ፡ ብርሃናዊ፨ ቡሩክ፡ እግዚአብሔር፡ ዘወሀበ፡
+                        እሎንተ፡ በዝየ፡ ለጠባይዓቲነ፨ ሎቱ፡ ስብሐት፡ ለዓለመ፡ ዓለም፡ አሜን፡ ወአሜን፨
+                     </t:ab>
+                  </t:div>
+                  
+                  
+               </t:div>
+            </t:div>
+        </t:div>
+         
+      </t:body>
+   </t:text></TEI>

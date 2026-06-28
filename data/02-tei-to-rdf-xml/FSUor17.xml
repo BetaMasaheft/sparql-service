@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/mss"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/FSUor17.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/manuscripts/FSUor17/main"/>
+      <crm:P48_has_preferred_identifier>FSUor17</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft S. Calvary &amp; Co.,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>FSUor17</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:contributor>Dorothea Reule</dc:contributor>
+      <dc:contributor>Jacopo Gnisci</dc:contributor>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Apocrypha"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Hagiography"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Prayers"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Miracle"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Translation"/>
+      <dcterms:bibliographicCitation>bm:Goldschmidt1897catalogue</dcterms:bibliographicCitation>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniProd"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCirc"/>
+      <sdc:hasCertainty rdf:resource="https://w3id.org/sdc/ontology#Certain"/>
+      <crm:P1_is_identified_by>Frankfurt Ms. or. 17</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by>Rüpp. IV, 1</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by>Goldschmidt 13</crm:P1_is_identified_by>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0317Frank"/>
+      <crm:P1_is_identified_by>Frankfurt Ms. or. 17</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by>Rüpp. IV, 1</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by>Goldschmidt 13</crm:P1_is_identified_by>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0317Frank"/>
+      <betmas:hasTotalLeaves>142</betmas:hasTotalLeaves>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P2_has_type>height</crm:P2_has_type>
+            <crm:P90_has_value>12</crm:P90_has_value>
+            <crm:P91_has_unit>cm</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P2_has_type>width</crm:P2_has_type>
+            <crm:P90_has_value>8.5</crm:P90_has_value>
+            <crm:P91_has_unit>cm</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+      <crm:P46_is_composed_of rdf:resource="https://betamasaheft.eu/vocabularies/material.html#parchment"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/Codex"/>
+      <dcterms:hasPart rdf:resource="FSUor17//handDesc1"/>
+      <dcterms:hasPart rdf:resource="FSUor17/layout/layout1"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q1"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q2"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q3"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q4"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q5"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q6"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q7"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q8"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q9"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q10"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q11"/>
+      <dcterms:hasPart rdf:resource="FSUor17/quire/q12"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d1"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d2"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d3"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d4"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d5"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d6"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d7"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d8"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d9"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d10"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d11"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d12"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d13"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d14"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d15"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d16"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d17"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d18"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d19"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d20"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d21"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d22"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d23"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d24"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d25"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d26"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d27"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d28"/>
+      <dcterms:hasPart rdf:resource="FSUor17/decoration/d29"/>
+      <dcterms:hasPart rdf:resource="FSUor17/binding/b1"/>
+      <dcterms:hasPart rdf:resource="FSUor17/binding/b2"/>
+      <dcterms:hasPart rdf:resource="FSUor17/addition/e1"/>
+      <dcterms:hasPart rdf:resource="FSUor17/addition/e2"/>
+      <dcterms:hasPart rdf:resource="FSUor17/addition/e3"/>
+      <dcterms:hasPart rdf:resource="FSUor17/addition/e4"/>
+      <betmas:hasTotalQuires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</betmas:hasTotalQuires>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>12</crm:P90_has_value>
+            <crm:P91_has_unit>quire</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/place/annotation/1">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC3010Ethiop"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Ethiopia</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/place/annotation/2">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC3010Ethiop"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Ethiopia</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/place/annotation/3">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/INS0317Frank"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Stadtbibliothek Frankfurt</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/1">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS11744HabtaM"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ሀብተ፡ ማርያም፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/2">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5684JesusCh"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Jesus Christ</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/3">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/Scribe"/>
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS11744HabtaM"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Habta Māryām</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/5">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/6">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/7">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5684JesusCh"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Jesus Christ</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/8">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Virgin</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/9">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5684JesusCh"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Jesus Christ</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/10">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5741Johnthe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St John the Baptist</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/11">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS11330Devil"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Devil</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/12">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5684JesusCh"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Jesus Christ</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/13">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7216Muhammad"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Muḥammad</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/14">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/15">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4377Gabriel"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Gabriel</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/16">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/17">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5684JesusCh"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Jesus Christ</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/18">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/19">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5764Joseph"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Joseph</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/20">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8417Salome"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Salome</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/21">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4585Georgeo"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St George of Lydda</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/22">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4585Georgeo"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ጊዮርጊስ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/23">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/24">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7049Michael"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Michael</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/25">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4377Gabriel"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Gabriel</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/26">
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/Donor"/>
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS11744HabtaM"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Habta Māryām</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/27">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/28">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5684JesusCh"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Jesus Christ</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/29">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8417Salome"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Salome</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/30">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5764Joseph"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Joseph</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/31">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8491Samuel"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Sāmuʾel of Wāldǝbbā</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/32">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8491Samuel"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ሳሙኤል፡ ዘዋልድባ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/33">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS9162TaklaHa"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Takla Hāymānot</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/34">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS9162TaklaHa"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ተክለ፡ ሃይማኖት፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/35">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4306GabraMa"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Gabra Manfas Qǝddus</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/36">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4585Georgeo"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St George of Lydda</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/37">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4585Georgeo"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ጊዮርጊስ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/38">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4585Georgeo"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St George of Lydda</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/39">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4585Georgeo"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St George of Lydda</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/40">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4585Georgeo"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ጊዮርጊስ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/41">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/42">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5684JesusCh"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Jesus Christ</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/43">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/44">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS3417David"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>David</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/45">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS3417David"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ዳዊት፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/46">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7805Peter"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Peter</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/47">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7805Peter"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ጴጥሮስ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/48">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5684JesusCh"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Jesus Christ</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/49">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/50">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/51">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/52">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5684JesusCh"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Jesus Christ</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/53">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8417Salome"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Salome</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/54">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5764Joseph"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Joseph</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/55">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5764Joseph"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ዮሴፍ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/56">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8417Salome"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ሰሎሜ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/57">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ማርያም</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/58">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4585Georgeo"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St George of Lydda</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/59">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7840Phanuel"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Phanuel</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/60">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ማርያም፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/61">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS1948Anne"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Anne</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/62">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/63">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5687Joachim"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Joachim</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/64">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ማርያም፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/65">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5687Joachim"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Joachim</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/66">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS1948Anne"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Anne</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/67">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6819Mary"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mary</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/68">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5687Joachim"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ኢያቂም፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/69">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS1948Anne"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ሃና፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/70">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8249Ruppell"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Eduard Rüppell</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/71">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS11744HabtaM"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Habta Māryām</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/FSUor17/person/annotation/72">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8249Ruppell"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Eduard Rüppell</lawd:hasName>
+   </oa:Annotation>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/msitem/ms_i1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT2246salotz"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS11744HabtaM"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/msitem/ms_i2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1113Anqasa"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/msitem/ms_i3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4663Eqabanni"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="FSUor17/msitem/ms_i3.1"/>
+      <dcterms:hasPart rdf:resource="FSUor17/msitem/ms_i3.2"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/msitem/ms_i3.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4663Eqabanni#Eqabanni"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/msitem/ms_i3.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4663Eqabanni#Franks"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/msitem/ms_i4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4721Miracle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/msitem/ms_i5">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT4720Miracle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/msitem/ms_i6">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3941Miracle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/msitem/ms_i7">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3618Miracle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>4</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>8</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>1</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>8</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>8</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q6">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>8</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q7">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>8</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q8">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>8</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q9">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>8</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q10">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>8</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q11">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>8</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/quire/q12">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>8</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/layout/layout1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/layout"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMeP"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/hand/h1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5684JesusCh"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS11744HabtaM"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Ethiopic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1057LastJudgement"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/angel"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/sword"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/angel"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/sword"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/demon"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1059WeighingOfSouls"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/angel"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/scale"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/gestureblessing"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5684JesusCh"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1058DormitionMary"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/censer"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1037AscensionMary"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/angel"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5684JesusCh"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5741Johnthe"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1038Baptism"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/HolySpirit"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/handGod"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d6">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS11330Devil"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5684JesusCh"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1060TemptationJesus"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/demon"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d7">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7216Muhammad"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/prayerstaff"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d8">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/angel"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d9">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4377Gabriel"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1002Annunciation"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/gestureblessing"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/HolySpirit"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d10">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5684JesusCh"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5764Joseph"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8417Salome"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1025NativityJesus"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d11">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4585Georgeo"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4585Georgeo"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1012Equestrian"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/dragon"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/spear"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d12">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7049Michael"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4377Gabriel"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS11744HabtaM"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1031VirginAndChild"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d13">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5684JesusCh"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8417Salome"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5764Joseph"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1016Flight"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d14">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8491Samuel"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8491Samuel"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1035HolyMan"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/prayerstaff"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d15">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9162TaklaHa"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS9162TaklaHa"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1035HolyMan"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/gestureorans"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d16">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4306GabraMa"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1035HolyMan"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/gestureorans"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d17">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4585Georgeo"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4585Georgeo"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1061SaintMartyrdom"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d18">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4585Georgeo"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1061SaintMartyrdom"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d19">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4585Georgeo"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4585Georgeo"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1061SaintMartyrdom"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d20">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/gestureorans"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d21">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5684JesusCh"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3417David"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3417David"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7805Peter"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7805Peter"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1037AscensionMary"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/gestureblessing"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/gesturecrossed"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/angel"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d22">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5684JesusCh"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1036MercyCovenant"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/angel"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d23">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1062CoronationMary"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/gesturecrossed"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/HolySpirit"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d24">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5684JesusCh"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8417Salome"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5764Joseph"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5764Joseph"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8417Salome"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1016Flight"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d25">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4585Georgeo"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1061SaintMartyrdom"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d26">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1040Ancient"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/censer"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/cross"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/gestureblessing"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/tetramorph"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d27">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7840Phanuel"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1063AngelFeedsMary"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/angel"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d28">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS1948Anne"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5687Joachim"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1026NativityMary"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/decoration/d29">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5687Joachim"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS1948Anne"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6819Mary"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5687Joachim"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS1948Anne"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/AT1043PresentationMary"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/bird"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/addition/e1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:language/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/addition/e2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8249Ruppell"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/addition/e3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS11744HabtaM"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/addition/e4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/binding/b1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/binding"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/FSUor17/binding/b2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/FSUor17"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/binding"/>
+      <crm:P46_is_composed_of rdf:resource="https://betamasaheft.eu/vocabularies/material.html#leather"/>
+      <crm:P46_is_composed_of rdf:resource="https://betamasaheft.eu/vocabularies/material.html#wood"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/bindingMaterial"/>
+   </rdf:Description>
+</rdf:RDF>

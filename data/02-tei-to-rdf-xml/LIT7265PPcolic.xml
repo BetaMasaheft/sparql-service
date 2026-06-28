@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT7265PPcolic">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/work"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LIT7265PPcolic.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/works/LIT7265PPcolic/main"/>
+      <crm:P48_has_preferred_identifier>LIT7265PPcolic</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft British Museum,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>LIT7265PPcolic</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>Carsten Hoffmann</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Magic"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Prayers"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/DiseasePain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Asmat"/>
+      <dc:title>Prayer against colic</dc:title>
+      <dc:title xml:lang="en">Prayer against colic</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT7265PPcolic%2Ftitle%2Ft1"
+                          xml:lang="en"/>
+      <dc:title xml:lang="gez">ባላህ፡ ማላህ፡ ኤድራት፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT7265PPcolic%2Ftitle%2Ft2"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Bālāh mālāh ʾedrāt</dc:title>
+      <dcterms:hasPart rdf:resource="LIT7265PPcolic/part/div1"/>
+      <dcterms:hasPart rdf:resource="LIT7265PPcolic/part/div2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT7265PPcolic">
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT6753PPWegat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT7265PPcolic/part/div1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT7265PPcolic"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT7265PPcolic/part/div2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT7265PPcolic"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT7265PPcolic%2Ftitle%2Ft1">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>Prayer against colic</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT7265PPcolic%2Ftitle%2Ft2">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>ባላህ፡ ማላህ፡ ኤድራት፡</rdfs:label>
+   </rdf:Description>
+</rdf:RDF>

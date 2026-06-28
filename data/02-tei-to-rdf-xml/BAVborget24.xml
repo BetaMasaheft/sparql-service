@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/mss"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/BAVborget24.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/manuscripts/BAVborget24/main"/>
+      <crm:P48_has_preferred_identifier>BAVborget24</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft In Bybliotheca Vaticana,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>BAVborget24</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>Augustine Dickinson</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Magic"/>
+      <dcterms:bibliographicCitation>bm:GrebTiss1935Codices</dcterms:bibliographicCitation>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniProd"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCirc"/>
+      <sdc:hasCertainty rdf:resource="https://w3id.org/sdc/ontology#Certain"/>
+      <crm:P1_is_identified_by>Vat. Borg. et. 24</crm:P1_is_identified_by>
+      <foaf:depiction>
+         <rdf:Description rdf:about="https://betamasaheft.eu/manuscript/BAVborget24/viewer">
+            <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+            <svcs:has_service>
+               <rdf:Description rdf:about="https://betamasaheft.eu/api/iiif/BAVborget24/manifest">
+                  <rdf:type rdf:resource="http://rdfs.org/sioc/services#Service"/>
+                  <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+                  <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+               </rdf:Description>
+            </svcs:has_service>
+         </rdf:Description>
+      </foaf:depiction>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0003BAV"/>
+      <crm:P1_is_identified_by>Vat. Borg. et. 24</crm:P1_is_identified_by>
+      <foaf:depiction>
+         <rdf:Description rdf:about="https://betamasaheft.eu/manuscript//viewer">
+            <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+            <svcs:has_service>
+               <rdf:Description rdf:about="https://betamasaheft.eu/api/iiif//manifest">
+                  <rdf:type rdf:resource="http://rdfs.org/sioc/services#Service"/>
+                  <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+                  <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+               </rdf:Description>
+            </svcs:has_service>
+         </rdf:Description>
+      </foaf:depiction>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0003BAV"/>
+      <betmas:hasTotalLeaves/>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P2_has_type>width</crm:P2_has_type>
+            <crm:P90_has_value>72</crm:P90_has_value>
+            <crm:P91_has_unit>mm</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P2_has_type>height</crm:P2_has_type>
+            <crm:P90_has_value>1700</crm:P90_has_value>
+            <crm:P91_has_unit>mm</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+      <crm:P46_is_composed_of rdf:resource="https://betamasaheft.eu/vocabularies/material.html#parchment"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/Scroll"/>
+      <dcterms:hasPart rdf:resource="BAVborget24//handDesc1"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/layout/layout1"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/decoration/d1"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/decoration/d2"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/decoration/d3"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/binding/b1"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/addition/e1"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/part/div1"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/part/div2"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/part/div3"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/part/div4"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/part/div5"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/part/div6"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/part/div7"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/part/div8"/>
+   </rdf:Description>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BAVborget24/person/annotation/1">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS9535tobiyaG"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Ṭobiya Giyorgis Gäbrä Ǝgziʾabǝḥer</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BAVborget24/person/annotation/2">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS2853Borgia"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Stefano Borgia</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BAVborget24/person/annotation/3">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS9535tobiyaG"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Ṭobiyā</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BAVborget24/person/annotation/4">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS2853Borgia"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Borgia</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BAVborget24/person/annotation/5">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6258LeoXIII"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Leo XIII</lawd:hasName>
+   </oa:Annotation>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1758Lefafa"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1.1"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1.2"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1.3"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1.4"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1.5"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1.6"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1.7"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1758Lefafa#ThirdChapter"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1873Mangad"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1758Lefafa"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1758Lefafa#FirstChapter"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1758Lefafa#SecondChapter"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1.3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1873Mangad"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1.3.1"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1.3.2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1.3.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1873Mangad#Second"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1.3.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1873Mangad#Third"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1.4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart>Two parts of Lǝfāfa ṣǝdq copied together.</dcterms:hasPart>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1.4.1"/>
+      <dcterms:hasPart rdf:resource="BAVborget24/msitem/ms_i1.4.2"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT1758Lefafa"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1.4.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1758Lefafa#FourthChapter"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1.4.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1758Lefafa#FifthChapter"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1.5">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1758Lefafa#SixthChapter"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1.6">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1758Lefafa#ThirdChapter"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/msitem/ms_i1.7">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT1873Mangad#Sixth"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/layout/layout1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/layout"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMeP"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/hand/h1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Ethiopic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/hand/h2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Ethiopic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/hand/h3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Ethiopic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/hand/h4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Ethiopic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/decoration/d1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/cross"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/decoration/d2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/cross"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/decoration/d3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/cross"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/addition/e1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/BAVborget24/decoration/d1"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/BAVborget24/decoration/d2"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/BAVborget24/decoration/d3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/binding/b1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/binding"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/SlipCase"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/part/div1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/BAVborget24#ms_i1.1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/part/div2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/BAVborget24#ms_i1.2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/part/div3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/BAVborget24#ms_i1.3.1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/part/div4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/BAVborget24#ms_i1.3.2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/part/div5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/BAVborget24#ms_i1.4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/part/div6">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/BAVborget24#ms_i1.5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/part/div7">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/BAVborget24#ms_i1.6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BAVborget24/part/div8">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BAVborget24"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/BAVborget24#ms_i1.7"/>
+   </rdf:Description>
+</rdf:RDF>

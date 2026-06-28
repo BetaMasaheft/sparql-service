@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/work"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LIT1812GospelLuke.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/works/LIT1812GospelLuke/main"/>
+      <crm:P48_has_preferred_identifier>LIT1812GospelLuke</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft E Typographeo Academico E Typographeo Clarendoniano,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>LIT1812GospelLuke</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:title>Wangel za-Luqās</dc:title>
+      <dc:title xml:lang="gez">ወንጌል፡ ዘሉቃስ፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke%2Ftitle%2Ft1"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Wangel za-Luqās</dc:title>
+      <dc:title xml:lang="en">Gospel of Luke</dc:title>
+      <dc:title>Luc.</dc:title>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/LukeGospelPreface"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/LukeGospelPreface">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/SupplicationPrefaceLuke"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/TitlePrefaceLuke"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/BiographyLuke"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/EusebianSectionsLuke"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/TituliLuke"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/SupplicationPrefaceLuke">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div1"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/TitlePrefaceLuke">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/BiographyLuke">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div1"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/EusebianSectionsLuke">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div1"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/TituliLuke">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div1"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT2713Luke"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/LukeGospelHeadline"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/LukeGospel"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/PostscriptLuke"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/LukeGospelHeadline">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/LukeGospel">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div1"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div2"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch1"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch2"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch3"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch4"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch5"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch6"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch7"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch8"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch9"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch10"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch11"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch12"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch13"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch14"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch15"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch16"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch17"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch18"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch19"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch20"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/ch21"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch6">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch7">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch8">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch9">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch10">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch11">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch12">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch13">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch14">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch15">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch16">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch17">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch18">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch19">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch20">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/ch21">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/PostscriptLuke">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div1"/>
+      <dcterms:hasPart rdf:resource="LIT1812GospelLuke/part/div2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke/part/div2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1812GospelLuke"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1812GospelLuke%2Ftitle%2Ft1">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>ወንጌል፡ ዘሉቃስ፡</rdfs:label>
+   </rdf:Description>
+</rdf:RDF>

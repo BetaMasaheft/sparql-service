@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/work"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LIT2169Pateri.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/works/LIT2169Pateri/main"/>
+      <crm:P48_has_preferred_identifier>LIT2169Pateri</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft Secrétariat Du Corpus SCO Secrétariat Du Corpus SCO Secrétariat Du CorpusSCO Harrassowitz Verlag Accademia nazionale dei Lincei,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>LIT2169Pateri</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">la</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>SiegbertUhlig</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/MonasticLiterature"/>
+      <dc:title>Maṣḥafa zenāhomu
+                                                  la-ʾabaw</dc:title>
+      <dc:title xml:lang="gez">መጽሐፈ፡ ዜናሆሙ፡ ለአበው፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT2169Pateri%2Ftitle%2Ft1"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Maṣḥafa zenāhomu la-ʾabaw</dc:title>
+      <dc:title xml:lang="en">Book of the History of the Fathers</dc:title>
+      <dc:title xml:lang="la">Patericon Aethiopice</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT2169Pateri%2Ftitle%2Ft2" xml:lang="la"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BNFet125#ms_i1"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BNFabb75"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BLorient762"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BLorient764"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BLorient765"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BLorient766"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BLorient767"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/FSUor7"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/Tanasee135"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BAVet33"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/EMML19"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/EMML1096"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/EMML1536"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/EMML2071"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/FSUor7"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BAVcerulli124"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Introduction"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter1"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter2"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter3"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter4"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter5"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter6"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter7"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter8"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter9"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter10"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter11"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter12"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter13"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter14"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter15"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter16"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter17"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter18"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter19"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter20"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter21"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter22"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter23"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter24"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter25"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter26"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter27"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter28"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter29"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter30"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter31"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter32"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter33"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter34"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter35"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter36"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter37"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter38"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter39"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter40"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter41"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter42"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter43"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter44"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter45"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter46"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter47"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter48"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter49"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter50"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter51"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter52"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter53"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter54"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter55"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter56"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter57"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter58"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter59"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter60"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter61"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter62"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter63"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter64"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter65"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter66"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter67"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter68"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter69"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter70"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter71"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter72"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter73"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter74"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter75"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter76"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter77"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter78"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter79"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter80"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter81"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter82"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter83"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter84"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter85"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter86"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter87"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter88"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter89"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter90"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter91"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter92"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter93"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter94"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter95"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter96"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter97"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter98"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter99"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter100"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter101"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter102"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter103"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter104"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter105"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter106"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter107"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter108"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter109"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter110"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter111"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter112"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter113"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter114"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter115"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter116"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter117"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter118"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter119"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter120"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter121"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter122"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter123"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter124"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter125"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter126"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter127"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter128"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter129"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter130"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter131"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter132"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter133"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter134"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter135"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter136"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter137"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter138"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter139"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter140"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter141"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter142"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter143"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter144"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter145"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter146"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter147"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter148"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter149"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter150"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter151"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter152"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter153"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter154"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter155"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter156"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter157"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter158"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter159"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter160"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter161"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter162"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter163"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter164"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter165"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter166"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter167"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter168"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter169"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter170"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter171"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter172"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter173"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter174"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter175"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter176"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter177"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter178"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter179"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter180"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter181"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter182"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter183"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter184"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter185"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter186"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter187"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter188"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter189"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter190"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter191"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter192"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter193"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter194"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter195"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter196"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter197"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter198"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter199"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter200"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter201"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter202"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter203"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter204"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter205"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter206"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter207"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter208"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter209"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter210"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter211"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter212"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter213"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter214"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter215"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter216"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter217"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter218"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter219"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter220"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter221"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter222"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter223"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter224"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter225"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter226"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter227"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter228"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter229"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter230"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter231"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter232"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter233"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter234"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter235"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter236"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter237"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter238"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter239"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter240"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter241"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter242"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter243"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter244"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter245"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter246"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter247"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter248"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter249"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter250"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter251"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter252"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter253"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter254"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter255"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter256"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter257"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter258"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter259"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter260"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter261"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter262"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter263"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter264"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter265"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter266"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter267"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter268"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter269"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter270"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter271"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter272"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter273"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter274"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter275"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter276"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter277"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter278"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter279"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter280"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter281"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter282"/>
+      <dcterms:hasPart rdf:resource="LIT2169Pateri//Chapter283"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri">
+      <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS5581Isaacof"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri">
+      <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS5724JohnMos"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri">
+      <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS1909Anastasi"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri">
+      <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS3827Ephrem"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri">
+      <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS5720JohnChr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri">
+      <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS2546Basilth"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri">
+      <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS6427Macarius"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri">
+      <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS5585Isaiaht"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri">
+      <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS5740JohnSab"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Introduction">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter6">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter7">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter8">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter9">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter10">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter11">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter12">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter13">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter14">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter15">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter16">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter17">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter18">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter19">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter20">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter21">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter22">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter23">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter24">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter25">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter26">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter27">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter28">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter29">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter30">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter31">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter32">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter33">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter34">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter35">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter36">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter37">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter38">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter39">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter40">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter41">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter42">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter43">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter44">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter45">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter46">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter47">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter48">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter49">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter50">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter51">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter52">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter53">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter54">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter55">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter56">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter57">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter58">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter59">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter60">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter61">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter62">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter63">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter64">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter65">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter66">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter67">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter68">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter69">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter70">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter71">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter72">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter73">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter74">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter75">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter76">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter77">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter78">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter79">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter80">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter81">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter82">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter83">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter84">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter85">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter86">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter87">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter88">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter89">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter90">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter91">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter92">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter93">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter94">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter95">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter96">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter97">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter98">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter99">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter100">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter101">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter102">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter103">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter104">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter105">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter106">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter107">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter108">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter109">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter110">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter111">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter112">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter113">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter114">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter115">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter116">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter117">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter118">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter119">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter120">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter121">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter122">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter123">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter124">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter125">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter126">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter127">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter128">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter129">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter130">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter131">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter132">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter133">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter134">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter135">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter136">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter137">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter138">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter139">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter140">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter141">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter142">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter143">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter144">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter145">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter146">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter147">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter148">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter149">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter150">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter151">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter152">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter153">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter154">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter155">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter156">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter157">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter158">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter159">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter160">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter161">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter162">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter163">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter164">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter165">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter166">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter167">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter168">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter169">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter170">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter171">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter172">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter173">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter174">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter175">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter176">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter177">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter178">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter179">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter180">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter181">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter182">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter183">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter184">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter185">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter186">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter187">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter188">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter189">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter190">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter191">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter192">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter193">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter194">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter195">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter196">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter197">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter198">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter199">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter200">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter201">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter202">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter203">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter204">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter205">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter206">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter207">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter208">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter209">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter210">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter211">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter212">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter213">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter214">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter215">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter216">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter217">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter218">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter219">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter220">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter221">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter222">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter223">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter224">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter225">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter226">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter227">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter228">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter229">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter230">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter231">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter232">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter233">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter234">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter235">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter236">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter237">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter238">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter239">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter240">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter241">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter242">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter243">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter244">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter245">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter246">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter247">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter248">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter249">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter250">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter251">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter252">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter253">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter254">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter255">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter256">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter257">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter258">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter259">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter260">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter261">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter262">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter263">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter264">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter265">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter266">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter267">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter268">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter269">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter270">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter271">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter272">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter273">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter274">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter275">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter276">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter277">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter278">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter279">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter280">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter281">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter282">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri//Chapter283">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2169Pateri"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri%2Ftitle%2Ft1">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>መጽሐፈ፡ ዜናሆሙ፡ ለአበው፡</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2169Pateri%2Ftitle%2Ft2">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>Patericon Aethiopice</rdfs:label>
+   </rdf:Description>
+</rdf:RDF>

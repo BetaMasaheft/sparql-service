@@ -1,0 +1,280 @@
+<https://betamasaheft.eu/EMML12> <http://purl.org/dc/terms/licence> <http://opendatacommons.org/licenses/odbl/1.0/> ;
+	a <https://betamasaheft.eu/mss> ;
+	<http://purl.org/dc/terms/source> <https://betamasaheft.eu/tei/EMML12.xml> ;
+	<http://xmlns.com/foaf/0.1/homepage> <https://betamasaheft.eu/manuscripts/EMML12/main> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier> "EMML12" ;
+	<http://purl.org/dc/elements/1.1/publisher> "Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine\n                                multimediale Forschungsumgebung / Beta maṣāḥǝft Monastic Manuscript Microfilm Library, St. John's Abbey and University,  Akademie der Wissenschaften in Hamburg" ;
+	<http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu> ;
+	<http://purl.org/dc/terms/bibliographicCitation> "EMML12" ;
+	<http://purl.org/dc/elements/1.1/format> "xml" ;
+	<http://purl.org/dc/elements/1.1/language> "en"^^<http://www.w3.org/2001/XMLSchema#language> , "gez"^^<http://www.w3.org/2001/XMLSchema#language> ;
+	<http://purl.org/dc/elements/1.1/contributor> "Alessandro Bausi" ;
+	<http://purl.org/dc/terms/bibliographicCitation> "bm:EMML1" ;
+	a <https://w3id.org/sdc/ontology#UniProd> , <https://w3id.org/sdc/ontology#UniCirc> ;
+	<https://w3id.org/sdc/ontology#hasCertainty> <https://w3id.org/sdc/ontology#Certain> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "EMML 12" .
+<https://betamasaheft.eu/manuscript/EMML12/viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif/EMML12/manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript/EMML12/viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif/EMML12/manifest> .
+<https://betamasaheft.eu/EMML12> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript/EMML12/viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "EMML no. 12" , "EMIP Mārqos Addis 8" , "EMIP 1293" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0646ASM> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "EMML 12" .
+<https://betamasaheft.eu/manuscript//viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif//manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript//viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif//manifest> .
+<https://betamasaheft.eu/EMML12> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript//viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "EMML no. 12" , "EMIP Mārqos Addis 8" , "EMIP 1293" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0646ASM> ;
+	<https://betamasaheft.eu/ontology/hasTotalLeaves> "144" .
+_:a23ce92c26f5ddbff1ff38610909765a a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "height" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "345" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/EMML12> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:a23ce92c26f5ddbff1ff38610909765a .
+_:a2ecde8fb87791bc85e7c82920e99ff a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "width" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "295" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/EMML12> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:a2ecde8fb87791bc85e7c82920e99ff ;
+	<http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> <https://betamasaheft.eu/vocabularies/material.html#parchment> ;
+	a <https://betamasaheft.eu/ontology/Codex> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMML12//handDesc1> , <https://betamasaheft.eu/EMML12/layout/layout1> , <https://betamasaheft.eu/EMML12/addition/a1> , <https://betamasaheft.eu/EMML12/addition/a2> , <https://betamasaheft.eu/EMML12/addition/e1> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 1 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMML12/msitem/ms_i1> ;
+	<https://betamasaheft.eu/ontology/formerlyAlsoListedAs> <https://betamasaheft.eu/EMIP01293> .
+<https://betamasaheft.eu/EMML12/person/annotation/1> a <http://www.w3.org/ns/oa#Annotation> , <https://betamasaheft.eu/ontology/Scribe> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/EMML12> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS13454WaldaS> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-06-27+03:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "Walda Sinodā" .
+<https://betamasaheft.eu/EMML12/person/annotation/2> a <http://www.w3.org/ns/oa#Annotation> , <https://betamasaheft.eu/ontology/Donor> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/EMML12> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS5226haylase> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-06-27+03:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "Ḫāyla Śǝllāse I" .
+<https://betamasaheft.eu/EMML12/person/annotation/3> a <http://www.w3.org/ns/oa#Annotation> , <https://betamasaheft.eu/ontology/Scribe> ;
+	<http://www.w3.org/ns/oa#hasTarget> <https://betamasaheft.eu/EMML12> ;
+	<http://www.w3.org/ns/oa#hasBody> <https://betamasaheft.eu/PRS13454WaldaS> ;
+	<http://www.w3.org/ns/oa#annotatedAt> "2026-06-27+03:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://lawd.info/ontology/hasName> "Walda Sinodā" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT2222RetuaH> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 26 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/EMML12/msitem/ms_i1.1> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.2> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.3> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.4> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.5> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.6> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.7> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.8> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.9> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.10> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.11> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.12> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.13> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.14> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.15> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.16> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.17> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.18> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.19> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.20> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.21> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.22> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.23> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.24> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.25> , <https://betamasaheft.eu/EMML12/msitem/ms_i1.26> .
+_:b7b31efb7c6e729ba666661bf013ab75 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1> <https://betamasaheft.eu/ontology/hasLocus> _:b7b31efb7c6e729ba666661bf013ab75 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT2124OntheF> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:bc6596de978b466e241ad7ef2a30ca65 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.1> <https://betamasaheft.eu/ontology/hasLocus> _:bc6596de978b466e241ad7ef2a30ca65 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT3959Homily> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:af26deadc40efd87620ac3fb2bc7e536 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.2> <https://betamasaheft.eu/ontology/hasLocus> _:af26deadc40efd87620ac3fb2bc7e536 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6469HomilyKahenat> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b49990d2c73e4b5d47aef2b1bd0fbf63 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.3> <https://betamasaheft.eu/ontology/hasLocus> _:b49990d2c73e4b5d47aef2b1bd0fbf63 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6799RHintro> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b361d545f99eb84931e9e265f6b2fda6 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.4> <https://betamasaheft.eu/ontology/hasLocus> _:b361d545f99eb84931e9e265f6b2fda6 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.5> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT2113OntheB> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d34b9a7cc51e5c7984d4561cc177d69e a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.5> <https://betamasaheft.eu/ontology/hasLocus> _:d34b9a7cc51e5c7984d4561cc177d69e .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.6> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT2095OnHowO> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:cd50711539dce6c7eb2a03f62349e12 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.6> <https://betamasaheft.eu/ontology/hasLocus> _:cd50711539dce6c7eb2a03f62349e12 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.7> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6060BeginningOfLent> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b1f6f7ed2c73d61db35c0b4f028ed8a1 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.7> <https://betamasaheft.eu/ontology/hasLocus> _:b1f6f7ed2c73d61db35c0b4f028ed8a1 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.8> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6049SundayRetuaH> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d176d444f0ab82ad5d784d64fb720223 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.8> <https://betamasaheft.eu/ontology/hasLocus> _:d176d444f0ab82ad5d784d64fb720223 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.9> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6050SundayRetuaH> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:fbdcfa4fc9ad3a676be4a1fcb13efead a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.9> <https://betamasaheft.eu/ontology/hasLocus> _:fbdcfa4fc9ad3a676be4a1fcb13efead .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.10> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6061SundayRetuaH> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:f2e7240afc06f9ea6ad74ae31d273199 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.10> <https://betamasaheft.eu/ontology/hasLocus> _:f2e7240afc06f9ea6ad74ae31d273199 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.11> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6440Sunday4> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:fed2f171aa8531effb78dc74d9953a41 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.11> <https://betamasaheft.eu/ontology/hasLocus> _:fed2f171aa8531effb78dc74d9953a41 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.12> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6442Sunday5> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b286c4a3425d1dec525b66bf8b4d13a1 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.12> <https://betamasaheft.eu/ontology/hasLocus> _:b286c4a3425d1dec525b66bf8b4d13a1 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.13> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6443Sunday6> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ca0d28b94e773e382f4309c6b0f3f3af a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.13> <https://betamasaheft.eu/ontology/hasLocus> _:ca0d28b94e773e382f4309c6b0f3f3af .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.14> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6048OnPalmSundayRetuaH> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:e24b3d501c2787dacd847ff342fa53ae a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.14> <https://betamasaheft.eu/ontology/hasLocus> _:e24b3d501c2787dacd847ff342fa53ae .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.15> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT2097OnHowt> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:dd073043c9a37dfe2c53a851ac2f0dfe a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.15> <https://betamasaheft.eu/ontology/hasLocus> _:dd073043c9a37dfe2c53a851ac2f0dfe .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.16> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT2149OntheW> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b0cb25206648544620451ae190f2a2eb a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.16> <https://betamasaheft.eu/ontology/hasLocus> _:b0cb25206648544620451ae190f2a2eb .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.17> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6441Kehda> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:ffa354a93ee5dea5f8a465f6992ea1b0 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.17> <https://betamasaheft.eu/ontology/hasLocus> _:ffa354a93ee5dea5f8a465f6992ea1b0 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.18> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6444HomilyPilatos> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:e9f32bea79cd839070806d94bd96748b a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.18> <https://betamasaheft.eu/ontology/hasLocus> _:e9f32bea79cd839070806d94bd96748b .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.19> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT1750LahaMa> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:f4aa8acacd32ca21047bc3a35ffd26e1 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.19> <https://betamasaheft.eu/ontology/hasLocus> _:f4aa8acacd32ca21047bc3a35ffd26e1 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.20> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT2118OntheD> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:a6b2d8389406b5b2e5140fa4456705aa a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.20> <https://betamasaheft.eu/ontology/hasLocus> _:a6b2d8389406b5b2e5140fa4456705aa .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.21> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT5862OnSpiritualEaster> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:c2f85eb399d9521d8e18947f876cd795 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.21> <https://betamasaheft.eu/ontology/hasLocus> _:c2f85eb399d9521d8e18947f876cd795 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.22> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT2109OntheA> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:a2a3daa23ae042f020403186da04f0e1 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.22> <https://betamasaheft.eu/ontology/hasLocus> _:a2a3daa23ae042f020403186da04f0e1 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.23> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT2137OntheP> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:fbce8500883c12c9ef54a7762537682d a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.23> <https://betamasaheft.eu/ontology/hasLocus> _:fbce8500883c12c9ef54a7762537682d .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.24> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT6047On12ApostlesRetuaH> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:b79bc5671590818f2d5983081a2220d9 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.24> <https://betamasaheft.eu/ontology/hasLocus> _:b79bc5671590818f2d5983081a2220d9 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.25> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT2145OntheT> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:e15a3df45a051160d04fe171b6b9211 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.25> <https://betamasaheft.eu/ontology/hasLocus> _:e15a3df45a051160d04fe171b6b9211 .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.26> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/LIT1640Homily> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:de5b519a41ea770a187d7a612ca3bd35 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" ;
+	<https://betamasaheft.eu/ontology/locusTo> "" .
+<https://betamasaheft.eu/EMML12/msitem/ms_i1.26> <https://betamasaheft.eu/ontology/hasLocus> _:de5b519a41ea770a187d7a612ca3bd35 .
+<https://betamasaheft.eu/EMML12/layout/layout1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMML12> ;
+	a <https://betamasaheft.eu/layout> , <https://w3id.org/sdc/ontology#UniRegl> , <https://w3id.org/sdc/ontology#UniMeP> .
+<https://betamasaheft.eu/EMML12/hand/h1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/EMML12> ;
+	a <https://betamasaheft.eu/hand> ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS13454WaldaS> ;
+	a <https://w3id.org/sdc/ontology#UniMain> , <https://betamasaheft.eu/Ethiopic> .
+<https://betamasaheft.eu/EMML12/addition/a1> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/DonationNote> ;
+	<http://purl.org/dc/elements/1.1/language> "" .
+_:b012f47283ad517aed0b66c08e9a364e a <http://www.cidoc-crm.org/cidoc-crm/E52_Time-span> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P79_beginning_is_qualified_by> "1925-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P80_end_is_qualified_by> "1926-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://betamasaheft.eu/EMML12/addition/a1> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time_span> _:b012f47283ad517aed0b66c08e9a364e ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS5226haylase> .
+_:c042417aab27158fb8f6efa7d29f0f08 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" , "" .
+<https://betamasaheft.eu/EMML12/addition/a1> <https://betamasaheft.eu/ontology/hasLocus> _:c042417aab27158fb8f6efa7d29f0f08 .
+<https://betamasaheft.eu/EMML12/addition/a2> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/ScribalSupplication> ;
+	<http://purl.org/dc/elements/1.1/language> "" ;
+	<http://purl.org/dc/elements/1.1/relation> <https://betamasaheft.eu/PRS13454WaldaS> .
+_:a63127660d190e8b84f141552697d2fa a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/EMML12/addition/a2> <https://betamasaheft.eu/ontology/hasLocus> _:a63127660d190e8b84f141552697d2fa .
+<https://betamasaheft.eu/EMML12/addition/e1> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/StampExlibris> .
+_:faf555776b880b9b18ea45eb767ff1f8 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" , "" , "" , "" .
+<https://betamasaheft.eu/EMML12/addition/e1> <https://betamasaheft.eu/ontology/hasLocus> _:faf555776b880b9b18ea45eb767ff1f8 .

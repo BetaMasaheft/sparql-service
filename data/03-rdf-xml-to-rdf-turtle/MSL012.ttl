@@ -1,0 +1,64 @@
+<https://betamasaheft.eu/MSL012> <http://purl.org/dc/terms/licence> <http://opendatacommons.org/licenses/odbl/1.0/> ;
+	a <https://betamasaheft.eu/mss> ;
+	<http://purl.org/dc/terms/source> <https://betamasaheft.eu/tei/MSL012.xml> ;
+	<http://xmlns.com/foaf/0.1/homepage> <https://betamasaheft.eu/manuscripts/MSL012/main> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier> "MSL012" ;
+	<http://purl.org/dc/elements/1.1/publisher> "Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale\n                    Forschungsumgebung / Beta maṣāḥǝft,  Akademie der Wissenschaften in Hamburg" ;
+	<http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu> ;
+	<http://purl.org/dc/terms/bibliographicCitation> "MSL012" ;
+	<http://purl.org/dc/elements/1.1/format> "xml" ;
+	<http://purl.org/dc/elements/1.1/language> "en"^^<http://www.w3.org/2001/XMLSchema#language> , "gez"^^<http://www.w3.org/2001/XMLSchema#language> ;
+	<http://purl.org/dc/elements/1.1/contributor> "Alessandro Bausi" , "Mersha Alehegne" , "Eugenia Sokolinski" ;
+	a <https://betamasaheft.eu/ChristianLiterature> , <https://betamasaheft.eu/Commentary> , <https://w3id.org/sdc/ontology#UniProd> , <https://w3id.org/sdc/ontology#UniCirc> ;
+	<https://w3id.org/sdc/ontology#hasCertainty> <https://w3id.org/sdc/ontology#Certain> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "MSL-012" .
+<https://betamasaheft.eu/manuscript/MSL012/viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif/MSL012/manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript/MSL012/viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif/MSL012/manifest> .
+<https://betamasaheft.eu/MSL012> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript/MSL012/viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0972MahdaraSebhat> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "MSL-012" .
+<https://betamasaheft.eu/manuscript//viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif//manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript//viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif//manifest> .
+<https://betamasaheft.eu/MSL012> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript//viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0972MahdaraSebhat> ;
+	<https://betamasaheft.eu/ontology/hasTotalLeaves> "116" .
+_:f383a721179be420aa68b497b71dc1f a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "height" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "280" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/MSL012> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f383a721179be420aa68b497b71dc1f .
+_:f70ec3d62af1cc8177608f28b974cb8d a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "width" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "195" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/MSL012> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:f70ec3d62af1cc8177608f28b974cb8d .
+_:d396c0399040da3f7a7dc2be03ea47de a <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "depth" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "40" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> "mm" .
+<https://betamasaheft.eu/MSL012> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> _:d396c0399040da3f7a7dc2be03ea47de ;
+	<http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> <https://betamasaheft.eu/vocabularies/material.html#parchment> ;
+	a <https://betamasaheft.eu/ontology/Codex> ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/MSL012/layout/layout1> , <https://betamasaheft.eu/MSL012/decoration/d1> , <https://betamasaheft.eu/MSL012/binding/b1> , <https://betamasaheft.eu/MSL012/addition/a1> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 1 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/MSL012/msitem/ms_i1> .
+<https://betamasaheft.eu/MSL012/msitem/ms_i1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Qǝddāse tǝrgwāme" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+<https://betamasaheft.eu/MSL012/layout/layout1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/MSL012> ;
+	a <https://betamasaheft.eu/layout> , <https://w3id.org/sdc/ontology#UniMeP> .
+<https://betamasaheft.eu/MSL012/decoration/d1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/MSL012> ;
+	a <https://betamasaheft.eu/decoration> , <https://betamasaheft.eu/frame> .
+<https://betamasaheft.eu/MSL012/addition/a1> a <https://betamasaheft.eu/addition> , <https://w3id.org/sdc/ontology#UniCont> , <https://betamasaheft.eu/DonationNote> ;
+	<http://purl.org/dc/elements/1.1/language> "" .
+_:be491be9d61ae5a3221ff91e0142c4f8 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusTarget> "" .
+<https://betamasaheft.eu/MSL012/addition/a1> <https://betamasaheft.eu/ontology/hasLocus> _:be491be9d61ae5a3221ff91e0142c4f8 .
+<https://betamasaheft.eu/MSL012/binding/b1> <http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu/MSL012> ;
+	a <https://betamasaheft.eu/binding> .

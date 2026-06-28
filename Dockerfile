@@ -1,5 +1,5 @@
 # syntax = docker/dockerfile:1.2
-FROM ubuntu:latest AS builder
+FROM rust:bullseye AS ubuntu-builder
 
 WORKDIR /home/ubuntu
 
@@ -8,54 +8,59 @@ RUN apt-get update && apt-get install -y curl unzip default-jre libsaxonb-java f
 # Download and unzip the archive for the expanded data
 RUN --mount=type=secret,id=DEPLOY_PAT \
     curl -H "Authorization: token $(cat /run/secrets/DEPLOY_PAT)" -L https://github.com/BetaMasaheft/expanded/archive/refs/heads/main.zip -o main.zip &&\
-    unzip -qj main.zip -d ./input/ &&\
+    mkdir -p ./data/01-unzip-tei-files/ &&\
+    unzip -qj main.zip -d ./data/01-unzip-tei-files/ &&\
     rm main.zip
 
 COPY ./modules/ ./modules/
 
-# Move the TEI files to one folder, in order to be faster processed by Saxon
-RUN ./modules/move-tei-files/move-tei-files.sh
-
 # Convert the expanded data from TEI to RDF/XML format
 RUN ./modules/tei-to-rdf-xml/tei-to-rdf-xml.sh
 
-#COPY ./sparql-service ./sparql-service
+# Compile the executable for conversion form RDF/XML to RDF/Turtle
+WORKDIR /home/ubuntu/sparql-service-dir
 
-#RUN sparql-service
+COPY ./src/ ./src/
+COPY ./Cargo.toml .
 
-# file_name=$(basename "$file_path")
-# file_base_name=`echo "$file_name" | cut -d'.' -f1`
+RUN cargo build --bin sparql-service --target-dir ./target --release --target x86_64-unknown-linux-gnu &&\
+    cp ./target/x86_64-unknown-linux-gnu/release/sparql-service /home/ubuntu
 
-# COPY --from=builder /home/x86_64-unknown-linux-musl/release/index-cards-to-indexes /home
+WORKDIR /home/ubuntu
 
-# FROM adfreiburg/qlever:commit-b802870
+# Convert the expanded data from RDF/XML to RDF/Turtle format
 
-# LABEL org.opencontainers.image.source=https://github.com/BetaMasaheft/collatex-service
-# LABEL org.opencontainers.image.description="Docker container for using QLever as a web service"
-# LABEL org.opencontainers.image.licenses=MIT
-# LABEL org.opencontainers.image.authors="Claudius Teodorescu <claudius.teodorescu@gmail.com>"
+RUN ./sparql-service /home/ubuntu/data/02-tei-to-rdf-xml /home/ubuntu/data/03-rdf-xml-to-rdf-turtle
+RUN ls -l /home/ubuntu/data/03-rdf-xml-to-rdf-turtle
 
-# USER root
+FROM adfreiburg/qlever:commit-b802870
 
-# RUN mkdir -p /data
-# WORKDIR /data
+LABEL org.opencontainers.image.source=https://github.com/BetaMasaheft/sparql-service
+LABEL org.opencontainers.image.description="Docker container for using QLever as a web service"
+LABEL org.opencontainers.image.licenses=MIT
+LABEL org.opencontainers.image.authors="Claudius Teodorescu <claudius.teodorescu@gmail.com>"
 
-# ARG DATA_DIR=data
-# COPY output/* /data/ 
+USER root
 
-# ENV INPUT_FILES="/data/*.ttl"
+WORKDIR /data
 
-# RUN qlever index \
-#     --name "bm" \
-#     --cat-input-files 'cat *.ttl' \
-#     --input-files "*.ttl" \
-#     --stxxl-memory "1GB" \
-#     --parallel-parsing false \
-#     --system "native"
+COPY --from=ubuntu-builder /home/ubuntu/data/03-rdf-xml-to-rdf-turtle .
 
-# RUN find /data -name "*.ttl" -delete
+ARG DATA_DIR=data
 
-# ENTRYPOINT ["qlever", "start", "--name", "bm", "--description", "bm", "--port", "7000", "--system", "native"]
+ENV INPUT_FILES="/data/*.ttl"
+
+RUN qlever index \
+    --name "bm" \
+    --cat-input-files 'cat *.ttl' \
+    --input-files "*.ttl" \
+    --stxxl-memory "1GB" \
+    --parallel-parsing false \
+    --system "native"
+
+RUN find /data -name "*.ttl" -delete
+
+ENTRYPOINT ["qlever", "start", "--name", "bm", "--description", "bm", "--port", "7000", "--system", "native"]
 
 # sudo docker build --progress=plain --secret id=DEPLOY_PAT,src=./DEPLOY_PAT -t sparql-service .
 # sudo docker run -p 7000:7000 -p 8176:8176 sparql-service

@@ -1,27 +1,22 @@
-use decompress::ExtractOptsBuilder;
+//use decompress::ExtractOptsBuilder;
 use oxrdfxml::RdfXmlParser;
 use oxttl::TurtleSerializer;
+use std::env;
+use std::fs;
 use std::path::PathBuf;
 
-const QUIRE_FRAGMENT_TO_REPLACE_1: &str =
-    r#"<crm:E54_Dimension><crm:P91_has_unit>quire</crm:P91_has_unit><crm:P90_has_value>"#;
-const QUIRE_FRAGMENT_REPLACER_1: &str =
-    r#"<crm:E54_Dimension crm:P91_has_unit="quire" crm:P90_has_value=""#;
-const QUIRE_FRAGMENT_TO_REPLACE_2: &str = r#"</crm:P90_has_value></crm:E54_Dimension>"#;
-const QUIRE_FRAGMENT_REPLACER_2: &str = r#"0" />"#;
-
 fn main() {
-    let base_dir_path = std::env::current_dir().unwrap();
-    let input_dir_full_path = base_dir_path.join("input");
-    let tmp_dir_full_path = base_dir_path.join("tmp");
-    let output_dir_full_path = base_dir_path.join("output");
+    let args: Vec<String> = env::args().collect();
+
+    let input_dir_full_path = PathBuf::from(&args[1]);
+    let output_dir_full_path = PathBuf::from(&args[2]);
 
     //decompress_archive(input_dir_full_path, tmp_dir_full_path.clone());
 
-    convert(tmp_dir_full_path, output_dir_full_path);
+    convert(input_dir_full_path, output_dir_full_path);
 }
 
-fn decompress_archive(input_dir_full_path: PathBuf, tmp_dir_full_path: PathBuf) {
+/*fn decompress_archive(input_dir_full_path: PathBuf, tmp_dir_full_path: PathBuf) {
     let archives_glob = glob::Pattern::new("full*.zip").expect("wrong glob pattern for archives");
     let archive_globbed_path = input_dir_full_path.join(archives_glob.as_str());
 
@@ -47,19 +42,18 @@ fn decompress_archive(input_dir_full_path: PathBuf, tmp_dir_full_path: PathBuf) 
         .build()
         .unwrap();
     decompress::decompress(latest_archive_file_path, tmp_dir_full_path, &extract_opts).unwrap();
-}
+}*/
 
-fn convert(tmp_dir_full_path: PathBuf, output_dir_full_path: PathBuf) {
-    let rdf_xml_files_glob =
-        glob::Pattern::new("**/*.rdf").expect("wrong glob pattern for archives");
-    let rdf_xml_files_globbed_path = tmp_dir_full_path.join(rdf_xml_files_glob.as_str());
+fn convert(input_dir_full_path: PathBuf, output_dir_full_path: PathBuf) {
+    let input_file_paths = fs::read_dir(input_dir_full_path).unwrap();
+    fs::create_dir_all(&output_dir_full_path).unwrap();
 
-    for rdf_xml_file_path in glob::glob(rdf_xml_files_globbed_path.to_str().unwrap())
-        .expect("Failed to read the glob pattern")
-        .filter_map(Result::ok)
-    {
-        let file_basename = rdf_xml_file_path.file_stem().unwrap().display();
-        let rdf_xml_file_contents = std::fs::read_to_string(&rdf_xml_file_path).unwrap();
+    for input_file_path in input_file_paths {
+        let input_file_path = input_file_path.unwrap().path();
+        dbg!(&input_file_path);
+
+        let file_basename = input_file_path.file_stem().unwrap().display();
+        let rdf_xml_file_contents = std::fs::read_to_string(&input_file_path).unwrap();
         let rdf_xml_file_processed_contents = rdf_xml_file_contents
             .replace(
                 "dcterms:hasPart rdf:resource=\"",
@@ -69,8 +63,6 @@ fn convert(tmp_dir_full_path: PathBuf, output_dir_full_path: PathBuf) {
                 "crm:P55_has_current_location rdf:resource=\"",
                 "crm:P55_has_current_location rdf:resource=\"https://betamasaheft.eu/",
             )
-            .replace(QUIRE_FRAGMENT_TO_REPLACE_1, QUIRE_FRAGMENT_REPLACER_1)
-            .replace(QUIRE_FRAGMENT_TO_REPLACE_2, QUIRE_FRAGMENT_REPLACER_2)
             .replace(
                 "https://betamasaheft.eu/https://betamasaheft.eu/",
                 "https://betamasaheft.eu/",
@@ -98,11 +90,10 @@ fn convert(tmp_dir_full_path: PathBuf, output_dir_full_path: PathBuf) {
 #[test]
 fn test_convert() {
     let base_dir_path = std::env::current_dir().unwrap();
-    let input_dir_full_path = base_dir_path.join("input");
-    let tmp_dir_full_path = base_dir_path.join("tmp");
-    let output_dir_full_path = base_dir_path.join("output");
+    let input_dir_full_path = base_dir_path.join("data/02-tei-to-rdf-xml");
+    let output_dir_full_path = base_dir_path.join("data/03-rdf-xml-to-rdf-turtle");
 
     //decompress_archive(input_dir_full_path, tmp_dir_full_path.clone());
 
-    convert(tmp_dir_full_path, output_dir_full_path);
+    convert(input_dir_full_path, output_dir_full_path);
 }

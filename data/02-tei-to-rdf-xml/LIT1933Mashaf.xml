@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/work"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LIT1933Mashaf.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/works/LIT1933Mashaf/main"/>
+      <crm:P48_has_preferred_identifier>LIT1933Mashaf</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft Harrassowitz Verlag Gilbert and Rivington,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>LIT1933Mashaf</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ar</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">grc</dc:language>
+      <dc:contributor>Dorothea Reule</dc:contributor>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>SiegbertUhlig</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Theology"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/MonasticLiterature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Translation"/>
+      <dcterms:temporal rdf:resource="http://n2t.net/ark:/99152/p03tcssvm7f"/>
+      <dc:title>No item: LIT1933Mashaf</dc:title>
+      <dc:title xml:lang="gez">መጽሐፈ፡ ሓዊ፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1933Mashaf%2Ftitle%2Ft1"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Maṣḥafa ḥāwi</dc:title>
+      <dc:title xml:lang="en">Book of Ḥāwi</dc:title>
+      <dc:title xml:lang="ar">كتاب الحاوي</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1933Mashaf%2Ftitle%2Ft2arabic"
+                          xml:lang="ar"/>
+      <dc:title xml:lang="ar">Kitāb al-ḥāwī</dc:title>
+      <dc:title xml:lang="grc">Πανδέκται τῶν ἑρμηνείον τῶν θείον ἐντολῶν τοῦ Κυρίου</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1933Mashaf%2Ftitle%2Ft3greek"
+                          xml:lang="grc"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Introduction"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter1"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter2"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter3"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter4"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter5"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter6"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter7"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter8"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter9"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter10"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter11"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter12"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter13"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter14"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter15"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter16"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter17"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter18"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter19"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter20"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter21"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter22"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter23"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter24"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter25"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter26"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter27"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter28"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter29"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter30"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter31"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter32"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter33"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter34"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter35"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter36"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter37"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter38"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter39"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter40"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter41"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter42"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter43"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter44"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter45"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter46"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter47"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter48"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter49"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter50"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter51"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter52"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter53"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter54"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter55"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter56"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter57"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter58"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter59"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter60"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter61"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter62"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/Chapter63"/>
+      <dcterms:hasPart rdf:resource="LIT1933Mashaf/part/ColophonTranslation"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf#t1">
+      <saws:isVersionInAnotherLanguageOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf#t2arabic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf#t2arabic">
+      <saws:isVersionInAnotherLanguageOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf#t3greek"/>
+   </rdf:Description>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT1933Mashaf/person/annotation/1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/Author"/>
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS14741GirgisY"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Ǧirǧis al-Makīn ibn al-ʿAmīd (the Younger)</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT1933Mashaf/person/annotation/2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/Translator"/>
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8410Salikof"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Salik</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT1933Mashaf/person/annotation/3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/Translator"/>
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4374Gabreel"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ገብርኤል፡ ወልደ፡ በትረክ፡</lawd:hasName>
+   </oa:Annotation>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Introduction">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter6">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter7">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter8">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter9">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter10">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter11">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter12">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter13">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter14">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter15">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter16">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter17">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter18">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter19">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter20">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter21">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter22">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter23">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter24">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter25">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter26">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter27">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter28">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter29">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter30">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter31">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter32">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter33">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter34">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter35">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter36">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter37">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter38">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter39">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter40">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter41">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter42">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter43">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter44">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter45">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter46">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter47">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter48">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter49">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter50">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter51">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter52">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter53">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter54">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter55">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter56">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter57">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter58">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter59">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter60">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter61">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter62">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/Chapter63">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf/part/ColophonTranslation">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1933Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf%2Ftitle%2Ft1">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>መጽሐፈ፡ ሓዊ፡</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf%2Ftitle%2Ft2arabic">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>كتاب الحاوي</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1933Mashaf%2Ftitle%2Ft3greek">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>Πανδέκται τῶν ἑρμηνείον τῶν θείον ἐντολῶν τοῦ Κυρίου</rdfs:label>
+   </rdf:Description>
+</rdf:RDF>

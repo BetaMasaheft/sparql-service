@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/work"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LIT1932Mashaf.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/works/LIT1932Mashaf/main"/>
+      <crm:P48_has_preferred_identifier>LIT1932Mashaf</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft Harrassowitz Verlag,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>LIT1932Mashaf</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>SiegbertUhlig</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Liturgy"/>
+      <dc:title>Maṣḥafa gǝṣṣāwe</dc:title>
+      <dc:title xml:lang="gez">መጽሐፈ፡ ግጻዌ፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1932Mashaf%2Ftitle%2Ft1"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Maṣḥafa gǝṣṣāwe</dc:title>
+      <dc:title xml:lang="en">Lectionary</dc:title>
+      <dc:source rdf:resource="https://betamasaheft.eu/BLadd16249#ms_i.1"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Daily"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Sundays"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SaturdaySunday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Daily">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/FirstHalf"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SecondHalf"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/FirstHalf">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/DailyFirstHalf"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/DailyFirstHalf">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Maskaram"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Teqemt"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Hedar"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Tahsas"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Terr"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Yakkatit"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Maskaram">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Teqemt">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Hedar">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Tahsas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Terr">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Yakkatit">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SecondHalf">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/DailySecondHalf"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/DailySecondHalf">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Maggabit"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Miyazya"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Genbot"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Sane"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Hamle"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Nahase"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Pagwemen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Maggabit">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Miyazya">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Genbot">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Sane">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Hamle">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Nahase">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Pagwemen">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Sundays">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SundaysFirstHalf"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SundaysSecondHalf"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SundaysFirstHalf">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Yohannes"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Zakaryas"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Fere"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Hensata"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/ChMasqal"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Sege"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/ChAstamhero"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Sebkat"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/ChBerhan"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Nolawi"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Marawi"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Ledat"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Gahad"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Nanawe"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Herqal"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/LentMonday"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/LentFriday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Yohannes">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Zakaryas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Fere">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Hensata">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/ChMasqal">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Sege">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/ChAstamhero">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Sebkat">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/ChBerhan">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Nolawi">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Marawi">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Ledat">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Gahad">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Nanawe">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Herqal">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/LentMonday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/LentFriday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SundaysSecondHalf">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SaturdaySunday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SMaskaram"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/STeqemt"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SHedar"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/STahsas"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/STerr"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SYakkatit"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/LentSaturday"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Lent"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/PassionWeek"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/ChEaster"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/Ascension"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/ChPentecost"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SGenbot"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SSane"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SHamle"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SNahase"/>
+      <dcterms:hasPart rdf:resource="LIT1932Mashaf/part/SPagwemen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SMaskaram">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/STeqemt">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SHedar">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/STahsas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/STerr">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SYakkatit">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/LentSaturday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Lent">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/PassionWeek">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/ChEaster">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/Ascension">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/ChPentecost">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SGenbot">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SSane">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SHamle">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SNahase">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf/part/SPagwemen">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1932Mashaf"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1932Mashaf%2Ftitle%2Ft1">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>መጽሐፈ፡ ግጻዌ፡</rdfs:label>
+   </rdf:Description>
+</rdf:RDF>

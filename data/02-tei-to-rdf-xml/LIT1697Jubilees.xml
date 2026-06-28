@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/work"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LIT1697Jubilees.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/works/LIT1697Jubilees/main"/>
+      <crm:P48_has_preferred_identifier>LIT1697Jubilees</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft Brepols Brepols In aedibus E. Peeters apud C. G. I. van Maack–apud Williams et Norgate typis et impensis Bibliothecae Ambrosianae Fues's Verlag (R. Reisland) Sumptu Christiani Liebezeit In aedibus E. Peeters In der Dieterichschen Buchhandlung Fues's Verlag (R. Reisland) Sumptu Christiani Liebezeit Harrassowitz Verlag Fues's Verlag (R. Reisland),  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>LIT1697Jubilees</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">grc</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">he</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">la</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>James C.VanderKam</dc:contributor>
+      <dc:contributor>James C.VanderKam</dc:contributor>
+      <dc:contributor>SiegbertUhlig</dc:contributor>
+      <crm:P1_is_identified_by> 132</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by> 119</crm:P1_is_identified_by>
+      <dc:title>Maṣḥafa kufāle</dc:title>
+      <dc:title xml:lang="gez">መጽሐፈ፡ ኩፋሌ፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1697Jubilees%2Ftitle%2Ft1"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Maṣḥafa kufāle</dc:title>
+      <dc:title xml:lang="en">Book of Jubilees</dc:title>
+      <dc:title xml:lang="he">Hebrew Book of Jubilees</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1697Jubilees%2Ftitle%2Ft2hebrew"
+                          xml:lang="he"/>
+      <dc:title xml:lang="grc">Greek Book of Jubilees</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1697Jubilees%2Ftitle%2Ft3greek"
+                          xml:lang="grc"/>
+      <dc:title xml:lang="la">Latin Book of Jubilees</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1697Jubilees%2Ftitle%2Ft4latin"
+                          xml:lang="la"/>
+      <dc:title>Kuf.</dc:title>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Intro"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap1"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap2"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap3"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap4"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap5"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap6"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap7"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap8"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap9"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap10"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap11"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap12"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap13"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap14"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap15"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap16"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap17"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap18"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap19"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap20"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap21"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap22"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap23"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap24"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap25"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap26"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap27"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap28"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap29"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap30"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap31"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap32"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap33"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap34"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap35"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap36"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap37"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap38"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap39"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap40"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap41"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap42"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap43"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap44"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap45"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap46"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap47"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap48"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap49"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/VCap50"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/introd"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap1"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap2"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap3"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap4"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap5"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap6"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap7"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap8"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap9"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap10"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap11"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap12"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap13"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap14"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap15"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap16"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap17"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap18"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap19"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap20"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap21"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap22"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap23"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap24"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap25"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap26"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap27"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap28"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap29"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap30"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap31"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap32"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap33"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap34"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap35"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap36"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap37"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap38"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap39"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap40"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap41"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap42"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap43"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap44"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap45"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap46"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap47"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap48"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap49"/>
+      <dcterms:hasPart rdf:resource="LIT1697Jubilees/part/Cap50"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees#t3greek">
+      <saws:isVersionInAnotherLanguageOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees#t2hebrew"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees#t1">
+      <saws:isVersionInAnotherLanguageOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees#t3greek"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees#t4latin">
+      <saws:isVersionInAnotherLanguageOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees#t3greek"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/6/vers/74/intertext/673">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/6/vers/75/intertext/674">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/9/vers/114/intertext/675">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/4/vers/125/intertext/700">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/85/vers/22/intertext/703">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/1/vers/2/intertext/907">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/15/vers/39/intertext/917">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/22/vers/47/intertext/918">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/4/vers/117/intertext/919">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/4/vers/60/intertext/920">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/2/vers/123/intertext/921">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/23/vers/20/intertext/924">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/41/vers/15/intertext/925">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/28/vers/38/intertext/926">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/2/vers/124/intertext/927">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/3/vers/146/intertext/929">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/7/vers/54/intertext/1113">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/70/vers/3/intertext/1326">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/17/vers/1/intertext/1329">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://corpuscoranicum.de/kontexte/index/sure/2/vers/102/intertext/1440">
+      <skos:broadMatch rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Intro">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap6">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap7">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap8">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap9">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap10">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap11">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap12">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap13">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap14">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap15">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap16">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap17">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap18">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap19">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap20">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap21">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap22">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap23">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap24">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap25">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap26">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap27">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap28">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap29">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap30">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap31">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap32">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap33">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap34">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap35">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap36">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap37">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap38">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap39">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap40">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap41">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap42">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap43">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap44">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap45">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap46">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap47">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap48">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap49">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/VCap50">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/introd">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap6">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap7">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap8">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap9">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap10">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap11">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap12">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap13">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap14">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap15">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap16">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap17">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap18">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap19">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap20">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap21">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap22">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap23">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap24">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap25">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap26">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap27">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap28">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap29">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap30">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap31">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap32">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap33">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap34">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap35">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap36">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap37">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap38">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap39">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap40">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap41">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap42">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap43">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap44">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap45">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap46">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap47">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap48">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap49">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees/part/Cap50">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1697Jubilees"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees%2Ftitle%2Ft1">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>መጽሐፈ፡ ኩፋሌ፡</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees%2Ftitle%2Ft2hebrew">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>Hebrew Book of Jubilees</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees%2Ftitle%2Ft3greek">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>Greek Book of Jubilees</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1697Jubilees%2Ftitle%2Ft4latin">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>Latin Book of Jubilees</rdfs:label>
+   </rdf:Description>
+</rdf:RDF>

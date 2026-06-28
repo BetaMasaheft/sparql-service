@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/mss"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/BMLor70.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/manuscripts/BMLor70/main"/>
+      <crm:P48_has_preferred_identifier>BMLor70</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft Imprimerie nationale Harrassowitz Verlag,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>BMLor70</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:contributor>Dorothea Reule</dc:contributor>
+      <dc:contributor>Pietro Maria Liuzzo</dc:contributor>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>AlessandroBausi</dc:contributor>
+      <dc:contributor>AlessandroGori</dc:contributor>
+      <dc:contributor>DenisNosnitsin</dc:contributor>
+      <dc:contributor>EugeniaSokolinski</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Bible"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/NewTestament"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <dcterms:bibliographicCitation>bm:Marrassini1986Laurenziana</dcterms:bibliographicCitation>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniProd"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCirc"/>
+      <sdc:hasCertainty rdf:resource="https://w3id.org/sdc/ontology#Certain"/>
+      <crm:P1_is_identified_by>BML Or. 70</crm:P1_is_identified_by>
+      <foaf:depiction>
+         <rdf:Description rdf:about="https://betamasaheft.eu/manuscript/BMLor70/viewer">
+            <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+            <svcs:has_service>
+               <rdf:Description rdf:about="https://betamasaheft.eu/api/iiif/BMLor70/manifest">
+                  <rdf:type rdf:resource="http://rdfs.org/sioc/services#Service"/>
+                  <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+                  <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+               </rdf:Description>
+            </svcs:has_service>
+         </rdf:Description>
+      </foaf:depiction>
+      <crm:P1_is_identified_by>Marrassini ms. 2</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by>BML 2</crm:P1_is_identified_by>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0339BML"/>
+      <crm:P1_is_identified_by>BML Or. 70</crm:P1_is_identified_by>
+      <foaf:depiction>
+         <rdf:Description rdf:about="https://betamasaheft.eu/manuscript//viewer">
+            <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+            <svcs:has_service>
+               <rdf:Description rdf:about="https://betamasaheft.eu/api/iiif//manifest">
+                  <rdf:type rdf:resource="http://rdfs.org/sioc/services#Service"/>
+                  <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+                  <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+               </rdf:Description>
+            </svcs:has_service>
+         </rdf:Description>
+      </foaf:depiction>
+      <crm:P1_is_identified_by>Marrassini ms. 2</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by>BML 2</crm:P1_is_identified_by>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0339BML"/>
+      <betmas:hasTotalLeaves>206 5</betmas:hasTotalLeaves>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P2_has_type>height</crm:P2_has_type>
+            <crm:P90_has_value>253</crm:P90_has_value>
+            <crm:P91_has_unit>mm</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P2_has_type>width</crm:P2_has_type>
+            <crm:P90_has_value>165</crm:P90_has_value>
+            <crm:P91_has_unit>mm</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P46_is_composed_of rdf:resource="https://betamasaheft.eu/vocabularies/material.html#paper"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ontology/Codex"/>
+      <dcterms:hasPart rdf:resource="BMLor70/UniMarq/f1"/>
+      <dcterms:hasPart rdf:resource="BMLor70/binding/b1"/>
+      <dcterms:hasPart rdf:resource="BMLor70/binding/b2"/>
+      <betmas:hasTotalQuires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</betmas:hasTotalQuires>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>21</crm:P90_has_value>
+            <crm:P91_has_unit>quire</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div1"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div2"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div3"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div4"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div5"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div6"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div7"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div8"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div9"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div10"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div11"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div12"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div13"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div14"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div15"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div16"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div17"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div18"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div19"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div20"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div21"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div22"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div23"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div24"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div25"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div26"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div27"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div28"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div29"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div30"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div31"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div32"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div33"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div34"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div35"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div36"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div37"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div38"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div39"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div40"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div41"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div42"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div43"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div44"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div45"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div46"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div47"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div48"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div49"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div50"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div51"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div52"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div53"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div54"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div55"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div56"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div57"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div58"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div59"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div60"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div61"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div62"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div63"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div64"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div65"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div66"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div67"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div68"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div69"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div70"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div71"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div72"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div73"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div74"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div75"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div76"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div77"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div78"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div79"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div80"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div81"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div82"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div83"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div84"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div85"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div86"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div87"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div88"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div89"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div90"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div91"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div92"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div93"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div94"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div95"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div96"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div97"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div98"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div99"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div100"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div101"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div102"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div103"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div104"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div105"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div106"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div107"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div108"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div109"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div110"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div111"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div112"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div113"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div114"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div115"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div116"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div117"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div118"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div119"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div120"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div121"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div122"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div123"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div124"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div125"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div126"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div127"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div128"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div129"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div130"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div131"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div132"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div133"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div134"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div135"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div136"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div137"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div138"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div139"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div140"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div141"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div142"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div143"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div144"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div145"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div146"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div147"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div148"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div149"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div150"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div151"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div152"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div153"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div154"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div155"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div156"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div157"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div158"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div159"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div160"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div161"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div162"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div163"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div164"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div165"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div166"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div167"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div168"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div169"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div170"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div171"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div172"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div173"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div174"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div175"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div176"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div177"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div178"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div179"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div180"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div181"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div182"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div183"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div184"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div185"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div186"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div187"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div188"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div189"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div190"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div191"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div192"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div193"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div194"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div195"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div196"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div197"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div198"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div199"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div200"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div201"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div202"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div203"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div204"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div205"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div206"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div207"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div208"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div209"/>
+      <dcterms:hasPart rdf:resource="BMLor70/part/div210"/>
+   </rdf:Description>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BMLor70/place/annotation/1">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://www.wikidata.org/entity/Q644636"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Cyprus</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BMLor70/place/annotation/2">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://www.wikidata.org/entity/Q4948"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Republic of Venice</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BMLor70/person/annotation/1">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS10036Wansleb"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Johann-Michael Wansleben</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/BMLor70/person/annotation/2">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS9286Tasfase"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Tasfā Ṣǝyon</lawd:hasName>
+   </oa:Annotation>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/UniMarq/f1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/UniMarq"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/binding/b1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/binding"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/binding/b2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/binding"/>
+      <crm:P46_is_composed_of rdf:resource="https://betamasaheft.eu/vocabularies/material.html#parchment"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/bindingMaterial"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/mspart/p1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/mspart"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniProd"/>
+      <sdc:hasCertainty rdf:resource="https://w3id.org/sdc/ontology#Certain"/>
+      <rdf:type rdf:resource="http://purl.org/saws/ontology#ManuscriptPart"/>
+      <crm:P1_is_identified_by/>
+      <dcterms:hasPart rdf:resource="BMLor70//handDesc1"/>
+      <dcterms:hasPart rdf:resource="BMLor70/layout/layout1"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q1"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q2"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q3"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q4"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q5"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q6"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q7"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q8"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q9"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q10"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q11"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q12"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q13"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q14"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q15"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q16"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q17"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q18"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q19"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q20"/>
+      <dcterms:hasPart rdf:resource="BMLor70/quire/q21"/>
+      <dcterms:hasPart rdf:resource="BMLor70/addition/a1"/>
+      <dcterms:hasPart rdf:resource="BMLor70/addition/a2"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3505PaulineEpis"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.1"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.2"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.3"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.4"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.5"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.6"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.7"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.8"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.9"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.10"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.11"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.12"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.13"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.14"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p1_i1.15"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart>General index</dcterms:hasPart>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3515Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3516Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3517Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.5">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3518Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.6">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3519Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.7">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3520Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.8">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3521Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.9">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3522Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.10">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3523Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.11">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3524Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.12">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3525Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.13">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3526Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.14">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3527Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p1_i1.15">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3528Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>5</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>11</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>13</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>9</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q6">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q7">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q8">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>11</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q9">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q10">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q11">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q12">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q13">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q14">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q15">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q16">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q17">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q18">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q19">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>10</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q20">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>11</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/quire/q21">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/quire"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <crm:P43_has_dimension>
+         <crm:E54_Dimension>
+            <crm:P90_has_value>7</crm:P90_has_value>
+            <crm:P91_has_unit>leaf</crm:P91_has_unit>
+         </crm:E54_Dimension>
+      </crm:P43_has_dimension>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/layout/layout1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/layout"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMeP"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/hand/h1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P79_beginning_is_qualified_by rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1501-01-01</crm:P79_beginning_is_qualified_by>
+            <crm:P80_end_is_qualified_by rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-01-01</crm:P80_end_is_qualified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Ethiopic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/hand/h2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>more recent than .</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Ethiopic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/hand/h4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P79_beginning_is_qualified_by rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1501-01-01</crm:P79_beginning_is_qualified_by>
+            <crm:P80_end_is_qualified_by rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-01-01</crm:P80_end_is_qualified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P79_beginning_is_qualified_by rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-01-01</crm:P79_beginning_is_qualified_by>
+            <crm:P80_end_is_qualified_by rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1700-01-01</crm:P80_end_is_qualified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Ethiopic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/hand/h5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/hand"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P79_beginning_is_qualified_by rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1501-01-01</crm:P79_beginning_is_qualified_by>
+            <crm:P80_end_is_qualified_by rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-01-01</crm:P80_end_is_qualified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniMain"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Ethiopic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/addition/a1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/GuestText"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+            <betmas:locusTarget/>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/addition/a2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/addition"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/mspart/p2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/mspart"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniProd"/>
+      <sdc:hasCertainty rdf:resource="https://w3id.org/sdc/ontology#Certain"/>
+      <rdf:type rdf:resource="http://purl.org/saws/ontology#ManuscriptPart"/>
+      <crm:P1_is_identified_by/>
+      <betmas:hasTotalLeaves/>
+      <dcterms:hasPart rdf:resource="BMLor70/UniMarq/f2"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p2_i1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p2_i1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3505PaulineEpis"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p2_i1.1"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p2_i1.2"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p2_i1.3"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p2_i1.4"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusFrom/>
+            <betmas:locusTo/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p2_i1.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p2_i1.1.1"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p2_i1.1.2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p2_i1.1.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3519Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p2_i1.1.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3520Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p2_i1.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p2_i1.2.1"/>
+      <dcterms:hasPart rdf:resource="BMLor70/msitem/p2_i1.2.2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p2_i1.2.1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3519Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p2_i1.2.2">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3521Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p2_i1.3">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3522Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/msitem/p2_i1.4">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT3522Epistle"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/UniMarq/f2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/UniMarq"/>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+      <betmas:hasLocus>
+         <betmas:Locus>
+            <betmas:locusTarget/>
+         </betmas:Locus>
+      </betmas:hasLocus>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div6">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div7">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div8">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div9">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div10">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div11">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div12">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div13">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div14">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div15">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div16">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div17">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div18">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div19">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div20">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div21">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div22">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div23">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div24">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div25">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div26">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div27">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div28">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div29">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div30">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div31">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div32">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div33">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div34">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div35">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div36">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div37">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div38">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div39">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div40">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div41">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div42">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div43">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div44">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div45">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div46">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div47">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div48">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div49">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div50">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div51">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div52">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div53">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div54">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div55">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div56">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div57">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div58">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div59">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div60">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div61">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div62">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div63">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div64">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div65">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div66">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div67">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div68">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div69">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div70">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div71">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div72">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div73">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div74">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div75">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div76">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div77">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div78">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div79">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div80">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div81">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div82">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div83">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div84">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div85">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div86">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div87">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div88">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div89">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div90">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div91">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div92">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div93">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div94">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div95">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div96">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div97">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div98">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div99">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div100">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div101">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div102">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div103">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div104">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div105">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div106">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div107">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div108">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div109">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div110">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div111">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div112">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div113">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div114">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div115">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div116">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div117">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div118">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div119">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div120">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div121">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div122">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div123">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div124">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div125">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div126">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div127">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div128">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div129">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div130">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div131">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div132">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div133">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div134">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div135">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div136">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div137">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div138">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div139">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div140">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div141">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div142">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div143">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div144">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div145">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div146">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div147">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div148">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div149">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div150">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div151">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div152">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div153">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div154">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div155">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div156">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div157">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div158">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div159">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div160">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div161">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div162">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div163">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div164">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div165">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div166">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div167">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div168">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div169">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div170">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div171">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div172">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div173">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div174">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div175">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div176">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div177">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div178">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div179">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div180">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div181">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div182">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div183">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div184">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div185">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div186">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div187">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div188">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div189">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div190">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div191">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div192">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div193">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div194">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div195">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div196">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div197">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div198">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div199">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div200">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div201">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div202">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div203">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div204">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div205">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div206">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div207">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div208">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div209">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/BMLor70/part/div210">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/BMLor70"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+</rdf:RDF>

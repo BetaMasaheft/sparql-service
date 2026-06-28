@@ -1,0 +1,472 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1960Mashaf"><teiHeader xml:base="https://betamasaheft.eu/">
+      <fileDesc>
+         <titleStmt><title type="full">Maṣḥafa
+                                                  qǝddāse</title>
+            <title xml:lang="gez" xml:id="t1">መጽሐፈ፡ ቅዳሴ፡</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">Maṣḥafa qǝddāse</title>
+            <title xml:lang="en" corresp="#t1">Book of the Consecration</title>
+            <title xml:lang="en" xml:id="t2">Missal</title>
+            <title xml:lang="en" xml:id="t3">Book of Liturgy</title>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
+                  </p>
+               </licence>
+            </availability>
+         <date type="expanded">25.11.2024 at 19:06:56</date><date type="lastModified">27.3.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1960Mashaf/main</idno><idno type="URI">https://betamasaheft.eu/LIT1960Mashaf</idno><idno type="filename">LIT1960Mashaf.xml</idno><idno type="ID">LIT1960Mashaf</idno></publicationStmt>
+         <sourceDesc>
+            <p>Work of the literatures of Ethiopia and Eritrea</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+            
+         
+      <p>Encoded according 
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
+                        These Guidelines detail the TEI format ruled by 
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
+                        The present TEI file is enriched with an 
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="Daily Office Prayers and Litanies" match="t:div" use="t:div"><desc><list><item>Daily</item></list></desc><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>SerataQeddase</item></list></desc><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>SerataQeddaseChapter1</item><item>SerataQeddaseChapter2</item><item>SerataQeddaseChapter3</item><item>SerataQeddaseChapter4</item></list></desc><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>Paten</item><item>Chalice</item><item>CrossSpoon</item></list></desc></assertion><assertion unit="Liturgy of Catechumen" match="t:div" use="t:div"><desc><list><item>Catechumen</item></list></desc><assertion unit="Liturgy of Catechumen: Prayer of oblation" match="t:div" use="t:div"><desc><list><item>SerataQeddaseOblation</item></list></desc></assertion><assertion unit="Liturgy of Catechumen: Absolution of the son" match="t:div" use="t:div"><desc><list><item>SerataQeddaseFethat</item></list></desc></assertion><assertion unit="Liturgy of Catechumen: Prayer by the assistant priest receiving the host during the Prothesis" match="t:div" use="t:div"><desc><list><item>SerataQeddaseProthesis</item></list></desc></assertion><assertion unit="Liturgy of Catechumen: General absolution" match="t:div" use="t:div"><desc><list><item>SerataQeddaseAbsolution</item></list></desc></assertion></assertion><assertion unit="Liturgy of the Word: Supplication for peace, the hierarchy and the assembly" match="t:div" use="t:div"><desc><list><item>SerataQeddasePeace</item></list></desc></assertion><assertion unit="Liturgy of the Word" match="t:div" use="t:div"><desc><list><item>Word</item></list></desc><assertion unit="Liturgy of the Word: Universal prayer by the assistant priest" match="t:div" use="t:div"><desc><list><item>SerataQeddaseUniversal</item></list></desc></assertion><assertion unit="Liturgy of the Word: Concluding chant after the reading from the Pauline Epistles" match="t:div" use="t:div"><desc><list><item>SerataQeddaseChant</item></list></desc></assertion><assertion unit="Monition from the Liturgy of the Word" match="t:div" use="t:div"><desc><list><item>SerataQeddaseMonition</item></list></desc></assertion></assertion></assertion></assertion><assertion unit="Prayers of the Incense" match="t:div" use="t:div"><desc><list><item>Incense</item></list></desc><assertion unit="Evening Prayer of the Incense, from Egypt" match="t:div" use="t:div"><desc><list><item>Incense2</item></list></desc></assertion><assertion unit="Morning Prayer of the Incense, from Egypt" match="t:div" use="t:div"><desc><list><item>Incense1</item></list></desc></assertion></assertion><assertion unit="Liturgy of the Eucharist" match="t:div" use="t:div"><desc><list><item>LiturgyEucharist</item></list></desc><assertion unit="t:div" match="t:div" use="t:div"><desc><list><item>Anaphoras</item><item>MQPrayers</item></list></desc><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>PrayerKidan</item><item>LitonZanagh</item><item>LitonZasarq</item><item>Before</item><item>Imposition</item><item>Intercessions</item><item>Zayenagges</item><item>OtherIntercessions</item></list></desc><assertion unit="Testament of the Evening" match="t:div" use="t:div"><desc><list><item>Kidan2</item></list></desc></assertion><assertion unit="Testament of the Morning" match="t:div" use="t:div"><desc><list><item>Kidan1</item></list></desc></assertion><assertion unit="Supplications" match="t:div" use="t:div"><desc><list><item>Supplications</item></list></desc><assertion unit="ጸዋትው፡ ዘአበዊነ፡ ሐዋርያት፡  ṣawātǝw zaʾabawina ḥawāryāt “Series (of Supplications) of our Fathers the Apostles”" match="t:div" use="t:div"><desc><list><item>SupplicationApostles</item></list></desc><assertion unit="supplication" match="t:div" use="t:div"><desc><list><item>supplication</item></list></desc></assertion></assertion><assertion unit="መስተብቍዕ፡ ዘሌሊት፡ mastabqʷǝʿ za-lelit “Supplication of the Night”" match="t:div" use="t:div"><desc><list><item>SupplicationNightJesus</item></list></desc><assertion unit="incipit" match="t:div" use="t:div"><desc><list><item>incipit</item></list></desc></assertion></assertion><assertion unit="Mastabqʷǝʿ za-lelit “Supplication of the Night”" match="t:div" use="t:div"><desc><list><item>SupplicationNight</item></list></desc><assertion unit="incipit" match="t:div" use="t:div"><desc><list><item>incipit</item></list></desc></assertion></assertion><assertion unit="supplication" match="t:div" use="t:div"><desc><list><item>BaendaEllaNomu</item><item>Egziabher</item><item>Maryam</item><item>Maryam2</item><item>SuppMasqal</item></list></desc><assertion unit="mastabqʷǝʿ baʾǝnta ʾǝlla nomu - part 2" match="t:div" use="t:div"><desc><list><item>tei:t:div[1]</item></list></desc><assertion unit="supplication" match="t:div" use="t:div"><desc><list><item>BaendaEllaNomu2</item><item>BaendaEllaNomu3</item><item>BaendaEllaNomu4</item></list></desc></assertion></assertion><assertion unit="supplication" match="t:div" use="t:div"><desc><list><item>BaendaEllaNomu1</item></list></desc></assertion></assertion></assertion><assertion unit="Testament of Midnight" match="t:div" use="t:div"><desc><list><item>KidanManf</item></list></desc></assertion></assertion><assertion unit="t:div" match="t:div" use="t:div"><desc><list><item>FourteenAnaphoras</item></list></desc><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>AnaphoraApostles</item><item>AnaphoraJohn</item><item>AnaphoraLord</item><item>AnaphoraMary</item><item>Anaphora318</item><item>AnaphoraAthanasius</item><item>AnaphoraBasil</item><item>AnaphoraFirstGregoryNyssa</item><item>AnaphoraEpiphanius</item><item>AnaphoraJohnChrysostom</item><item>AnaphoraCyril</item><item>AnaphoraJacobSerug</item><item>AnaphoraDioscorus</item><item>AnaphoraSecondGregory</item></list></desc><assertion unit="Nicene Creed" match="t:div" use="t:div"><desc><list><item>NiceneCreed</item></list></desc></assertion></assertion></assertion><assertion unit="Litanies" match="t:div" use="t:div"><desc><list><item>Litanies</item></list></desc><assertion unit="Litanies for the days of the week" match="t:div" use="t:div"><desc><list><item>LitaniesWeek</item></list></desc><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>Monday</item><item>Tuesday</item><item>Wednesday</item><item>Thursday</item><item>Friday</item><item>Saturday</item><item>SaturdaySeur</item><item>Sunday</item></list></desc></assertion></assertion></assertion><assertion unit="Additional Anaphoras" match="t:div" use="t:div"><desc><list><item>AdditionalAnaphoras</item></list></desc><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>AnaphoraGiyorgis</item><item>AnaphoraJames</item><item>AnaphoraMark</item><item>AnaphoraGregoryMary</item><item>AnaphoraGregoryNathanael</item><item>AnaphoraSecondCyril</item></list></desc></assertion></assertion></assertion></assertion><assertion unit="Ṣalota kidān za-śalastu gizeyāt “Covenant Prayer of the Three Hours”" match="t:div" use="t:div"><desc><list><item>ThreeHours</item></list></desc></assertion></assertion></assertion></source-url></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Missal" ana="#Missal"/>
+               <t:term key="Liturgy" ana="#Liturgy"/>
+            </t:keywords>
+         </t:textClass>
+      <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google spreadsheet </change>
+         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change who="#DR" when="2016-09-06"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Title changed and relation added</change>
+         <change who="#DR" when="2017-03-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Minor correction</change>
+         <change who="#DR" when="2017-04-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
+         <change who="#ES" when="2018-03-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added prayers/textparts from the Maṣḥāfa nǝfq in ESagm009</change>
+      </t:revisionDesc>
+   </teiHeader><standOff><listRelation>
+               <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1960Mashaf" passive="https://betamasaheft.eu/LIT3957SalotaB">
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">The Ṣalota burāke za-Bāsǝlyos is also part of <t:ref type="work" corresp="https://betamasaheft.eu/LIT1931Mashaf">Maṣḥafa
+                                                  gǝnzat</t:ref> and occurs at least once independently in <t:ref type="mss" corresp="https://betamasaheft.eu/BNFet71">Paris, Bibliothèque nationale de France, BnF Éthiopien 71</t:ref>.</t:desc>
+               </relation>
+               <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1960Mashaf" passive="https://betamasaheft.eu/LIT3189Anapho"/>
+               <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1960Mashaf" passive="https://betamasaheft.eu/LIT1101Anapho"/>
+               <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1960Mashaf" passive="https://betamasaheft.eu/LIT1102Anapho"/>
+               <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1960Mashaf" passive="https://betamasaheft.eu/LIT2034Naakkw"/>
+               <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1960Mashaf" passive="https://betamasaheft.eu/LIT2037Naakkw"/>
+               <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1960Mashaf" passive="https://betamasaheft.eu/LIT2039Naakkw"/>
+               <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1960Mashaf" passive="https://betamasaheft.eu/LIT2260salota"/>
+               <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1960Mashaf" passive="https://betamasaheft.eu/LIT1807Litonz"/>
+               <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1960Mashaf" passive="https://betamasaheft.eu/LIT2605Zayena"/>
+               <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1960Mashaf" passive="https://betamasaheft.eu/LIT1398Fethat"/>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
+
+            
+
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/8NB4AV5G"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1951Qeddase"/><title level="m">Maṣḥafa qǝddāse bagǝʾǝzǝnnā baʾamārǝññā</title><pubPlace>ʾAddis ʾAbabā</pubPlace><date>1951</date><note type="tags"><note type="tag">bm:1951Qeddase</note></note><note type="tag">bm:1951Qeddase</note></t:bibl>
+            </t:listBibl>
+
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/VKSJTCTE"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2010EAEQeddase"/><title level="a">Qǝddase: Mäṣḥafä qǝddase</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><name>Baus</name></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">279a-281b</biblScope><note type="tags"><note type="tag">bm:Bausi2010EAEQeddase</note></note><note type="tag">bm:Bausi2010EAEQeddase</note></t:bibl>
+            </t:listBibl>
+         </t:div>
+
+         <t:div type="edition">
+            
+            <t:div type="textpart" xml:id="Daily">
+               <t:label>Daily Office Prayers and Litanies</t:label>
+               
+               
+               
+               
+               
+               
+               <t:div type="textpart" xml:id="Incense">
+                  <t:label>Prayers of the Incense</t:label>
+                  <t:div type="textpart" xml:id="Incense1" corresp="https://betamasaheft.eu/LIT5449Salotaetanmorning">
+               
+                     <t:label>Morning Prayer of the Incense, from Egypt</t:label>
+                  </t:div>
+               
+                  <t:div type="textpart" xml:id="Incense2" corresp="https://betamasaheft.eu/LIT5450Salotaetaneve">
+                  
+                     <t:label>Evening Prayer of the Incense, from Egypt</t:label>
+                  </t:div>
+               
+               
+               </t:div>
+               
+               
+            
+            
+            
+               
+
+               <t:div type="textpart" subtype="chapter" xml:id="SerataQeddase">
+                  <t:label xml:lang="gez" type="normalized">Śǝrʿāta qǝddāse</t:label>
+                  <t:label xml:lang="gez">ሥርዓተ፡ ቅዳሴ፡</t:label>
+               
+               
+                  
+               
+               
+                  <t:div type="textpart" subtype="chapter" xml:id="SerataQeddaseChapter1">
+                     <t:label>Śǝrʿāta qǝddāse, Chapter 1: Prayer over new vessels</t:label>
+                  
+                     <t:div type="textpart" subtype="chapter" xml:id="Paten">
+                        <t:label>
+                           <t:foreign xml:lang="gez">ጸሎት፡ ሶበ፡ ትሠይሞ፡ ለጻሕል፡</t:foreign>
+                        </t:label>
+                     </t:div>
+                     <t:div type="textpart" subtype="chapter" xml:id="Chalice">
+                        <t:label>
+                           <t:foreign xml:lang="gez">ጸሎት፡ ሶበ፡ ትሠይሞ፡ ለጽዋዕ፡ ቅዱስ፡</t:foreign>
+                        </t:label>
+                     </t:div>
+                     <t:div type="textpart" subtype="chapter" xml:id="CrossSpoon">
+                        <t:label>
+                           <t:foreign xml:lang="gez">ጸሎት፡ ሶበ፡ ትሠይሞ፡ ለዕርፈ፡ መስቀል፡</t:foreign>
+                        </t:label>
+                     </t:div>
+                  </t:div>
+                  <t:div type="textpart" subtype="chapter" xml:id="SerataQeddaseChapter2">
+                     <t:label>Śǝrʿāta qǝddāse, Chapter 2: Beginning of the Mass, Preparation of the
+                     ministers and the altar</t:label>
+                  </t:div>
+                  <t:div type="textpart" subtype="chapter" xml:id="SerataQeddaseChapter3">
+                     <t:label>Śǝrʿāta qǝddāse, Chapter 3: Liturgy of Catechumen, Liturgy of the Word</t:label>
+                     <t:div type="textpart" xml:id="Catechumen">
+                        <t:label>Liturgy of Catechumen</t:label>              
+                        <t:div type="textpart" xml:id="SerataQeddaseProthesis">
+                           <t:label>Liturgy of Catechumen: Prayer by the assistant priest receiving the host during the Prothesis</t:label>
+                           <t:note>
+                              <t:bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><t:citedRange>Śǝrʿāta qǝddāse ch. III, §§ 22-25</t:citedRange></t:bibl>
+                           </t:note>
+                        </t:div>
+                        <t:div type="textpart" xml:id="SerataQeddaseOblation">
+                           <t:label>Liturgy of Catechumen: Prayer of oblation</t:label>
+                           <t:note>
+                              <t:bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><t:citedRange>Śǝrʿāta qǝddāse ch. III, §§ 41-44</t:citedRange></t:bibl>
+                           </t:note>
+                        </t:div>
+                        <t:div type="textpart" xml:id="SerataQeddaseFethat" corresp="https://betamasaheft.eu/LIT1398Fethat">
+                           <t:label>Liturgy of Catechumen: Absolution of the son</t:label>
+                           <t:note>
+                              <t:bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><t:citedRange>Śǝrʿāta qǝddāse ch. III, §§ 56-60</t:citedRange></t:bibl>
+                           </t:note>
+                        </t:div>
+                        <t:div type="textpart" xml:id="SerataQeddaseAbsolution">
+                           <t:label>Liturgy of Catechumen: General absolution</t:label>
+                           <t:note>
+                              <t:bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><t:citedRange>Śǝrʿāta qǝddāse ch. III, §§ 61-65</t:citedRange></t:bibl> 
+                           </t:note>
+                        </t:div>
+                     </t:div>
+                  
+                  
+                     <t:div type="textpart" xml:id="Word">
+                        <t:label>Liturgy of the Word</t:label>               
+                        <t:div type="textpart" xml:id="SerataQeddaseChant">
+                           <t:label>Liturgy of the Word: Concluding chant after the reading from the Pauline Epistles</t:label>
+                           <t:note>
+                              <t:bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><t:citedRange>Śǝrʿāta qǝddāse ch. III, §§ 132-135</t:citedRange></t:bibl>
+                           </t:note>
+                        </t:div>
+                        <t:div type="textpart" xml:id="SerataQeddaseMonition">
+                           <t:label>Monition from the Liturgy of the Word</t:label>
+                           <t:note>(<t:bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><t:citedRange>Śǝrʿāta qǝddāse, ch. III, §§ 148</t:citedRange></t:bibl>)</t:note>
+                        </t:div>
+                        <t:div type="textpart" xml:id="SerataQeddaseUniversal">
+                           <t:label>Liturgy of the Word: Universal prayer by the assistant priest</t:label>
+                           <t:note>
+                              <t:bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><t:citedRange>Śǝrʿāta qǝddāse ch. III, §§ 194-209</t:citedRange></t:bibl>
+                           </t:note>
+                        </t:div>
+                     
+                     </t:div>
+                  </t:div>
+                  <t:div type="textpart" subtype="chapter" xml:id="SerataQeddaseChapter4">
+                     <t:label>Śǝrʿāta qǝddāse, Chapter 4: Liturgy of the Word</t:label>
+                     <t:div type="textpart" xml:id="SerataQeddasePeace">
+                        <t:label>Liturgy of the Word: Supplication for peace, the hierarchy and the assembly</t:label>
+                        <t:note>
+                           <t:bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><t:citedRange>Śǝrʿāta qǝddāse ch. ch. IV, §§ 15-20</t:citedRange></t:bibl>
+                        </t:note>
+                     </t:div>
+                  </t:div>
+               </t:div>
+               <t:div type="textpart" xml:id="ThreeHours"><t:label>Ṣalota kidān za-śalastu gizeyāt “Covenant Prayer of the Three Hours”</t:label></t:div>
+
+               <t:div type="textpart" xml:id="LiturgyEucharist">
+                  <t:label>Liturgy of the Eucharist</t:label>
+                  <t:div type="textpart" xml:id="Anaphoras">
+
+                     <t:div type="textpart" xml:id="FourteenAnaphoras" corresp="https://betamasaheft.eu/LIT3189Anapho">
+
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraApostles" corresp="https://betamasaheft.eu/LIT1104Anapho">
+                           <t:label>Anaphora of the Apostles</t:label>
+                           <t:label xml:lang="gez">ቅዳሴ፡ ዘሐዋርያት፡</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraJohn" corresp="https://betamasaheft.eu/LIT1570habeka">
+                           <t:label>Anaphora by John, son of Thunder</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraLord" corresp="https://betamasaheft.eu/LIT1100Anapho">
+                           <t:label>Anaphora of Our Lord </t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraMary" corresp="https://betamasaheft.eu/LIT1099Anapho">
+                           <t:label>Anaphora of Mary by St Cyriacus of Behnesa</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="Anaphora318" corresp="https://betamasaheft.eu/LIT1103Anapho">
+                           <t:label>Anaphora of the 318</t:label>
+                           <t:div type="textpart" xml:id="NiceneCreed" corresp="https://betamasaheft.eu/LIT3308Nicene">
+                              <t:label>Nicene Creed</t:label>
+                           </t:div>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraAthanasius" corresp="https://betamasaheft.eu/LIT1162Athana">
+                           <t:label>Anaphora by Athanasius</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraBasil" corresp="https://betamasaheft.eu/LIT1098Anapho">
+                           <t:label>Anaphora by Basil</t:label>
+                           <t:note>Prayer of blessing of St Basil, see <t:bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><t:citedRange>Qǝddase za-ḥawāryāt, §§ 10-21</t:citedRange></t:bibl> 
+                           </t:note>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraFirstGregoryNyssa" corresp="https://betamasaheft.eu/LIT2040Naakkw">
+                           <t:label>Hosanna-Liturgy of St Gregory</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraEpiphanius" corresp="https://betamasaheft.eu/LIT1347Epipha">
+                           <t:label>Anaphora by Epiphanius of Cyprus</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraJohnChrysostom" corresp="https://betamasaheft.eu/LIT3120Anapho">
+                           <t:label>Anaphora by John Chrysostom</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraCyril" corresp="https://betamasaheft.eu/LIT1569habeka">
+                           <t:label>Anaphora by Cyril of Alexandria</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraJacobSerug" corresp="https://betamasaheft.eu/LIT2404Tanseu">
+                           <t:label>Anaphora by Jacob of Serug</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraDioscorus" corresp="https://betamasaheft.eu/LIT3180Anapho">
+                           <t:label>Anaphora by Dioscorus</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraSecondGregory" corresp="https://betamasaheft.eu/LIT2038Naakkw">
+                           <t:label>Christmas-Liturgy of St Gregory</t:label>
+                        </t:div>
+                     </t:div>
+
+                     <t:div type="textpart" xml:id="AdditionalAnaphoras">
+                        <t:label>Additional Anaphoras</t:label>
+
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraGiyorgis">
+                           <t:label>Anaphora Our Lady Mary by Giyorgis </t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraJames" corresp="https://betamasaheft.eu/LIT1101Anapho">
+                           <t:label>Anaphora of James, the Brother of the Lord </t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraMark" corresp="https://betamasaheft.eu/LIT1102Anapho">
+                           <t:label>Anaphora of Mark the Evangelist</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraGregoryMary" corresp="https://betamasaheft.eu/LIT2034Naakkw">
+                           <t:label>Anaphora Our Lady Mary by Gregory</t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraGregoryNathanael" corresp="https://betamasaheft.eu/LIT2037Naakkw">
+                           <t:label>Anaphora Our Lady Mary by Gregory or Nathanael </t:label>
+                        </t:div>
+                        <t:div type="textpart" subtype="chapter" xml:id="AnaphoraSecondCyril" corresp="https://betamasaheft.eu/LIT2039Naakkw">
+                           <t:label>Second Anaphora of Cyril</t:label>
+                        </t:div>
+                     </t:div>
+                  </t:div>
+
+                  <t:div type="textpart" xml:id="MQPrayers">
+
+                     <t:div type="textpart" subtype="chapter" xml:id="PrayerKidan" corresp="https://betamasaheft.eu/LIT2260salota">
+                        <t:label>Prayer of the Covenant</t:label>
+                        
+                        <t:div type="textpart" xml:id="KidanManf">
+                           
+                           <t:label>Testament of Midnight</t:label>
+                        </t:div>
+                        
+                        <t:div type="textpart" xml:id="Kidan1" corresp="https://betamasaheft.eu/LIT1716Kidanz">
+                        
+                           <t:label>Testament of the Morning</t:label>
+                        </t:div>
+                     
+                        <t:div type="textpart" xml:id="Kidan2" corresp="https://betamasaheft.eu/LIT1717Kidanz">
+                        
+                           <t:label>Testament of the Evening</t:label>
+                        </t:div>
+                     </t:div>
+                  
+                     <t:div type="textpart" subtype="chapter" xml:id="LitonZanagh" corresp="https://betamasaheft.eu/LIT1807Litonz">
+                        <t:label>Litany for morning and evening, and litany for the Saturday of the
+                     Victory</t:label>
+                     </t:div>
+                     <t:div type="textpart" subtype="chapter" xml:id="LitonZasarq" corresp="https://betamasaheft.eu/LIT1808Litonz">
+                        <t:label>Litany for the evening</t:label>
+                     </t:div>
+                     <t:div type="textpart" subtype="chapter" xml:id="Before">
+                        <t:label>Prayer before the congregation receives the Eucharist</t:label>
+                        <t:note>from the Liturgy of the Eucharist, Anaphora of the Apostles (<t:bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><t:citedRange>Qǝddase za-ḥawāryāt, §§  110-112</t:citedRange></t:bibl>)</t:note>
+                     </t:div>
+                     <t:div type="textpart" subtype="chapter" xml:id="Imposition">
+                        <t:label>Prayer of intercession following the imposition of the celebrant‘s hand </t:label>
+                        <t:note>from the Liturgy of the Eucharist, Anaphora of the Apostles (<t:bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><t:citedRange>Qǝddase za-ḥawāryāt, §§ 154-158</t:citedRange></t:bibl>)</t:note>
+                     </t:div>
+                     <t:div type="textpart" subtype="chapter" xml:id="Intercessions">
+                        <t:label>Intercessions</t:label>
+                     </t:div>
+                     <t:div type="textpart" subtype="chapter" xml:id="Zayenagges" corresp="https://betamasaheft.eu/LIT2605Zayena">
+                        <t:label>Za-yǝnaggǝś</t:label>  
+                        
+                     </t:div>
+                     <t:div type="textpart" subtype="chapter" xml:id="OtherIntercessions">
+                        <t:label>Other intercessions</t:label>
+                        <t:div type="textpart" xml:id="Supplications" corresp="https://betamasaheft.eu/LIT4711Mastabqwe">
+                           <t:label>Supplications</t:label>
+                           <t:note>For the text of the supplications, see <t:ref type="work" corresp="https://betamasaheft.eu/LIT4711Mastabqwe">Mastabqʷǝʿān</t:ref>.</t:note>
+                           
+                           <t:div type="textpart" xml:id="SupplicationNight">
+                              <t:label>Mastabqʷǝʿ za-lelit “Supplication of the Night”</t:label>
+                              <t:div type="textpart" subtype="incipit">
+                                 <t:ab>መስተብቍዐን፡ ዘይበቍዑ፡ ለጸሎት፡ በእንተ፡ ኵሉ፡ ግብር፡</t:ab>
+                              </t:div>
+                           </t:div>
+                           <t:div type="textpart" xml:id="SupplicationApostles">
+                              <t:label>ጸዋትው፡ ዘአበዊነ፡ ሐዋርያት፡  ṣawātǝw zaʾabawina ḥawāryāt “Series (of Supplications) of our Fathers the Apostles”</t:label>
+                              <t:div type="textpart" subtype="supplication">
+                                 <t:ab>ስተብቍዕ፡ በእንተ፡ ዱየን፡ (mastabqʷǝʿ baʾǝnta duyan)</t:ab>
+                              </t:div>
+                              <t:div type="textpart" subtype="supplication">
+                                 <t:ab/>
+                              </t:div>
+                              <t:div type="textpart" subtype="supplication">
+                                 <t:ab/>
+                              </t:div>
+                              <t:div type="textpart" subtype="supplication">
+                                 <t:ab/>
+                              </t:div>
+                              <t:div type="textpart" subtype="supplication">
+                                 <t:ab/>
+                              </t:div>
+                              <t:div type="textpart" subtype="supplication">
+                                 <t:ab>ስተብቍዕ፡ በእንተ፡ ሰላም፡ (mastabqʷǝʿ baʾǝnta salām)</t:ab>
+                              </t:div>
+                              <t:note>
+                                 <t:bibl corresp="http://zotero.org/groups/358366/items/KQXIRSL9"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:MashafaSalotaKidan1960"/><title level="m">መጽሓፈ፡ ጸሎተ፡ ኪዳን። ሊጦን፡ ዘነግህ፡ መስተብቍዕ፡ ወዘይነግስ፡ (maṣḥāfa ṣalota kidān. liṭon za-nagh, mastabqʷǝʿ, wazayǝnaggǝs)</title><pubPlace>Addis Ababa</pubPlace><publisher>Tasfā Gabra Śǝllāse</publisher><date>1960</date><note type="tags"><note type="tag">bm:MashafaSalotaKidan1960</note></note><note type="tag">bm:MashafaSalotaKidan1960</note><t:citedRange>18-26</t:citedRange></t:bibl>
+                              </t:note>
+                           </t:div>
+                           <t:div type="textpart" subtype="supplication" xml:id="BaendaEllaNomu">
+                              <t:label>መስተብቍዕ፡ በእንተ፡ እለ፡ ኖሙ፡ (mastabqʷǝʿ baʾǝnta ʾǝlla nomu) - part 1</t:label>
+                           
+                              <t:div type="textpart" subtype="supplication" xml:id="BaendaEllaNomu1">
+                                 <t:label>ወካዕባ፡ ናስተብቍዕ፡ በእንተ፡ እለ፡ ኖሙ፡ አኀዊነ፡ ከመ፡ ነፍሶሙ፡ የግዕዝ፡ ውስተ፡ መካን፡ ሥዑር፡ ኀባ፡ ማየ፡ ዕረፍት፡ 
+                              (wakāʿǝbā nāstabǝqqʷǝʿ baʾǝnta ʾǝlla nomu ʾaḫawina kama nafsomu yagʿǝz wǝsta makān śǝʿur ḫabā māya ʿǝraft)</t:label>
+                                 <t:note>
+                                    <t:bibl corresp="http://zotero.org/groups/358366/items/KQXIRSL9"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:MashafaSalotaKidan1960"/><title level="m">መጽሓፈ፡ ጸሎተ፡ ኪዳን። ሊጦን፡ ዘነግህ፡ መስተብቍዕ፡ ወዘይነግስ፡ (maṣḥāfa ṣalota kidān. liṭon za-nagh, mastabqʷǝʿ, wazayǝnaggǝs)</title><pubPlace>Addis Ababa</pubPlace><publisher>Tasfā Gabra Śǝllāse</publisher><date>1960</date><note type="tags"><note type="tag">bm:MashafaSalotaKidan1960</note></note><note type="tag">bm:MashafaSalotaKidan1960</note><t:citedRange>36-38</t:citedRange></t:bibl>
+                                 </t:note>
+                              </t:div>
+                           
+                      
+                              <t:div type="textpart">
+                                 <t:label>mastabqʷǝʿ baʾǝnta ʾǝlla nomu - part 2</t:label>
+                                 <t:div type="textpart" subtype="supplication" xml:id="BaendaEllaNomu2">
+                                    <t:label>ወካዕባ፡ ናስተብቍዕ፡ (wakāʿǝbā nāstabǝqqʷǝʿ)</t:label>
+                                 </t:div>
+                                 <t:div type="textpart" subtype="supplication" xml:id="BaendaEllaNomu3">
+                                    <t:label>በል፡ (bal)</t:label>
+                                 </t:div>
+                                 <t:div type="textpart" subtype="supplication" xml:id="BaendaEllaNomu4">
+                                    <t:label>እግዚአ፡ ሕይወተ፡ ሙታን፡ ተስፋ፡ ቅቡፃን፡ ረዳኤ፡ ምንዱባን፡ (ʾǝgziʾa ḥǝywata mutān tasfā qǝbuḍān radāʾe mǝndubān)</t:label>
+                                 </t:div>
+                                 <t:note>
+                                    <t:bibl corresp="http://zotero.org/groups/358366/items/KQXIRSL9"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:MashafaSalotaKidan1960"/><title level="m">መጽሓፈ፡ ጸሎተ፡ ኪዳን። ሊጦን፡ ዘነግህ፡ መስተብቍዕ፡ ወዘይነግስ፡ (maṣḥāfa ṣalota kidān. liṭon za-nagh, mastabqʷǝʿ, wazayǝnaggǝs)</title><pubPlace>Addis Ababa</pubPlace><publisher>Tasfā Gabra Śǝllāse</publisher><date>1960</date><note type="tags"><note type="tag">bm:MashafaSalotaKidan1960</note></note><note type="tag">bm:MashafaSalotaKidan1960</note><t:citedRange>38-40</t:citedRange></t:bibl>
+                                 </t:note>
+                              </t:div>
+                           </t:div>
+                           <t:div type="textpart" subtype="supplication" xml:id="Egziabher">
+                              <t:label>እግዚአብሔር፡ እግዚአብሔር፡ ኢየሱስ፡ ክርስቶስ፡ አምላክነ፡ ዘትቤሎ፡ ለፍቁርከ፡ ዮሐንስ፡ (ʾǝgziʾabǝḥer ʾǝgziʾabǝḥer ʾiyasus krǝstos ʾamlākǝna za-tǝbelo la-fǝqurǝka yoḥannǝs)</t:label>
+                              <t:note>
+                                 <t:bibl corresp="http://zotero.org/groups/358366/items/KQXIRSL9"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:MashafaSalotaKidan1960"/><title level="m">መጽሓፈ፡ ጸሎተ፡ ኪዳን። ሊጦን፡ ዘነግህ፡ መስተብቍዕ፡ ወዘይነግስ፡ (maṣḥāfa ṣalota kidān. liṭon za-nagh, mastabqʷǝʿ, wazayǝnaggǝs)</title><pubPlace>Addis Ababa</pubPlace><publisher>Tasfā Gabra Śǝllāse</publisher><date>1960</date><note type="tags"><note type="tag">bm:MashafaSalotaKidan1960</note></note><note type="tag">bm:MashafaSalotaKidan1960</note><t:citedRange>40-41</t:citedRange></t:bibl>
+                              </t:note>
+                           </t:div>
+                           <t:div type="textpart" subtype="supplication" xml:id="Maryam">
+                              <t:label>መስተበቍዕ፡ ዘግዝእትነ፡ ማርያም፡ (mastabaqʷǝʿ za-ǝgzǝʾtǝna māryām)</t:label>
+                           </t:div>
+                           <t:div type="textpart" subtype="supplication" xml:id="Maryam2">
+                              <t:label>ወካዕባ፡ ናስተብቍዕ፡ ለግዝእትነ፡ ኵልነ፡ ርያም፡ ምነ፡ ወሙ፡ ለግዚእነ፡ (wakāʿǝbā nāstabǝqqʷǝʿ la-ǝgzǝʾtǝna kʷǝllǝna Māryām ǝmmǝna wa-ǝmu la-ǝgziʾǝna)</t:label>
+                           </t:div>
+                           <t:div type="textpart" subtype="supplication" xml:id="SuppMasqal">
+                              <t:label>Supplication to the Cross</t:label>
+                              <t:ab>ወካዕባ፡ ናስተብቍዕ፡ ለዕፀ፡ ቅዱስ፡ መስቀል፡ ጽኑዓ፡ ሥልታን፡ ወኃይል፡፡ (wakāʿǝbā nāstabǝqqʷǝʿ la-ʿǝḍa qǝddus masqal ṣǝnuʿā śǝltān wa-ḫāyl)</t:ab>
+                           </t:div>
+                           <t:div type="textpart" xml:id="SupplicationNightJesus">
+                              <t:label>መስተብቍዕ፡ ዘሌሊት፡ mastabqʷǝʿ za-lelit “Supplication of the Night”</t:label>
+                              <t:div type="textpart" subtype="incipit">
+                                 <t:ab>ናስተብቍዕ፡ ዘኵሎ፡ ይእኅዝ፡ ግዚአብሔር፡ አብ፡ ለእግዚ፡ ወ፡ መድኀኒነ፡ ኢየሱስ፡ ክርስቶስ፡፡ እስማ፡ ረሰየነ፡ ተድለ፡ (Nāstabǝqqʷǝʿ za-kʷǝllo yǝʾǝḫḫǝz ǝgziʾabǝḥer ʾab la-ʾǝgzi wa madḫanina ʾIyasus Krǝstos. ʾƎsmā rasayanna tadla)</t:ab>
+                              </t:div>
+                           </t:div>
+                        </t:div>
+                     </t:div>
+                  
+                     <t:div type="textpart" xml:id="Litanies" corresp="https://betamasaheft.eu/LIT3188Liton">
+                        <t:label>Litanies</t:label>
+                        <t:note>The following textparts follow the modern printed edition  <t:bibl corresp="http://zotero.org/groups/358366/items/Y6CW7FBU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1957Qeddase"/><title level="m">መጽሐፈ፡ ቅዳሴ፡ &lt;hi rend="italics"&gt;(&lt;/hi&gt;Maṣḥafa qǝddāse&lt;hi rend="italics"&gt;, ‘Book of the Missal')&lt;/hi&gt;</title><author><name>Anon.</name></author><pubPlace>ʾAśmarā</pubPlace><publisher>ba-māḫbara ḥawāryāt fǝre hāymānot ba-kokaba ṣǝbāḥ māttamiyā bet tāttama</publisher><date>1957</date><note type="tags"><note type="tag">bm:1957Qeddase</note></note><note type="tag">bm:1957Qeddase</note><t:citedRange unit="page">184-188</t:citedRange></t:bibl>. The assignment of the litanies to the days of the week varies accross manuscripts.</t:note>
+                        <t:div type="textpart" xml:id="LitaniesWeek" corresp="https://betamasaheft.eu/LIT4860Litanies">
+                           <t:label>Litanies for the days of the week</t:label>
+                     
+                           <t:div type="textpart" subtype="chapter" xml:id="Monday" corresp="https://betamasaheft.eu/LIT1807Litonz">
+                              <t:label>Litany for Monday</t:label>
+                           </t:div>
+                           <t:div type="textpart" subtype="chapter" xml:id="Tuesday" corresp="https://betamasaheft.eu/LIT4858Litany">
+                              <t:label>Litany for Tuesday</t:label>
+                           </t:div>
+                           <t:div type="textpart" subtype="chapter" xml:id="Wednesday" corresp="https://betamasaheft.eu/LIT4266Litonz">
+                              <t:label>Litany for Wednesday</t:label>
+                              <t:note>This litany is also attested for Friday or Saturday.</t:note>
+                           </t:div>
+                           <t:div type="textpart" subtype="chapter" xml:id="Thursday" corresp="https://betamasaheft.eu/LIT4264Salota">
+                              <t:label>Litany for Thursday</t:label>
+                              <t:note>This litany is also attested for Friday or Saturday.</t:note>
+                           </t:div>
+                           <t:div type="textpart" subtype="chapter" xml:id="Friday" corresp="https://betamasaheft.eu/LIT4268Tazakkar">
+                              <t:label>Litany for Friday</t:label>
+                              <t:note>This litany is also attested for Sunday.</t:note>
+                           </t:div>
+                           <t:div type="textpart" subtype="chapter" xml:id="Saturday" corresp="https://betamasaheft.eu/LIT4265Litonz">
+                              <t:label>Litany for Saturday</t:label>
+                              <t:note>This litany is also attested for Thursday.</t:note>
+                           </t:div>
+                           
+                           <t:div type="textpart" subtype="chapter" xml:id="SaturdaySeur" corresp="https://betamasaheft.eu/LIT3571Litonz">
+                              <t:label>Litany for Holy Saturday</t:label>
+                           </t:div>
+                           <t:div type="textpart" subtype="chapter" xml:id="Sunday" corresp="https://betamasaheft.eu/LIT4859Litany">
+                              <t:label>Litany for Sunday</t:label>
+                              <t:note>This litany is also attested for Wednesday.</t:note>
+                           </t:div>
+                        </t:div>
+                     </t:div>
+                  
+                  </t:div>
+               </t:div>
+            </t:div>
+         </t:div>        
+      </t:body>
+   </t:text></TEI>

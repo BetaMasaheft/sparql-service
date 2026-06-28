@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/mss"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/CBD913.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/manuscripts/CBD913/main"/>
+      <crm:P48_has_preferred_identifier>CBD913</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft [Accademia nazionale dei Lincei],  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>CBD913</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:contributor>Eugenia Sokolinski</dc:contributor>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Miracle"/>
+      <dcterms:bibliographicCitation>bm:Cerulli1965ChesterBeatty</dcterms:bibliographicCitation>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniProd"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCirc"/>
+      <sdc:hasCertainty rdf:resource="https://w3id.org/sdc/ontology#Certain"/>
+      <crm:P1_is_identified_by>CBD W 913</crm:P1_is_identified_by>
+      <foaf:depiction>
+         <rdf:Description rdf:about="https://betamasaheft.eu/manuscript/CBD913/viewer">
+            <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+            <svcs:has_service>
+               <rdf:Description rdf:about="https://betamasaheft.eu/api/iiif/CBD913/manifest">
+                  <rdf:type rdf:resource="http://rdfs.org/sioc/services#Service"/>
+                  <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+                  <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+               </rdf:Description>
+            </svcs:has_service>
+         </rdf:Description>
+      </foaf:depiction>
+      <crm:P1_is_identified_by>EMIP 3167</crm:P1_is_identified_by>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0422Chester_Beatty_Library"/>
+      <crm:P1_is_identified_by>CBD W 913</crm:P1_is_identified_by>
+      <foaf:depiction>
+         <rdf:Description rdf:about="https://betamasaheft.eu/manuscript//viewer">
+            <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+            <svcs:has_service>
+               <rdf:Description rdf:about="https://betamasaheft.eu/api/iiif//manifest">
+                  <rdf:type rdf:resource="http://rdfs.org/sioc/services#Service"/>
+                  <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+                  <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+               </rdf:Description>
+            </svcs:has_service>
+         </rdf:Description>
+      </foaf:depiction>
+      <crm:P1_is_identified_by>EMIP 3167</crm:P1_is_identified_by>
+      <crm:P55_has_current_location rdf:resource="https://betamasaheft.eu/INS0422Chester_Beatty_Library"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d1"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d2"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d3"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d4"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d5"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d6"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d7"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d8"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d9"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d10"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d11"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d12"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d13"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d14"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d15"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d16"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d17"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d18"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d19"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d20"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d21"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d22"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d23"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d24"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d25"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d26"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d27"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d28"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d29"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d30"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d31"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d32"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d33"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d34"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d35"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d36"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d37"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d38"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d39"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d40"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d41"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d42"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d43"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d44"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d45"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d46"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d47"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d48"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d49"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d50"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d51"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d52"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d53"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d54"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d55"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d56"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d57"/>
+      <dcterms:hasPart rdf:resource="CBD913/decoration/d58"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P57_has_number_of_parts>
+      <dcterms:hasPart rdf:resource="CBD913/msitem/ms_i1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913">
+      <betmas:formerlyAlsoListedAs rdf:resource="https://betamasaheft.eu/EMIP03167"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/msitem/ms_i1">
+      <rdf:type rdf:resource="https://betamasaheft.eu/msitem"/>
+      <rdf:type rdf:resource="https://w3id.org/sdc/ontology#UniCont"/>
+      <dcterms:hasPart rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <crm:P57_has_number_of_parts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crm:P57_has_number_of_parts>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d4">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d5">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d6">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d7">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d8">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d9">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d10">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d11">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d12">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d13">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d14">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d15">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d16">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d17">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d18">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d19">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d20">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d21">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d22">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d23">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d24">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d25">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d26">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d27">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d28">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d29">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d30">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d31">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d32">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d33">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d34">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d35">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d36">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d37">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d38">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d39">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d40">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d41">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d42">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d43">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d44">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d45">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d46">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d47">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d48">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d49">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d50">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d51">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d52">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d53">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d54">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d55">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d56">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d57">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/CBD913/decoration/d58">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/CBD913"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/decoration"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/miniature"/>
+   </rdf:Description>
+</rdf:RDF>

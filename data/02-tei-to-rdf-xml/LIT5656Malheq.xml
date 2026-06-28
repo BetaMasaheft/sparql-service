@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/work"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LIT5656Malheq.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/works/LIT5656Malheq/main"/>
+      <crm:P48_has_preferred_identifier>LIT5656Malheq</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>LIT5656Malheq</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>Denis Nosnitsin</dc:contributor>
+      <dc:contributor>Ralph Lee</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Chants"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Liturgy"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Rituals"/>
+      <dc:title>Malḥǝq</dc:title>
+      <dc:title xml:lang="gez">መልሕቅ፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT5656Malheq%2Ftitle%2Ft1"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Malḥǝq</dc:title>
+      <dc:title xml:lang="en">Anchor</dc:title>
+      <dc:source rdf:resource="https://betamasaheft.eu/IVorlov33"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/ColophonWork"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/JohnBaptist"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Elizabeth"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Zechariah"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/WazemaFere"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Stephan"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/RenovationTemple"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/CrossHelen"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Michael"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/PeterPaul"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/CrossRitual"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/FathersNicaea"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/EustathiusPlacidus"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/PeterPaul2"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/JacobJohn"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Kings"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Pantalewon"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/WazemaZaSanabet"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/MatthewApostle"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Stephan2"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/MotherGod"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Apostles"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Yohanni"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Qwesqwam"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Gabriel"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Michael2"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Menas"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/MesbakZaSeyon"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/HeavenlyElders"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Mercury"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Nagran"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/PeterAlexandria"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Blessed"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Righteous"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Martyrs"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/wazemaZaAstamhero"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/MountOlives"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Elijah"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/ThreeYouth"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/MesbakZaSabakat"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Annunciation"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/BerhanChants"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Nolawi"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Marawi"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/ChristmasEve"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Christmas"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/StephanAfterChristmas"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/AfterChristmas"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/LibanosJohn"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/EasterSunday"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Circumcision"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/FlightEgypt"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/CanaInGalilee"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Epiphany"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Presentation"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/HalleluyaTable"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/PenitencialService"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/CrossMary"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Apostles2"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Prophets"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Martyrs2"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Righteous2"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Angels"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Palm"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/EasterThursday"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/GoodFriday"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/EasterHolyWeek"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/George"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/ZaRakeb"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/BirthOfMary"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Ascension"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/SaturdayAscension"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Pent"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/SaturdayWinter"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Haleta"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq">
+      <lawd:hasAttestation rdf:resource="https://betamasaheft.eu/IVorlov33"/>
+   </rdf:Description>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/place/annotation/1">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC4955Najran"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Naǧrān</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/place/annotation/2">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LOC4878Mounto"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>the Mount of Olives</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/1">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS12652Gera"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ʾabbā Gera</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/2">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS12654HablaSellase"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ʾabbā Habla Śǝllāse</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/3">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8550sardaDe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>King Śarḍa Dǝngǝl</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/4">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS12652Gera"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>አባ፡ ጌራ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/5">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS12654HablaSellase"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ሐብለ፡ ስላሴ፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/6">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8550sardaDe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ንጉሥነ፡ ሰርፀ፡ ድንግል፡</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/7">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5741Johnthe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>John the Baptist</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/8">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS10691Zechari"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Prophet Zechariah</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/9">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7049Michael"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Michael the Archangel</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/10">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS12538PeterPaul"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Peter and Paul</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/11">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7720Pantalew"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Ṗanṭalewon</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/12">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7049Michael"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Michael the Archangel</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/13">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7000MenasM"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Menās</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/14">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7025Mercury"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Mercury</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/15">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7806PeterI"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Peter of Alexandria</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/16">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS3723Elisha"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Prophet Elisha</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/17">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS11288AnAzMi"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Three Youths in the Furnace</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/18">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6298Libanos"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ʾabbā Libānos</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/19">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5695John"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>John the Evangelist</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/20">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS4585Georgeo"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St George the Martyr</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/21">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5741Johnthe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>John the Baptist</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/22">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS10774Paraq"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>the Holy Spirit</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/23">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS7049Michael"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Michael the Archangel</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/24">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS3315Damian"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Damian</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/25">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS3202Cosmas"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Cosmas</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/26">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS12538PeterPaul"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Peter and Paul</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/27">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS12651Pishoy"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Bǝsoy</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/28">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS11366Qirqos"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Cyriacus</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/29">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5790Julitta"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Julitta</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/30">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8386SalamaI"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ʾabbā Salāma</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/31">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS6820MaryMag"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>Mary Magdalene</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/32">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS1269Abraham"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>ʾAbrǝhāmAbraham</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/33">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS5741Johnthe"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>John the Baptist</lawd:hasName>
+   </oa:Annotation>
+   <oa:Annotation rdf:about="https://betamasaheft.eu/LIT5656Malheq/person/annotation/34">
+      <oa:hasTarget rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <oa:hasBody rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/PRS8083Raphael"/>
+      <oa:annotatedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-27+03:00</oa:annotatedAt>
+      <lawd:hasName>St Raphael</lawd:hasName>
+   </oa:Annotation>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/ColophonWork">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS12652Gera"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS12654HablaSellase"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8550sardaDe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/JohnBaptist">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5741Johnthe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Elizabeth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Zechariah">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10691Zechari"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/WazemaFere">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Stephan">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/RenovationTemple">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/CrossHelen">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Michael">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7049Michael"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/PeterPaul">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS12538PeterPaul"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/CrossRitual">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/FathersNicaea">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/EustathiusPlacidus">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/PeterPaul2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/JacobJohn">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Kings">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Pantalewon">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7720Pantalew"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/WazemaZaSanabet">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/MatthewApostle">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Stephan2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/MotherGod">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Apostles">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Yohanni">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Qwesqwam">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Gabriel">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Michael2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7049Michael"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Menas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7000MenasM"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/MesbakZaSeyon">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/HeavenlyElders">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Mercury">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7025Mercury"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Nagran">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/PeterAlexandria">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7806PeterI"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Blessed">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Righteous">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Martyrs">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/wazemaZaAstamhero">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/MountOlives">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Elijah">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3723Elisha"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/ThreeYouth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS11288AnAzMi"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/MesbakZaSabakat">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Annunciation">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/BerhanChants">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Nolawi">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Marawi">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/ChristmasEve">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Christmas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/StephanAfterChristmas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/AfterChristmas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/LibanosJohn">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6298Libanos"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5695John"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/EasterSunday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Circumcision">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/FlightEgypt">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/CanaInGalilee">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Epiphany">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Presentation">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/HalleluyaTable">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/PenitencialService">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/CrossMary">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Apostles2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Prophets">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Martyrs2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Righteous2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Angels">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Palm">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/EasterThursday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/GoodFriday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/EasterHolyWeek">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/George">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS4585Georgeo"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/ZaRakeb">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/BirthOfMary">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Ascension">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/SaturdayAscension">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Pent">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5741Johnthe"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10774Paraq"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7049Michael"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3315Damian"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3202Cosmas"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS12538PeterPaul"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS12651Pishoy"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS11366Qirqos"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5790Julitta"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8386SalamaI"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6820MaryMag"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS1269Abraham"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5741Johnthe"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8083Raphael"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/JohnBaptist2"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/HolySpirit"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Michael3"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/DamianCosmas"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/PeterPaul3"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Apostles3"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Besoy"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/CyriacusJulitta"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Salama"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Virgins"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/MaryamMagdalawit"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Firstborn"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Transfiguration"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/GatheringApostles"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Dormition"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Abraham"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Sabbath"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Andrew"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/BeheadingJohn"/>
+      <dcterms:hasPart rdf:resource="LIT5656Malheq/part/Raphael"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/JohnBaptist2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5741Johnthe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/HolySpirit">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS10774Paraq"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Michael3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS7049Michael"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/DamianCosmas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3315Damian"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS3202Cosmas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/PeterPaul3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS12538PeterPaul"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Apostles3">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Besoy">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS12651Pishoy"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/CyriacusJulitta">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS11366Qirqos"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5790Julitta"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Salama">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8386SalamaI"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Virgins">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/MaryamMagdalawit">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS6820MaryMag"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Firstborn">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Transfiguration">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/GatheringApostles">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Dormition">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Abraham">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS1269Abraham"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Sabbath">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Andrew">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/BeheadingJohn">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS5741Johnthe"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Raphael">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/PRS8083Raphael"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/SaturdayWinter">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq/part/Haleta">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT5656Malheq"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT5656Malheq%2Ftitle%2Ft1">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>መልሕቅ፡</rdfs:label>
+   </rdf:Description>
+</rdf:RDF>

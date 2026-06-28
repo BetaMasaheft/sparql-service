@@ -1,0 +1,62 @@
+<https://betamasaheft.eu/PULet013> <http://purl.org/dc/terms/licence> <http://opendatacommons.org/licenses/odbl/1.0/> ;
+	a <https://betamasaheft.eu/mss> ;
+	<http://purl.org/dc/terms/source> <https://betamasaheft.eu/tei/PULet013.xml> ;
+	<http://xmlns.com/foaf/0.1/homepage> <https://betamasaheft.eu/manuscripts/PULet013/main> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier> "PULet013" ;
+	<http://purl.org/dc/elements/1.1/publisher> "Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine\n                    multimediale Forschungsumgebung / Beta maṣāḥǝft,  " ;
+	<http://purl.org/dc/terms/isPartOf> <https://betamasaheft.eu> ;
+	<http://purl.org/dc/terms/bibliographicCitation> "PULet013" ;
+	<http://purl.org/dc/elements/1.1/format> "xml" ;
+	<http://purl.org/dc/elements/1.1/language> "en"^^<http://www.w3.org/2001/XMLSchema#language> , "gez"^^<http://www.w3.org/2001/XMLSchema#language> ;
+	<http://purl.org/dc/terms/bibliographicCitation> "bm:PrincetonOnline" ;
+	a <https://w3id.org/sdc/ontology#UniProd> , <https://w3id.org/sdc/ontology#UniCirc> ;
+	<https://w3id.org/sdc/ontology#hasCertainty> <https://w3id.org/sdc/ontology#Certain> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Princeton Ethiopic Manuscript No. 13" .
+<https://betamasaheft.eu/manuscript/PULet013/viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif/PULet013/manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript/PULet013/viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif/PULet013/manifest> .
+<https://betamasaheft.eu/PULet013> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript/PULet013/viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0486Princeton_University_Library> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Princeton Ethiopic Manuscript No. 13" .
+<https://betamasaheft.eu/manuscript//viewer> a <http://www.europeana.eu/schemas/edm/WebResource> .
+<https://betamasaheft.eu/api/iiif//manifest> a <http://rdfs.org/sioc/services#Service> ;
+	<http://usefulinc.com/ns/doap#implements> <http://iiif.io/api/image/2/level1.json> ;
+	<http://purl.org/dc/terms/conformsTo> <http://iiif.io/api/image> .
+<https://betamasaheft.eu/manuscript//viewer> <http://rdfs.org/sioc/services#has_service> <https://betamasaheft.eu/api/iiif//manifest> .
+<https://betamasaheft.eu/PULet013> <http://xmlns.com/foaf/0.1/depiction> <https://betamasaheft.eu/manuscript//viewer> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <https://betamasaheft.eu/INS0486Princeton_University_Library> ;
+	a <https://betamasaheft.eu/ontology/Codex> ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 5 ;
+	<http://purl.org/dc/terms/hasPart> <https://betamasaheft.eu/PULet013/msitem/ms_i1> , <https://betamasaheft.eu/PULet013/msitem/ms_i2> , <https://betamasaheft.eu/PULet013/msitem/ms_i3> , <https://betamasaheft.eu/PULet013/msitem/ms_i4> , <https://betamasaheft.eu/PULet013/msitem/ms_i5> .
+<https://betamasaheft.eu/PULet013/msitem/ms_i1> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Prayer of Mary At Golgotha (Zä-Säne Golgota)" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:c7e5e989b89b719c60a480318615d592 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/PULet013/msitem/ms_i1> <https://betamasaheft.eu/ontology/hasLocus> _:c7e5e989b89b719c60a480318615d592 .
+<https://betamasaheft.eu/PULet013/msitem/ms_i2> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Mystigogia (Təməhrətä Həbu'at)" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:a7123e8eafca2b6158400b04ee3012e4 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/PULet013/msitem/ms_i2> <https://betamasaheft.eu/ontology/hasLocus> _:a7123e8eafca2b6158400b04ee3012e4 .
+<https://betamasaheft.eu/PULet013/msitem/ms_i3> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Sword of the Divinity (Śäyfä Mäläkot)" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:de26e6a9fd45165e235ccae4a0341f67 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/PULet013/msitem/ms_i3> <https://betamasaheft.eu/ontology/hasLocus> _:de26e6a9fd45165e235ccae4a0341f67 .
+<https://betamasaheft.eu/PULet013/msitem/ms_i4> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Prayer to Jesus (Known as \"Guard Me\"), \"Eqäbänni\"" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:d065a9afb089d096a9d979862e4c35e2 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/PULet013/msitem/ms_i4> <https://betamasaheft.eu/ontology/hasLocus> _:d065a9afb089d096a9d979862e4c35e2 .
+<https://betamasaheft.eu/PULet013/msitem/ms_i5> a <https://betamasaheft.eu/msitem> , <https://w3id.org/sdc/ontology#UniCont> ;
+	<http://purl.org/dc/terms/hasPart> "Prayer to \"God the Luminaries\" (Egzi'abher Zä-Bərhanat)" ;
+	<http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts> 0 .
+_:fa9cde88c21ee518ec37a3b2ddcd7e19 a <https://betamasaheft.eu/ontology/Locus> ;
+	<https://betamasaheft.eu/ontology/locusFrom> "" .
+<https://betamasaheft.eu/PULet013/msitem/ms_i5> <https://betamasaheft.eu/ontology/hasLocus> _:fa9cde88c21ee518ec37a3b2ddcd7e19 .

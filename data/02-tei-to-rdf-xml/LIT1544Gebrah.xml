@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/work"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LIT1544Gebrah.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/works/LIT1544Gebrah/main"/>
+      <crm:P48_has_preferred_identifier>LIT1544Gebrah</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>LIT1544Gebrah</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>Massimo Villa</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Liturgy"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <dc:title>Gǝbra Ḥǝmāmāt</dc:title>
+      <dc:title xml:lang="gez">ግብረ፡ ሕማማት፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1544Gebrah%2Ftitle%2Ft1"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Gǝbra Ḥǝmāmāt</dc:title>
+      <dc:title xml:lang="en">Lectionary of the Holy Week</dc:title>
+      <dc:title xml:lang="gez">መጽሐፈ፡ ግብረ፡ ሕማማት፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1544Gebrah%2Ftitle%2Ft2"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Maṣḥafa Gǝbra Ḥǝmāmāt</dc:title>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Introduction"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//EvePalmSunday"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//PalmSundayGH"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Monday"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Tuesday"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Wednesday"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Thursday"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Friday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Introduction">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//EvePalmSunday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//HomilyEvePalmSun"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//HomilyEvePalmSun">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//PalmSundayGH">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//PalmSundayMor"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//PalmSundayProc"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//PalmSundayMass"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//PalmSundayElev"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//PalmSundayMor">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//PalmSundayProc">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//PalmSundayMass">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//PalmSundayElev">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Monday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayNight"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayDay"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayNight">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayNightFirst"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayNightThird"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayNightSixth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayNightElev"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayNightFirst">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayNightThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayNightSixth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayNightElev">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayDay">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayDayDawn"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayDayFirst"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayDayThird"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayDayNinth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayDayElev"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayDayDawn">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT1546Genesi"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayDayFirst">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//AbbaSinodaMoMor"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//JohnMonday"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//JohnFig"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//AbbaSinodaMoMor">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//JohnMonday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//JohnFig">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT2122OntheF"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayDayThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayDayNinth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MondayNinth"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayNinth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MondayDayElev">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//AbbaSinodaMoEve"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//AbbaSinodaMoEve">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Tuesday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//TuesdayNight"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//TuesdayDay"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//TuesdayNight">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//TuesdayNightFirst"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//TuesdayNightThird"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//TuesdayNightSixth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//TuesdayNightNinth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//TuesdayNightElev"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//TuesdayNightFirst">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//TuesdayNightThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//TuesdayNightSixth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//TuesdayNightNinth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//TuesdayNightElev">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//TuesdayDay">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//TuesdayDayFirst"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThuesdayDayThird"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//TuesdayDaySixth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//TuesdayDayNinth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//TuesdayDayElev"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//TuesdayDayFirst">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//AbbaSinodaTu"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//AbbaSinodaTu">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThuesdayDayThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//TuesdayDaySixth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//TuesdayDayNinth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//AnonAdmonTu"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//AnonAdmonTu">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//TuesdayDayElev">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Wednesday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WednesdayNight"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WednesdayDay"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WednesdayNight">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WedNightFirst"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WedNightThird"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WedNightSixth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WedNightNinth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WedNightElev"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WedNightFirst">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WedNightThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WedNightSixth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WedNightNinth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//JohnChrWed"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//JohnChrWed">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WedNightElev">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//SawirosWed"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//SawirosWed">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WednesdayDay">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WedDayFirst"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WedDayThird"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WedDaySixth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WedDayNinth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//WedDayElev"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WedDayFirst">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WedDayThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WedDaySixth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WedDayNinth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//WedDayElev">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Thursday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursdayNight"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursdayDay"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursdayNight">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursNightFirst"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursNightThird"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursNightSixth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursNightNinth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursNightElev"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursNightFirst">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursNightThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursNightSixth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursNightNinth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursNightElev">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursdayDay">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursDayFirst"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursDayThird"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursDaySixth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursDayNinth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FeetThur"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//MassThur"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//ThursDayElev"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursDayFirst">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//JohnChrThurMor"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//JohnChrThurMor">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursDayThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursDaySixth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursDayNinth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//JohnChrThurNine"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//JohnChrThurNine">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FeetThur">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//MassThur">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//ThursDayElev">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Friday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FridayNight"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Saturday"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Sunday"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Directives"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//PrayerMidnight"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FridayNight">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FriNightFirst"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FriNightThird"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FridaySixthNight"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FridayDay"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FriNightFirst">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FriNightThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FridaySixthNight">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FridayJC"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FriNightNinth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FriNightElev"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Cock"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FridayJC">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT2142OntheS"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FriNightNinth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FriNightElev">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Cock">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT1922Mashaf"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FridayDay">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Song"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Teaching"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Selatat"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FridayMorning"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FridayThird"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FridaySixth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FridayNinth"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FridayEleventh"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//FriDayTwelth"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Song">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT2362Songof"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Teaching">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT5807HomilyApostles"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Selatat">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT5808Selatat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FridayMorning">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FridayThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Abraham"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//AthanFrThird"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Abraham">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT1180Baenta"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//AthanFrThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FridaySixth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//JohnChrFrSixth"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//JohnChrFrSixth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FridayNinth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FridayEleventh">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//AthanFrEleventh"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//AthanFrEleventh">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//FriDayTwelth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Saturday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//SaturdayNight"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//SaturdayNight">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Mass"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//SaturdayDay"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Evening"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Mass">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//SaturdayDay">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//SatDayFirst"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//SatDaySixth"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//SatDayFirst">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//SatDaySixth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Revelation"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Revelation">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT3179Revela"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Evening">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Sunday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Laha"/>
+      <dcterms:hasPart rdf:resource="LIT1544Gebrah//Mysteries"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Laha">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT1750LahaMa"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Mysteries">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT2444Temher"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//Directives">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah//PrayerMidnight">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1544Gebrah"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah%2Ftitle%2Ft1">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>ግብረ፡ ሕማማት፡</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1544Gebrah%2Ftitle%2Ft2">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>መጽሐፈ፡ ግብረ፡ ሕማማት፡</rdfs:label>
+   </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/work"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LIT1990Mawase.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/works/LIT1990Mawase/main"/>
+      <crm:P48_has_preferred_identifier>LIT1990Mawase</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>LIT1990Mawase</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>Ralph Lee</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Liturgy"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Chants"/>
+      <dc:title>Mawāśǝʾt</dc:title>
+      <dc:title xml:lang="gez">መዋሥእት፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT1990Mawase%2Ftitle%2Ft1"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Mawāśǝʾt</dc:title>
+      <dc:title xml:lang="en">Antiphonary for feasts and funeral service</dc:title>
+      <dc:source rdf:resource="https://betamasaheft.eu/BLadd16227"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BAVet4#ms_i2"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BAVet10#ms_i2"/>
+      <dc:source rdf:resource="https://betamasaheft.eu/BAVet15#p1_i9"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/JohnB"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/River"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Zechariah"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Stephen1"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Church"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Cross"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Helen"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Righteous"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Martyrs"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/GabraKrestos"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Stephen16"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Stephen17"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Yohanni"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/FourBeasts1"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/FourBeasts2"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Michael1"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Watchers"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Minas"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Priests1"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Priests2"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Mercurius"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Nagran"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Peter"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/ThreeChildren"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Gabriel"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Christmas"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Nativity"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/AfterChristmas"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/SundayChristmas"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Children"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Stephen2"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Matta1"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Matta2"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EpiphanyEve"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Epiphany1"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Epiphany2"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/AfterEpiphany"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EpiphanyThird"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EpiphanyBaptism"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EpiphanyEighth"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Cana"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Community"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Annunciation"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Palm"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EasterEve1"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EasterEve2"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EasterSunday"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EasterMonday"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EasterTuesday"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EasterWednesday"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EasterThursday"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EasterFriday"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/EasterSaturday"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/InAlbis"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Garments"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/George"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Council"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Egypt"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Ascension"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Awet"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Pent"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Michael2"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Garima1"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Garima2"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Apostles"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Qirqos"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Virgins"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Firstborn"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Tabor"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Mary"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Abraham"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Melchizedek"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Beheading"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Libanos"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Pilgrims"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Sunday"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Haleta"/>
+      <dcterms:hasPart rdf:resource="LIT1990Mawase/part/Arsima"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/JohnB">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4424JohnTheBaptist"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/River">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4425River"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Zechariah">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4426Zechariah"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Stephen1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4427Stephen1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Church">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4428Church"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Cross">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4429Cross"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Helen">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4430Helen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Righteous">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4431Righteous"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Martyrs">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4432Martyrs"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/GabraKrestos">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4433GabraKrestos"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Stephen16">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4434Stephen16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Stephen17">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4435Stephen17"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Yohanni">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4436Yohanni"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/FourBeasts1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4437FourBeasts1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/FourBeasts2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4438FourBeasts2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Michael1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4439Michael1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Watchers">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4440Watchers"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Minas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4441Minas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Priests1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4442HeavenlyPriests1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Priests2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4443HeavenlyPriests2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Mercurius">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4444Mercurius"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Nagran">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4445Nagran"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Peter">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4446Peter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/ThreeChildren">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4447ThreeChildren"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Gabriel">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4448Gabriel"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Christmas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4449Christmas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Nativity">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4450Nativity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/AfterChristmas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4451AfterChristmas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/SundayChristmas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4452SundayChristmas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Children">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4453Children"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Stephen2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4454Stephen2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Matta1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4455Matta1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Matta2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4456Matta2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EpiphanyEve">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4457EpiphanyEve"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Epiphany1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4458Epiphany1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Epiphany2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4459Epiphany2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/AfterEpiphany">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4460AfterEpiphany"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EpiphanyThird">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4461EpiphanyThird"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EpiphanyBaptism">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4462EpiphanyBaptism"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EpiphanyEighth">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4463EpiphanyEighth"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Cana">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4464CanaInGalilee"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Community">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4465Community"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Annunciation">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4466Annunciation"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Palm">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4467PalmSunday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EasterEve1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4468EasterEve1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EasterEve2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4469EasterEve2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EasterSunday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4470EasterSunday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EasterMonday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4471EasterMonday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EasterTuesday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4472EasterTuesday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EasterWednesday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4473EasterWednesday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EasterThursday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4474EasterThursday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EasterFriday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4475EasterFriday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/EasterSaturday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4476EasterSaturday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/InAlbis">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4477InAlbis"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Garments">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4478Garments"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/George">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4479George"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Council">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4480CouncilOfPriests"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Egypt">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4481Egypt"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Ascension">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4482Ascension"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Awet">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4483Awet"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Pent">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4484Pentecost"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Michael2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4485Michael2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Garima1">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4486Garima1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Garima2">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4487Garima2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Apostles">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4488Apostles"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Qirqos">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4489Qirqos"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Virgins">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4490Virgins"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Firstborn">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4491Firstborn"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Tabor">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4492DabraTabor"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Mary">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4493Mary"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Abraham">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4494Abraham"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Melchizedek">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4495Melchizedek"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Beheading">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4496Beheading"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Libanos">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4497Libanos"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Pilgrims">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4498Pilgrims"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Sunday">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4499Sunday"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Haleta">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase/part/Arsima">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT1990Mawase"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/part"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6841MawArsima"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT1990Mawase%2Ftitle%2Ft1">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>መዋሥእት፡</rdfs:label>
+   </rdf:Description>
+</rdf:RDF>

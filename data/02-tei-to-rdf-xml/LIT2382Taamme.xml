@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:oa="http://www.w3.org/ns/oa#" xmlns:svcs="http://rdfs.org/sioc/services#"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:rel="http://purl.org/vocab/relationship/"
+         xmlns:agrelon="http://d-nb.info/standards/elementset/agrelon.owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:betmas="https://betamasaheft.eu/ontology/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:syriaca="http://syriaca.org/documentation/relations.html#"
+         xmlns:sdc="https://w3id.org/sdc/ontology#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:saws="http://purl.org/saws/ontology#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:iha="http://islhornafr.tors.sc.ku.dk/"
+         xmlns:snap="http://data.snapdrgn.net/ontology/snap#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme">
+      <dcterms:licence rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/work"/>
+      <dcterms:source rdf:resource="https://betamasaheft.eu/tei/LIT2382Taamme.xml"/>
+      <foaf:homepage rdf:resource="https://betamasaheft.eu/works/LIT2382Taamme/main"/>
+      <crm:P48_has_preferred_identifier>LIT2382Taamme</crm:P48_has_preferred_identifier>
+      <dc:publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft Brepols Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Harrassowitz Verlag Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, imprimeurs-éditeurs,  Akademie der Wissenschaften in Hamburg</dc:publisher>
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu"/>
+      <dcterms:bibliographicCitation>LIT2382Taamme</dcterms:bibliographicCitation>
+      <dc:format>xml</dc:format>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">gez</dc:language>
+      <dc:contributor>Alessandro Bausi</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SiegbertUhlig</dc:contributor>
+      <dc:contributor>AlessandroBausi</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <dc:contributor>SylvainGrébaut</dc:contributor>
+      <rdf:type rdf:resource="https://betamasaheft.eu/ChristianLiterature"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Hagiography"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Apocrypha"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/Miracle"/>
+      <crm:P1_is_identified_by> 45</crm:P1_is_identified_by>
+      <dc:title>Taʾammǝra
+                                                  ʾIyasus</dc:title>
+      <dc:title xml:lang="gez">ተኣምረ፡ ኢየሱስ፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT2382Taamme%2Ftitle%2Ft1"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Taʾammǝra ʾIyasus</dc:title>
+      <dc:title xml:lang="en">Miracles of Jesus</dc:title>
+      <dc:title xml:lang="gez">መጽሐፈ፡ እልአትቀርፋ፡</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT2382Taamme%2Ftitle%2Ft2"
+                          xml:lang="gez"/>
+      <dc:title xml:lang="gez">Maṣḥafa ʾǝlʾatqarfā</dc:title>
+      <dc:title>Apocryphal Gospel of John</dc:title>
+      <crm:P102_has_title rdf:resource="https://betamasaheft.eu/LIT2382Taamme%2Ftitle%2Ft3"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Introduction"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Miracles"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme">
+      <saws:isAttributedToAuthor rdf:resource="https://betamasaheft.eu/PRS5695John"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme">
+      <ecrm:P129_is_about rdf:resource="https://betamasaheft.eu/PRS5684JesusCh"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Introduction">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6396MJIntroduction"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//John"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Adam"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//John">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Adam">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Miracles">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT6396MJIntroduction"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//ConceptionJesus"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Annunciation"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//SalomePraises"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Nativity"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Temple"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Epiphany"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//HolyFamilyBrigands"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//ChildJesus"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//TetmenaCattle"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//FisherTiberias"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Theft"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//JosephLion"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//InnundatedField"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//EzekielVision"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Adultress"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Bersinya"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//CallingSimonEtc"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//BlindMan"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//RaisingYonas"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//DeadMan"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//OliveBranch"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//ResurectionMatriarchs"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//MiracleMelons"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Hemmorage"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//DeafMute"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Locusts"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//LionsAshkelon"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//DiscourseJericho"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//SermonMtOlves"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//BaptismTemptation"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//MarriageCana"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Lazarus"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//SermonSinai"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//SermonJerusalem"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//TriumphalEntry"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//MaryMagdalene"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//LastSupper"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Crucifixion"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Judas"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Resurrection"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//JosephArimathea"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Apparitions"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//InfancyGospel"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//Abgar"/>
+      <dcterms:hasPart rdf:resource="LIT2382Taamme//GrainSabbath"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//ConceptionJesus">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/LIT6396MJIntroduction"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Annunciation">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6397MJVirginityMary"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//SalomePraises">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6012MJSalome"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Nativity">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6399MJNativity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Temple">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6013MJPresentation"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Epiphany">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6400MJEpiphany"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//HolyFamilyBrigands">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT5620MMTetos"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//ChildJesus">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6401MJChildJesus"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//TetmenaCattle">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6014MJTetmena"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//FisherTiberias">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1917</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6015MJFisher"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Theft">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6016MJCalf"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//JosephLion">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6017MJLion"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//InnundatedField">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4721Miracle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//EzekielVision">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6406MJEzekielVision"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Adultress">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6019MJAdulterous"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Bersinya">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6407MJBersinya"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//CallingSimonEtc">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6408MJCallingSimonEtc"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//BlindMan">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT3941Miracle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//RaisingYonas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT4720Miracle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//DeadMan">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1920</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6409MJDeadMan"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//OliveBranch">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6410MJOliveBranch"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//ResurectionMatriarchs">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6403MJResSarah"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//MiracleMelons">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6411MJMelons"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Hemmorage">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6412MJHemmorage"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//DeafMute">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6413MJDeafMute"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Locusts">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6414MJLocusts"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//LionsAshkelon">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6416MJLionsAshkelon"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//DiscourseJericho">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6417MJDiscourseJericho"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//SermonMtOlves">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6418MJSermonMtOlives"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//BaptismTemptation">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1923</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6419MJBaptismTemptation"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//MarriageCana">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6420MJMarriageCana"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Lazarus">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6421MJLazarus"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//SermonSinai">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6422MJSermonSinai"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//SermonJerusalem">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6423MJSermonJerusalem"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//TriumphalEntry">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6425MJTriumphalEntry"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//MaryMagdalene">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6426MJMaryMagdalene"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//LastSupper">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6427MJLastSupper"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Crucifixion">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6020MJCrucifixion"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Judas">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6428MJJudas"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Resurrection">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6429MJResurrection"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//JosephArimathea">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6430MJJosephArimathea"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Apparitions">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6021MJApparitions"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//InfancyGospel">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6402MJInfancy"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//Abgar">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT5027AbgarLonger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme//GrainSabbath">
+      <dcterms:isPartOf rdf:resource="https://betamasaheft.eu/LIT2382Taamme"/>
+      <rdf:type rdf:resource="https://betamasaheft.eu/"/>
+      <crm:P4_has_time_span>
+         <crm:E52_Time-span>
+            <crm:P78_is_identified_by>1975</crm:P78_is_identified_by>
+         </crm:E52_Time-span>
+      </crm:P4_has_time_span>
+      <dc:relation rdf:resource="https://betamasaheft.eu/https://betamasaheft.eu/LIT6449MJGrainSabbath"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme%2Ftitle%2Ft1">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>ተኣምረ፡ ኢየሱስ፡</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme%2Ftitle%2Ft2">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>መጽሐፈ፡ እልአትቀርፋ፡</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://betamasaheft.eu/LIT2382Taamme%2Ftitle%2Ft3">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+      <rdfs:label>Apocryphal Gospel of John</rdfs:label>
+   </rdf:Description>
+</rdf:RDF>
