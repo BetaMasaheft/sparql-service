@@ -23,8 +23,10 @@ WORKDIR /home/ubuntu/sparql-service-dir
 COPY ./src/ ./src/
 COPY ./Cargo.toml .
 
-RUN cargo build --bin sparql-service --target-dir ./target --release --target x86_64-unknown-linux-gnu &&\
-    cp ./target/x86_64-unknown-linux-gnu/release/sparql-service /home/ubuntu
+# Build for the stage's native architecture (the binary only runs inside
+# this builder stage), so the image can be built for amd64 and arm64 alike
+RUN cargo build --bin sparql-service --target-dir ./target --release &&\
+    cp ./target/release/sparql-service /home/ubuntu
 
 WORKDIR /home/ubuntu
 
