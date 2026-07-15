@@ -1,0 +1,4 @@
+SELECT ?p ?o WHERE {
+  <https://betamasaheft.eu/PRS9866Walay> ?p ?o .
+  FILTER(!isBlank(?o))
+} ORDER BY ?p ?o
