@@ -1,0 +1,36 @@
+version: 2
+updates:
+  # Keep GitHub Actions in sync
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "ci"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    # one grouped PR instead of one per action
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+
+  # Keep the Rust converter dependencies in sync
+  - package-ecosystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "rust"
+    groups:
+      cargo:
+        patterns:
+          - "*"

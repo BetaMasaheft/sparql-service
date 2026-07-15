@@ -7,49 +7,176 @@ env:
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  build-and-push-image:
+  # Golden-output tests (test/sparql_spec.bats): run the TEI->RDF/XML and
+  # RDF/XML->Turtle stages over the frozen fixtures and query a QLever
+  # index built from them, comparing everything against checked-in
+  # expected outputs. Needs no secrets - the fixtures replace the full
+  # dataset download. The deploy job below only runs when these pass.
+  test:
     runs-on: ubuntu-latest
-    # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Install bats
+        run: |
+          sudo apt-get update
+          sudo apt-get -y install bats
+
+      - name: Build pipeline image
+        run: docker build -t sparql-pipeline-test -f test/pipeline.Dockerfile test/
+
+      - name: Build QLever fixture image
+        run: docker build -t sparql-service-test -f test/qlever.Dockerfile .
+
+      - name: Start QLever
+        run: docker run -d --rm --name qlever -p 7071:7000 sparql-service-test
+
+      - name: Wait for QLever
+        timeout-minutes: 2
+        run: |
+          until curl -sf -G http://localhost:7071/ \
+            --data-urlencode 'query=SELECT ?s WHERE { ?s ?p ?o } LIMIT 1' -o /dev/null; do
+            sleep 2
+          done
+
+      - name: Run golden-output tests
+        run: bats --tap test/*.bats
+
+      - name: Show QLever logs on failure
+        if: failure()
+        run: docker logs qlever
+
+  # Builds each architecture natively (the pipeline + QLever indexing are far
+  # too heavy for QEMU emulation) and pushes by digest; the merge job below
+  # assembles the tagged multi-arch manifest. arm64 runners are free for
+  # public repositories.
+  build-and-push-image:
+    needs: test
+    # Deploy only from the default branch; feature branches and PRs get the
+    # test job but never publish an image
+    if: github.ref == 'refs/heads/main'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: linux/amd64
+            runner: ubuntu-latest
+          - platform: linux/arm64
+            runner: ubuntu-24.04-arm
+    runs-on: ${{ matrix.runner }}
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Prepare platform slug and lowercase image name
+        run: |
+          platform="${{ matrix.platform }}"
+          echo "PLATFORM_PAIR=${platform//\//-}" >> "$GITHUB_ENV"
+          echo "IMAGE_LC=${IMAGE_NAME,,}" >> "$GITHUB_ENV"
+
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@v4
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.DEPLOY_PAT }}
+
+      - name: Extract metadata (labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v6
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+
+      # Pushed by digest only; the merge job attaches the tags
+      - name: Build and push Docker image by digest
+        id: push
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          platforms: ${{ matrix.platform }}
+          labels: ${{ steps.meta.outputs.labels }}
+          outputs: type=image,name=${{ env.REGISTRY }}/${{ env.IMAGE_LC }},push-by-digest=true,name-canonical=true,push=true
+          secrets: |
+            "DEPLOY_PAT=${{ secrets.DEPLOY_PAT }}"
+
+      - name: Export digest
+        run: |
+          mkdir -p "${{ runner.temp }}/digests"
+          digest="${{ steps.push.outputs.digest }}"
+          touch "${{ runner.temp }}/digests/${digest#sha256:}"
+
+      - name: Upload digest
+        uses: actions/upload-artifact@v7
+        with:
+          name: digests-${{ env.PLATFORM_PAIR }}
+          path: ${{ runner.temp }}/digests/*
+          if-no-files-found: error
+          retention-days: 1
+
+  # Combines the per-architecture digests into one tagged multi-arch
+  # manifest and attests it.
+  merge-manifest:
+    needs: build-and-push-image
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
       attestations: write
       id-token: write
-      #
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
-      # Uses the `docker/login-action` action to log in to the Container registry registry using the account and password that will publish the packages. Once published, the packages are scoped to the account defined here.
+      - name: Lowercase image name
+        run: echo "IMAGE_LC=${IMAGE_NAME,,}" >> "$GITHUB_ENV"
+
+      - name: Download digests
+        uses: actions/download-artifact@v7
+        with:
+          path: ${{ runner.temp }}/digests
+          pattern: digests-*
+          merge-multiple: true
+
       - name: Log in to the Container registry
-        uses: docker/login-action@v4.2.0
+        uses: docker/login-action@v4
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.DEPLOY_PAT }}
-      # This step uses [docker/metadata-action](https://github.com/docker/metadata-action#about) to extract tags and labels that will be applied to the specified image. The `id` "meta" allows the output of this step to be referenced in a subsequent step. The `images` value provides the base name for the tags and labels.
-      - name: Extract metadata (tags, labels) for Docker
+
+      - name: Extract metadata (tags) for Docker
         id: meta
-        uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
+        uses: docker/metadata-action@v6
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-      # This step uses the `docker/build-push-action` action to build the image, based on your repository's `Dockerfile`. If the build succeeds, it pushes the image to GitHub Packages.
-      # It uses the `context` parameter to define the build's context as the set of files located in the specified path. For more information, see [Usage](https://github.com/docker/build-push-action#usage) in the README of the `docker/build-push-action` repository.
-      # It uses the `tags` and `labels` parameters to tag and label the image with the output from the "meta" step.
-      - name: Build and push Docker image
-        id: push
-        uses: docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4
-        with:
-          context: .
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
-          secrets: |
-            "DEPLOY_PAT=${{ secrets.DEPLOY_PAT }}"
-      
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+
+      - name: Create and push the multi-arch manifest
+        working-directory: ${{ runner.temp }}/digests
+        run: |
+          docker buildx imagetools create \
+            $(jq -cr '.tags | map("-t " + .) | join(" ")' <<< "$DOCKER_METADATA_OUTPUT_JSON") \
+            $(printf -- "${{ env.REGISTRY }}/${{ env.IMAGE_LC }}@sha256:%s " *)
+
+      - name: Resolve the manifest digest
+        id: manifest
+        run: |
+          digest=$(docker buildx imagetools inspect \
+            "${{ env.REGISTRY }}/${{ env.IMAGE_LC }}:${{ steps.meta.outputs.version }}" \
+            --format '{{json .Manifest}}' | jq -r '.digest')
+          echo "digest=$digest" >> "$GITHUB_OUTPUT"
+
       # This step generates an artifact attestation for the image, which is an unforgeable statement about where and how it was built. It increases supply chain security for people who consume the image. For more information, see [Using artifact attestations to establish provenance for builds](/actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds).
       - name: Generate artifact attestation
         uses: actions/attest@v4
         with:
-          subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME}}
-          subject-digest: ${{ steps.push.outputs.digest }}
+          subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_LC }}
+          subject-digest: ${{ steps.manifest.outputs.digest }}
           push-to-registry: true
