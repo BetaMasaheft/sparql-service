@@ -13,7 +13,7 @@ jobs:
   # expected outputs. Needs no secrets - the fixtures replace the full
   # dataset download. The deploy job below only runs when these pass.
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -61,7 +61,7 @@ jobs:
       matrix:
         include:
           - platform: linux/amd64
-            runner: ubuntu-latest
+            runner: ubuntu-24.04
           - platform: linux/arm64
             runner: ubuntu-24.04-arm
     runs-on: ${{ matrix.runner }}
@@ -125,7 +125,7 @@ jobs:
   merge-manifest:
     needs: build-and-push-image
     if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
       packages: write
